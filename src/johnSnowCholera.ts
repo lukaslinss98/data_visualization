@@ -17,16 +17,15 @@ const svg = d3.create('svg')
     .attr('height', height);
 
 svg.append('image')
-    .attr('xlink:href', './src/data/mapclean.jpg')
+    .attr('xlink:href', '/src/data/mapclean.jpg')
 
-const csvData = await d3.csv('./src/data/snow_pixelcoords.csv');
 
 const isWaterPump = (record: CholeraDeathRecord) => record.count === -999
 
+const csvData = await d3.csv('/src/data/snow_pixelcoords.csv');
 const records: CholeraDeathRecord[] = csvData.map(row => choleraDeathRecordSchema.parse(row))
 const waterPumpRecords = records.filter(record => isWaterPump(record))
 const choleraRecords = records.filter(record => !isWaterPump(record))
-
 
 const tooltip = d3.select('#container')
     .append('div')
