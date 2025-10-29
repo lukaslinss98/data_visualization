@@ -1,14 +1,5 @@
 import Plotly from 'plotly.js-dist';
-import { records, type GapMinderRecord } from './gapminder';
-
-const colorByContinent = {
-  'Europe': '#1f77b4',
-  'Asia': '#ff7f0e',
-  'Africa': '#2ca02c',
-  'Americas': '#9467bd',
-  'Oceania': '#17becf',
-  'Ireland': '#d62728'
-}
+import { records, type GapMinderRecord } from './gapminderData.ts';
 
 const years = Array.from(
   records.map(r => r.year)
@@ -59,9 +50,9 @@ const data = continents
       mode: 'line',
       xaxis: `x${i === 0 ? '' : i + 1}`,
       yaxis: `y${i === 0 ? '' : i + 1}`,
-      showlegend: true,
+      showlegend: false,
       line: {
-        color: colorByContinent[continent.name]
+        color: '#ffffff',
       },
       type: 'scatter',
     },
@@ -72,9 +63,9 @@ const data = continents
       mode: 'line',
       xaxis: `x${i === 0 ? '' : i + 1}`,
       yaxis: `y${i === 0 ? '' : i + 1}`,
-      showlegend: i == 0,
+      showlegend: false,
       line: {
-        color: colorByContinent['Ireland'],
+        color: '#ffffff',
       },
       type: 'scatter',
     }
@@ -89,7 +80,7 @@ const layout = {
     columns: 3,
     pattern: 'independent',
     roworder: 'top to bottom',
-    xgap: 0.4,  
+    xgap: 0.4,
     ygap: 0.3
   },
   responsive: true,
@@ -214,15 +205,20 @@ const layout = {
       color: '#ffffff'
     }
   },
-  legend: {
-    title: {
-      text: 'Regions'
-    },
+  annotations: continents.map((continent, i) => ({
+    text: `${continent} vs. Ireland`,
+    xref: `x${i === 0 ? '' : i + 1} domain`,
+    yref: `y${i === 0 ? '' : i + 1} domain`,
+    x: 0.5,
+    y: 1.05,
+    xanchor: 'center',
+    yanchor: 'bottom',
+    showarrow: false,
     font: {
-      color: '#ffffff',
-      size: 16
+      size: 14,
+      color: '#ffffff'
     }
-  }
+  }))
 }
 
 Plotly.newPlot(

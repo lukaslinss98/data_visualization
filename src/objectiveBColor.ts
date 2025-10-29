@@ -1,5 +1,5 @@
 import Plotly from 'plotly.js-dist';
-import { records, type GapMinderRecord } from './gapminder';
+import { records, type GapMinderRecord } from './gapminderData.ts';
 
 const colorByContinent = {
   'Europe': '#1f77b4',
@@ -69,7 +69,6 @@ data.push({
   mode: 'line',
   line: {
     color: colorByContinent['Ireland'],
-    width: 4
   },
   type: 'scatter',
 })

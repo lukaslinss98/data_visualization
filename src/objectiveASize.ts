@@ -1,6 +1,5 @@
 import * as d3 from 'd3';
-import * as z from 'zod';
-import {type GapMinderRecord, ireland, latestGapminderRecord} from "./gapminder.ts";
+import {type GapMinderRecord, latestGapminderRecord, records} from "./gapminderData.ts";
 
 const config = {
     width: 1000,
@@ -53,7 +52,7 @@ svg.append("text")
     .attr("text-anchor", "middle")
     .attr("x", config.width / 2)
     .attr("y", -config.marginTop + 25)
-    .text("Encoding Channel: Brightness")
+    .text("Encoding Channel: Size")
     .style("font-size", "32px")
     .style("fill", "white");
 
@@ -85,9 +84,9 @@ svg.append("text")
     .style("font-size", "20px")
     .style("fill", "white");
 
-const populationScale = d3.scaleSequentialLog()
-    .domain(d3.extent(latestGapminderRecord.map(r => r.population)))
-    .interpolator(d3.interpolateBlues)
+const populationScale = d3.scaleLinear()
+    .domain([0, d3.max(latestGapminderRecord.map(r => r.population))])
+    .range([5, 80])
 
 svg.append('g')
     .attr('transform', `translate(0,${config.height})`)
@@ -111,99 +110,45 @@ svg.selectAll('.x-axis .tick line')
     .attr('stroke', 'white')
     .style('opacity', 0.2)
 
+const continentColor = d3.scaleOrdinal<string>()
+    .domain(d3.union(latestGapminderRecord.map(r => r.continent)))
+    .range(d3.schemeSet2)
+
 svg.append('g')
     .selectAll('bubble')
     .data(latestGapminderRecord)
     .join('circle')
     .attr('cx', d => xScale(d.gdpPerCapita))
     .attr('cy', d => yScale(d.lifeExptancy))
-    .attr('r', 6)
-    .attr("fill", d => populationScale(d.population))
-    .style('opacity', '0.9')
-    .attr('stroke', 'black')
+    .attr('r', d => populationScale(d.population))
+    .style("fill", d => d.country === 'Ireland' ? 'red' : continentColor(d.continent))
+    .style('opacity', d => d.country === 'Ireland' ? 1 : 0.7)
+    .attr('stroke', d => d.country === 'Ireland' ? 'red' : 'black')
+    .attr('stroke-width', d => d.country === 'Ireland' ? 3 : 1)
     .on('mouseover', showTooltip)
     .on('mousemove', moveTooltip)
     .on('mouseleave', hideTooltip)
 
-svg.append('g')
-    .selectAll('bubble')
-    .data(ireland)
-    .join('circle')
-    .attr('class', 'ireland')
-    .attr('cx', d => xScale(d.gdpPerCapita))
-    .attr('cy', d => yScale(d.lifeExptancy))
-    .attr('r', 6)
-    .style("fill", 'red')
-    .style('opacity', '1')
-    .attr('stroke', 'black')
-    .on('mouseover', showTooltip)
-    .on('mousemove', moveTooltip)
-    .on('mouseleave', hideTooltip)
+const legendData = Array.from(d3.union(records.map(r => r.continent)));
+legendData.push("Ireland")
 
-svg.append('g')
-    .selectAll('legend')
-    .data(ireland)
-    .join('circle')
-    .attr('class', 'legend-ireland')
-    .attr('cx', config.width + config.marginRight - 150)
-    .attr('cy', d => yScale(d.lifeExptancy))
-    .attr('r', 6)
-    .style("fill", 'red')
+const legend = svg.append('g').attr('class', 'legend');
 
-svg.append('g')
-    .selectAll('legend')
-    .data(ireland)
+legend.selectAll('circle')
+    .data(legendData)
+    .join('circle')
+    .attr('cx', config.width + 30)
+    .attr('cy', (_, i) => 50 + (30 * i))
+    .attr('r', 8)
+    .attr('fill', d => d === 'Ireland' ? 'red' : continentColor(d))
+    .style('opacity', '0.7')
+
+legend.selectAll('text')
+    .data(legendData)
     .join('text')
-    .text(d => d.country)
-    .attr('x', config.width + config.marginRight - 130)
-    .attr('y', d => yScale(d.lifeExptancy))
+    .text(d => d)
+    .attr('x', config.width + 45)
+    .attr('y', (_, i) => 50 + (30 * i))
     .style("fill", 'white')
-    .style("font-size", 12)
+    .style("font-size", 14)
     .attr('dominant-baseline', 'middle')
-
-const colorbarWidth = 200;
-const colorbarHeight = 20;
-
-const defs = svg.append("defs");
-
-const gradient = defs.append("linearGradient")
-    .attr("id", "colorbar-gradient")
-    .attr("x1", "0%")
-    .attr("x2", "100%")
-    .attr("y1", "0%")
-    .attr("y2", "0%");
-
-const steps = 10;
-const [minPop, maxPop] = populationScale.domain();
-const logMin = Math.log10(minPop);
-const logMax = Math.log10(maxPop);
-
-for (let i = 0; i <= steps; i++) {
-    const t = i / steps;
-    const popValue = Math.pow(10, logMin + t * (logMax - logMin));
-    gradient.append("stop")
-        .attr("offset", `${t * 100}%`)
-        .attr("stop-color", populationScale(popValue));
-}
-
-svg.append("rect")
-    .attr("x", - 350)
-    .attr("y", config.width + 45)
-    .attr("width", colorbarWidth)
-    .attr("height", colorbarHeight)
-    .attr('transform', 'rotate(-90)')
-    .style("fill", "url(#colorbar-gradient)")
-    .style("stroke", "#ccc");
-
-const colorScaleAxis = d3.scaleLog()
-    .domain([maxPop, minPop])
-    .range([0, colorbarWidth]);
-
-const colorbarAxis = d3.axisRight(colorScaleAxis)
-    .ticks(5, "~s");
-
-svg.append("g")
-    .attr("transform", `translate(${config.width+66.5}, ${149.5})`)
-    .call(colorbarAxis)
-    .selectAll("text")
-    .style("font-size", "12px");

@@ -1,6 +1,5 @@
 import Plotly from 'plotly.js-dist';
-import { records, type GapMinderRecord } from './gapminder';
-import { color } from 'd3';
+import { records, type GapMinderRecord } from './gapminderData.ts';
 
 const markerByContinent = {
   'Europe': 'circle',
@@ -74,7 +73,6 @@ data.push({
   mode: 'line',
   line: {
     color: '#fff5ee',
-    width: 4
   },
   marker: {
     symbol: 'square',

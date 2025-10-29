@@ -1,6 +1,5 @@
 import * as d3 from 'd3';
-import * as z from 'zod';
-import {type GapMinderRecord, ireland, latestGapminderRecord} from "./gapminder.ts";
+import {type GapMinderRecord, ireland, latestGapminderRecord} from "./gapminderData.ts";
 
 const config = {
     width: 1000,
@@ -53,7 +52,7 @@ svg.append("text")
     .attr("text-anchor", "middle")
     .attr("x", config.width / 2)
     .attr("y", -config.marginTop + 25)
-    .text("Encoding Channel: Color")
+    .text("Encoding Channel: Brightness")
     .style("font-size", "32px")
     .style("fill", "white");
 
@@ -85,10 +84,9 @@ svg.append("text")
     .style("font-size", "20px")
     .style("fill", "white");
 
-const populationBreakpoints = [1000000, 10000000, 50000000, 100000000];
-const populationScale = d3.scaleThreshold<number, string>()
-    .domain(populationBreakpoints)
-    .range(d3.schemeCategory10.slice(0, 5));
+const populationScale = d3.scaleSequentialLog()
+    .domain(d3.extent(latestGapminderRecord.map(r => r.population)))
+    .interpolator(d3.interpolateBlues)
 
 svg.append('g')
     .attr('transform', `translate(0,${config.height})`)
@@ -134,7 +132,7 @@ svg.append('g')
     .attr('cx', d => xScale(d.gdpPerCapita))
     .attr('cy', d => yScale(d.lifeExptancy))
     .attr('r', 6)
-    .style("fill", 'white')
+    .style("fill", 'red')
     .style('opacity', '1')
     .attr('stroke', 'black')
     .on('mouseover', showTooltip)
@@ -149,7 +147,7 @@ svg.append('g')
     .attr('cx', config.width + config.marginRight - 150)
     .attr('cy', d => yScale(d.lifeExptancy))
     .attr('r', 6)
-    .style("fill", 'white')
+    .style("fill", 'red')
 
 svg.append('g')
     .selectAll('legend')
@@ -162,22 +160,49 @@ svg.append('g')
     .style("font-size", 12)
     .attr('dominant-baseline', 'middle')
 
-svg.append('g')
-    .selectAll('legend')
-    .data(populationBreakpoints)
-    .join('circle')
-    .attr('cx', config.width + config.marginRight - 150)
-    .attr('cy', (_, i) => yScale(ireland[0].lifeExptancy) + 30 + (30 * i))
-    .attr('r', 6)
-    .style("fill", d => populationScale(d))
+const colorbarWidth = 200;
+const colorbarHeight = 20;
 
-svg.append('g')
-    .selectAll('legend')
-    .data(populationBreakpoints)
-    .join('text')
-    .text(d => `< ${d}`)
-    .attr('x', config.width + config.marginRight - 130)
-    .attr('y', (_, i) => yScale(ireland[0].lifeExptancy) + 30 + (30 * i))
-    .style("fill", 'white')
-    .style("font-size", 12)
-    .attr('dominant-baseline', 'middle')
+const defs = svg.append("defs");
+
+const gradient = defs.append("linearGradient")
+    .attr("id", "colorbar-gradient")
+    .attr("x1", "0%")
+    .attr("x2", "100%")
+    .attr("y1", "0%")
+    .attr("y2", "0%");
+
+const steps = 10;
+const [minPop, maxPop] = populationScale.domain();
+const logMin = Math.log10(minPop);
+const logMax = Math.log10(maxPop);
+
+for (let i = 0; i <= steps; i++) {
+    const t = i / steps;
+    const popValue = Math.pow(10, logMin + t * (logMax - logMin));
+    gradient.append("stop")
+        .attr("offset", `${t * 100}%`)
+        .attr("stop-color", populationScale(popValue));
+}
+
+svg.append("rect")
+    .attr("x", - 350)
+    .attr("y", config.width + 45)
+    .attr("width", colorbarWidth)
+    .attr("height", colorbarHeight)
+    .attr('transform', 'rotate(-90)')
+    .style("fill", "url(#colorbar-gradient)")
+    .style("stroke", "#ccc");
+
+const colorScaleAxis = d3.scaleLog()
+    .domain([maxPop, minPop])
+    .range([0, colorbarWidth]);
+
+const colorbarAxis = d3.axisRight(colorScaleAxis)
+    .ticks(5, "~s");
+
+svg.append("g")
+    .attr("transform", `translate(${config.width+66.5}, ${149.5})`)
+    .call(colorbarAxis)
+    .selectAll("text")
+    .style("font-size", "12px");
