@@ -1,10 +1,11 @@
 import * as d3 from "d3";
 import {z} from "zod";
 import * as topojson from 'topojson-client';
+import type {Topology, GeometryCollection} from "topojson-specification";
 
-const worldData: TopoJSON.Topology = await d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json")
-
-export const countriesGeoData = topojson.feature(worldData, worldData.objects.countries).features;
+const worldData: Topology = await d3.json("https://cdn.jsdelivr.net/npm/visionscarto-world-atlas@0.1.0/world/110m.json")
+const countries = worldData.objects.countries
+export const countriesGeoData = topojson.feature(worldData, countries as GeometryCollection).features
 
 const minardRecordSchema = z.object({
     LONC: z.string().transform(v => parseFloat(v)),
@@ -104,17 +105,7 @@ export const divisions = {
     divisionThree: createSegments(troopPositions.filter(position => position.division === 3)),
 }
 
-// export const maxSurvivors = minardRecords
-//     .filter(record => record.division === 2)
-//     .map(record => record.numberOfSurvivors)
-//     .reduce((a, b) => a > b ? a : b)
-//
-// export const minSurvivors = minardRecords
-//     .filter(record => record.division === 2)
-//     .map(record => record.numberOfSurvivors)
-//     .reduce((a, b) => a < b ? a : b)
-
-export const [minSurvivors, maxSurvivors] =  d3.extent(minardRecords.map(record => record.numberOfSurvivors))
+export const [minSurvivors, maxSurvivors] = d3.extent(minardRecords.map(record => record.numberOfSurvivors))
 
 export const temperaturePositions: TemperaturePosition[] = minardRecords
     .filter(record => !Number.isNaN(record.temperature))

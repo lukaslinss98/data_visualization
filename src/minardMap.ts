@@ -10,12 +10,16 @@ import {
     type TroopPosition
 } from "./minardData.ts";
 
-const width = 1350;
-const height = 900;
+
+const dimensions = {
+    width: 1350,
+    height: 900,
+    heightTimeline: 180
+}
 
 const svg = d3.create('svg')
-    .attr('width', width)
-    .attr('height', height)
+    .attr('width', dimensions.width)
+    .attr('height', dimensions.height)
     .style("border", "2px solid white");
 
 
@@ -33,10 +37,9 @@ const colorScale = d3.scaleOrdinal([
     "#577c48"
 ]);
 
-
 svg.append("rect")
-    .attr("width", width)
-    .attr("height", height)
+    .attr("width", dimensions.width)
+    .attr("height", dimensions.height)
     .attr("fill", "#1385c5");
 
 svg.selectAll("path.country")
@@ -45,7 +48,7 @@ svg.selectAll("path.country")
     .append("path")
     .attr("class", "country")
     .attr("d", d3.geoPath().projection(projection))
-    .attr("fill", country => colorScale(country.properties.name))
+    .attr("fill", (country: GeoJSON.Feature<GeoJSON.Geometry, { name: string }>) => colorScale(country.properties.name))
     .attr("stroke", "#211f1f")
     .attr("stroke-width", 0.5);
 
@@ -90,22 +93,22 @@ const tempGroup = svg.append("g").attr("class", "temperature-area");
 
 tempGroup.append("rect")
     .attr("x", 0)
-    .attr("y", height - 180)
-    .attr("width", width)
-    .attr("height", height - (height - 180))
+    .attr("y", dimensions.height - dimensions.heightTimeline)
+    .attr("width", dimensions.width)
+    .attr("height", dimensions.heightTimeline)
     .attr("fill", "#FFF8E7");
 
 const {temperaturePositions, maxTemp, minTemp} = temperatureData;
 
 const yTemp = d3.scaleLinear()
     .domain([minTemp, maxTemp])
-    .range([height - 50, height - 150]); // below the map
+    .range([dimensions.height - 50, dimensions.height - 150]);
 
 svg.append("line")
     .attr("x1", 0)
-    .attr("x2", width)
-    .attr("y1", height - 180)
-    .attr("y2", height - 180)
+    .attr("x2", dimensions.width)
+    .attr("y1", dimensions.height - dimensions.heightTimeline)
+    .attr("y2", dimensions.height - dimensions.heightTimeline)
     .attr("stroke", "#1A1A1A")
     .attr("stroke-width", 1);
 
@@ -202,7 +205,7 @@ const legendData = [
 
 const legend = svg.append("g")
     .attr("class", "legend")
-    .attr("transform", `translate(${width - 130}, 40)`); // position near top-right
+    .attr("transform", `translate(${dimensions.width - 130}, 40)`);
 
 legend.selectAll("rect")
     .data(legendData)
