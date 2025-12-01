@@ -1,6 +1,6 @@
 import * as d3 from 'd3';
 import {
-    cities,
+    cities, type City,
     countriesGeoData,
     divisions,
     maxSurvivors,
@@ -178,10 +178,8 @@ svg.selectAll('circle.city')
     .enter()
     .append('circle')
     .attr('class', 'city')
-    // @ts-ignore
-    .attr('cx', city => projection([city.lon, city.lat])[0])
-    // @ts-ignore
-    .attr('cy', city => projection([city.lon, city.lat])[1])
+    .attr('cx', (city:City) => projection([city.lon, city.lat])[0])
+    .attr('cy', (city:City) => projection([city.lon, city.lat])[1])
     .attr('r', 3)
     .attr('fill', '#1A1A1A')
 
@@ -189,10 +187,8 @@ svg.selectAll("text.city-label")
     .data(cities)
     .enter()
     .append("text")
-    // @ts-ignore
-    .attr("x", d => projection([d.lon, d.lat])[0] + 17)
-    // @ts-ignore
-    .attr("y", d => projection([d.lon, d.lat])[1])
+    .attr("x", (d: City) => projection([d.lon, d.lat])[0] + 17)
+    .attr("y", (d: City) => projection([d.lon, d.lat])[1])
     .text(city => city.name)
     .attr('fill', '#1A1A1A')
     .attr('font-size', '12px')

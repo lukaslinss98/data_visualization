@@ -166,7 +166,7 @@ const updateGraph = (year: number) => {
         .append('circle')
         .attr('cx', d => xScale(d.gdpPerCapita))
         .attr('cy', d => yScale(d.lifeExptancy))
-        .attr('r', 0)  // Start small
+        .attr('r', 0)
         .style("fill", d => d.country === 'Ireland' ? 'red' : continentColor(d.continent))
         .style('opacity', d => d.country === 'Ireland' ? 1 : 0.7)
         .attr('stroke', d => d.country === 'Ireland' ? 'red' : 'black')
