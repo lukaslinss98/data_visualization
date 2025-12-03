@@ -31,15 +31,31 @@
         </div>
     </section>
     <section class="controls">
-        <p id="year">Year: 2010</p>
-        <input
-                type="range"
-                id="year-slider"
-                min="2010"
-                max="2025"
-                step="1"
-                value="2010"
-        >
+        <p><strong id="year-display">Year: 2010</strong></p>
+        <label>
+            <input type="range"
+                   id="year-slider"
+                   min="2010"
+                   max="2025"
+                   step="1"
+                   value="2010"
+            >
+        </label>
+        <p><strong>Metrics</strong></p>
+        <section id="metric-controls">
+            <label>
+                <input type="radio" name="metric" value="Average Price" checked>
+                Average price
+            </label>
+            <label>
+                <input type="radio" name="metric" value="Total Volume">
+                Total sales volume
+            </label>
+            <label>
+                <input type="radio" name="metric" value="Number of Sales">
+                Number of sales
+            </label>
+        </section>
     </section>
 </main>
 </body>

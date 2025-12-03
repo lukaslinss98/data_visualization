@@ -1,6 +1,6 @@
 import Plotly from 'plotly.js-dist';
 import {countyAverages, maxAveragePrice, minAveragePrice} from "./data.ts";
-import {getMetric, subscribeToState} from "./sharedState.ts";
+import {getMetric, getYear, type Metric, subscribeToState} from "./sharedState.ts";
 
 function buildData(year: number) {
     const countyAveragesForYear = countyAverages
@@ -25,45 +25,49 @@ function buildData(year: number) {
             cmin: minAveragePrice,
             cmax: maxAveragePrice,
         },
-        text: sortedPrices.map(price => price.toLocaleString()),
+        text: sortedPrices.map(price => `€${price.toLocaleString()}`),
         textposition: "auto",
         textfont: {color: "#222222"},
     }];
 }
 
-const layout = {
-    paper_bgcolor: "rgba(0,0,0,0)",
-    plot_bgcolor: "rgba(0,0,0,0)",
-    xaxis: {
-        range: [minAveragePrice, maxAveragePrice],
-        tickfont: {color: "#ffffff"},
-    },
-    yaxis: {
-        categoryorder: "array",
-        autorange: 'reversed',
-        tickfont: {color: "#ffffff"},
-    },
-    title: {
-        text: `${getMetric()} Top 10 Counties`,
-        font: {
-            size: 18,
-            color: '#ffffff'
+function buildLayout(metric: Metric) {
+    return {
+        paper_bgcolor: "rgba(0,0,0,0)",
+        plot_bgcolor: "rgba(0,0,0,0)",
+        xaxis: {
+            range: [minAveragePrice, maxAveragePrice],
+            tickfont: {color: "#ffffff"},
         },
-    },
+        yaxis: {
+            categoryorder: "array",
+            autorange: 'reversed',
+            tickfont: {color: "#ffffff"},
+        },
+        title: {
+            text: `<b>${metric} Top 10 Counties</b>`,
+            font: {
+                family: "system-ui, Avenir, Helvetica, Arial, sans-serif",
+                size: 18,
+                color: '#ffffff'
+            },
+        },
+    }
 }
 
-subscribeToState(({year}) => {
+
+subscribeToState(({year, metric}) => {
     Plotly.react(
         'chart2',
         buildData(year),
-        layout
+        buildLayout(metric)
     )
 })
 
 Plotly.newPlot(
     'chart2',
-    buildData(2010),
-    layout,
+    buildData(getYear()),
+    buildLayout(getMetric()),
     {responsive: true}
 )
 

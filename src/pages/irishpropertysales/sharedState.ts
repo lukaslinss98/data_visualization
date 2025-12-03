@@ -22,7 +22,7 @@ export function getMetric() {
 export function setYear(year: number) {
     if (year === state.year) return;
     state.year = year;
-    document.getElementById("year").innerText = `Year: ${state.year}`
+    document.getElementById("year-display").innerText = `Year: ${state.year}`
     listeners.forEach(listener => listener(state))
 }
 

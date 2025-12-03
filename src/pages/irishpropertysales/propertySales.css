@@ -19,11 +19,12 @@ main {
 
 #dashboard {
     height: 120vh;
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 30px;
-    padding: 2rem;
+    padding: 0rem;
     box-sizing: border-box;
     max-width: 1280px;
     margin: 0 auto;
@@ -42,6 +43,7 @@ main {
 
 #controls {
     /*display: flex;*/
+    /*flex-direction: row;*/
     /*align-items: center;*/
     /*justify-content: center;*/
     /*height: 100%;*/
@@ -52,4 +54,10 @@ main {
     -webkit-appearance: slider-vertical;
     /*width: 8px;*/
     /*height: 200px;*/
+}
+
+#metric-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
