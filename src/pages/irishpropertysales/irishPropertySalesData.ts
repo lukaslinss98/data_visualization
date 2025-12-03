@@ -41,7 +41,8 @@ const createProvince = (county: string): string => {
 
 const toDate = (str: string): Date => {
   const [d, m, y] = str.split('/')
-  return new Date(2000 + Number(y), Number(m) - 1, Number(d))
+  const year = y.length === 4 ? Number(y) : 2000 + Number(y)
+  return new Date(year, Number(m) - 1, Number(d))
 }
 
 const toPrice = (price: string): any => {
@@ -98,23 +99,47 @@ export const propertySaleRecordSchema = z.object({
 export type PropertySaleRecord = z.infer<typeof propertySaleRecordSchema>
 let csvData = await d3.csv('/src/data/irish-property-sales.csv')
 
-const propertySalesRecords: PropertySaleRecord[] = csvData.slice(0, 1000).map(row => propertySaleRecordSchema.parse(row))
+const propertySalesRecords: PropertySaleRecord[] = csvData.map(row => propertySaleRecordSchema.parse(row))
 
 type IrishPropertySales = {
   propertySales: PropertySaleRecord[]
-  getPropertySalesByCounty: () => Map<string, PropertySaleRecord[]>,
-  getCounties: () => string[]
+  counties: string[]
+  propertySalesByCounty: Map<string, PropertySaleRecord[]>,
+  avgPricesPerCountyPerYear: Map<string, Map<number, number[]>>
 }
 
 export const irishPropertySales: IrishPropertySales = {
   propertySales: propertySalesRecords,
-  getCounties: () => Array.from(new Set(propertySalesRecords.map(r => r.county))),
-  getPropertySalesByCounty: () => propertySalesRecords.reduce((map, record) => {
+
+  counties: Array.from(new Set(propertySalesRecords.map(r => r.county))),
+
+  propertySalesByCounty: propertySalesRecords.reduce((map, record) => {
     if (map.has(record.county)) {
       map.set(record.county, [record, ...map.get(record.county)])
+    } else {
+      map.set(record.county, [record])
     }
-    map.set(record.county, [record])
     return map
-  }, new Map<string, PropertySaleRecord[]>())
+  }, new Map<string, PropertySaleRecord[]>()),
+
+  avgPricesPerCountyPerYear: propertySalesRecords
+    .map(record => ({
+      county: record.county,
+      year: record.dateOfSale.getFullYear(),
+      price: record.price
+    }))
+    .reduce((map: Map<string, Map<number, number[]>>, { county, year, price }) => {
+      if (map.has(county)) {
+        const innerMap = map.get(county)
+        innerMap.set(year, [price, ...innerMap.get(year)])
+        map.set(county, innerMap)
+      } else {
+        const innerMap = new Map()
+        innerMap.set(year, [price])
+        map.set(county, innerMap)
+      }
+      return map
+
+    }, new Map<string, Map<number, number[]>>())
 }
 

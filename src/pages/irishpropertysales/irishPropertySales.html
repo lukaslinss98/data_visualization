@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <link rel="stylesheet" href="propertySales.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Irish Property Sales</title>
+    <script type="module" src="irishPropertySalesMain.ts"></script>
+    <script type="module" src="irishPropertySalesMap.ts"></script>
+    <script type="module" src="irishPropertySalesChart2.ts"></script>
+    <script type="module" src="irishPropertySalesChart3.ts"></script>
+    <script type="module" src="irishPropertySalesChart4.ts"></script>
+</head>
+
+<body>
+<main>
+    <section id="dashboard" class="container">
+        <div class="chart">
+            <section id="map"></section>
+        </div>
+        <div class="chart">
+            <section id="chart2"></section>
+        </div>
+        <div class="chart">
+            <section id="chart3"></section>
+        </div>
+        <div class="chart">
+            <section id="chart4"></section>
+        </div>
+    </section>
+    <section class="controls">
+        <p id="year">Year: 2010</p>
+        <input
+                type="range"
+                id="year-slider"
+                min="2010"
+                max="2025"
+                step="1"
+                value="2010"
+        >
+    </section>
+</main>
+</body>
+
+</html>
