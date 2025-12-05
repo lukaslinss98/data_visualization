@@ -1,0 +1,82 @@
+[
+  {
+    "year": 2010,
+    "new": 5315,
+    "secondHand": 15686
+  },
+  {
+    "year": 2011,
+    "new": 2956,
+    "secondHand": 15484
+  },
+  {
+    "year": 2012,
+    "new": 3179,
+    "secondHand": 22193
+  },
+  {
+    "year": 2013,
+    "new": 3896,
+    "secondHand": 26322
+  },
+  {
+    "year": 2014,
+    "new": 5424,
+    "secondHand": 38246
+  },
+  {
+    "year": 2015,
+    "new": 6245,
+    "secondHand": 42918
+  },
+  {
+    "year": 2016,
+    "new": 6879,
+    "secondHand": 43055
+  },
+  {
+    "year": 2017,
+    "new": 9359,
+    "secondHand": 45659
+  },
+  {
+    "year": 2018,
+    "new": 11103,
+    "secondHand": 46347
+  },
+  {
+    "year": 2019,
+    "new": 11360,
+    "secondHand": 47697
+  },
+  {
+    "year": 2020,
+    "new": 9447,
+    "secondHand": 40101
+  },
+  {
+    "year": 2021,
+    "new": 9571,
+    "secondHand": 50012
+  },
+  {
+    "year": 2022,
+    "new": 11003,
+    "secondHand": 51723
+  },
+  {
+    "year": 2023,
+    "new": 12111,
+    "secondHand": 51211
+  },
+  {
+    "year": 2024,
+    "new": 12936,
+    "secondHand": 48519
+  },
+  {
+    "year": 2025,
+    "new": 9978,
+    "secondHand": 36811
+  }
+]

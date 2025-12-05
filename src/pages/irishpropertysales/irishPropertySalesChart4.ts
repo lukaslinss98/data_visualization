@@ -1,41 +1,69 @@
-import Plotly from 'plotly.js-dist';
+import Plotly from "plotly.js-dist";
+import {getYear, subscribeToState} from "./sharedState.ts";
+import {maxBinCount, yearPriceBins} from "./data.ts";
 
-const trace1 = {
-  x: [1, 2, 3, 4],
-  y: [10, 15, 13, 17],
-  mode: 'markers',
-  type: 'scatter'
-};
+function buildData(year: number) {
+  // Bin labels (adjust to match your Python bins)
+  const binLabels = [
+    "0-100k",
+    "100-200k",
+    "200-300k",
+    "300-400k",
+    "400-500k",
+    "500-750k",
+    "750k-1M",
+    "1M+"
+  ];
 
-const trace2 = {
-  x: [2, 3, 4, 5],
-  y: [16, 5, 11, 9],
-  mode: 'lines',
-  type: 'scatter'
-};
-
-const trace3 = {
-  x: [1, 2, 3, 4],
-  y: [12, 9, 15, 12],
-  mode: 'lines+markers',
-  type: 'scatter'
-};
-
-const data = [trace1, trace2, trace3];
+  return [{
+    type: "bar",
+    x: binLabels,
+    y: yearPriceBins.find(yearBin => yearBin.year == year).priceBins,
+    marker: {
+      color: "#3b82f6",
+      line: {color: "#1e3a8a", width: 1}
+    },
+    hovertemplate: "%{x}<br>Sales: %{y}<extra></extra>",
+  }];
+}
 
 const layout = {
   title: {
-    text: "Line Chart",
+    text: "<b>Price Distribution</b>",
     font: {
+      family: "Inter, sans-serif",
       size: 18,
-      color: '#000000'
+      color: "#ffffff",
     },
   },
-}
+  xaxis: {
+    title: {
+      text: "Price Range (€)",
+      font: {color: "#ffffff"},
+    },
+    tickfont: {color: "#ffffff"},
+  },
+  yaxis: {
+    title: {
+      text: "Number of Sales",
+      font: {color: "#ffffff"},
+    },
+    tickfont: {color: "#ffffff"},
+    range: [0, maxBinCount],
+  },
+  paper_bgcolor: "rgba(0,0,0,0)",
+  plot_bgcolor: "rgba(0,0,0,0)",
+  margin: {t: 60, b: 60, l: 60, r: 40},
+};
+
+subscribeToState(({year}) => {
+  const newData = buildData(year);
+  Plotly.react("chart4", newData, layout);
+});
 
 Plotly.newPlot(
-  'chart4',
-  data,
-  layout,
-  { responsive: true }
-)
+    "chart4",
+    buildData(getYear()),
+    layout,
+    {responsive: true}
+);

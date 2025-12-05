@@ -2,62 +2,56 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8"/>
-    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+  <meta charset="UTF-8"/>
+  <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
     <link rel="stylesheet" href="propertySales.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Irish Property Sales</title>
-    <script type="module" src="irishPropertySalesMain.ts"></script>
-    <script type="module" src="irishPropertySalesMap.ts"></script>
-    <script type="module" src="irishPropertySalesChart2.ts"></script>
-    <script type="module" src="irishPropertySalesChart3.ts"></script>
-    <script type="module" src="irishPropertySalesChart4.ts"></script>
+  <link rel="stylesheet" href="./../../output.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Irish Property Sales</title>
+  <script type="module" src="irishPropertySalesMain.ts"></script>
+  <script type="module" src="irishPropertySalesMap.ts"></script>
+  <script type="module" src="irishPropertySalesChart2.ts"></script>
+  <script type="module" src="irishPropertySalesChart3.ts"></script>
+  <script type="module" src="irishPropertySalesChart4.ts"></script>
 </head>
 
-<body>
-<main>
-    <section id="dashboard" class="container">
-        <div class="chart">
-            <section id="map"></section>
-        </div>
-        <div class="chart">
-            <section id="chart2"></section>
-        </div>
-        <div class="chart">
-            <section id="chart3"></section>
-        </div>
-        <div class="chart">
-            <section id="chart4"></section>
-        </div>
-    </section>
-    <section class="controls">
-        <p><strong id="year-display">Year: 2010</strong></p>
-        <label>
-            <input type="range"
-                   id="year-slider"
-                   min="2010"
-                   max="2025"
-                   step="1"
-                   value="2010"
-            >
-        </label>
-        <p><strong>Metrics</strong></p>
-        <section id="metric-controls">
-            <label>
-                <input type="radio" name="metric" value="Average Price" checked>
-                Average price
-            </label>
-            <label>
-                <input type="radio" name="metric" value="Total Volume">
-                Total sales volume
-            </label>
-            <label>
-                <input type="radio" name="metric" value="Number of Sales">
-                Number of sales
-            </label>
-        </section>
-    </section>
+<body class="min-h-screen bg-slate-950 text-slate-100">
+<header class="bg-slate-900 border-b border-slate-800 py-6">
+  <h1 class="text-4xl md:text-5xl font-bold text-center text-slate-100">
+    Irish Property Sales Dashboard
+  </h1>
+</header>
+<main class="flex flex-col lg:flex-row gap-4 p-4 min-h-screen">
+  <section class="flex-1 grid grid-cols-1 md:grid-cols-2 grid-rows-4 md:grid-rows-2 gap-4">
+    <div class= "bg-slate-900 rounded-lg p-4 shadow-lg">
+      <section id="map" class="w-full h-full"></section>
+    </div>
+    <div class="bg-slate-900 rounded-lg p-4 shadow-lg">
+      <section id="chart2" class="w-full h-full"></section>
+    </div>
+    <div class="bg-slate-900 rounded-lg p-4 shadow-lg">
+      <section id="chart3" class="w-full h-full"></section>
+    </div>
+    <div class="bg-slate-900 rounded-lg p-4 shadow-lg">
+      <section id="chart4" class="w-full h-full"></section>
+    </div>
+  </section>
+  <aside class="lg:w-32 bg-slate-900 rounded-lg p-6 shadow-lg space-y-6">
+    <div class="space-y-3">
+      <p class="text-lg font-semibold text-slate-200" id="year-display">
+        Year: 2010
+      </p>
+      <input
+          type="range"
+          id="year-slider"
+          min="2010"
+          max="2025"
+          step="1"
+          value="2010"
+          class="vertical-slider"
+      >
+    </div>
+  </aside>
 </main>
 </body>
-
 </html>

@@ -1,17 +1,41 @@
-import rawData from "../../data/meanPriceCounties.json";
+import meanPriceCounties from '../../data/meanPriceCounties.json';
+import propertyDescriptionCountsPerYear from '../../data/propertyDescCountsPerYear.json'
+import priceBinsPerYear from '../../data/priceBinsPerYear.json'
 
 export type AvgYearPrice = {
-    year: number
-    average: number
+  year: number
+  average: number
 }
 export type CountyYearAvgPrice = {
-    county: string
-    averagePrice: AvgYearPrice[]
+  county: string
+  averagePrice: AvgYearPrice[]
 }
 
-export const countyAverages: CountyYearAvgPrice[] = rawData
+
+export type PropertyDescCounts = {
+  year: number,
+  new: number,
+  secondHand: number
+}
+
+export type YearPriceBins = {
+  year: number,
+  bins: number[],
+  priceBins: number[]
+}
+
+export const countyAverages: CountyYearAvgPrice[] = meanPriceCounties
+export const propertyDescCounts: PropertyDescCounts[] = propertyDescriptionCountsPerYear
+export const yearPriceBins: YearPriceBins[] = priceBinsPerYear
 
 const averages = countyAverages.flatMap(averages => averages.averagePrice.map(p => p.average));
 export const minAveragePrice = averages.reduce((min, el) => el < min ? el : min, Number.POSITIVE_INFINITY) * 0.85
 export const maxAveragePrice = averages.reduce((max, el) => el > max ? el : max, Number.NEGATIVE_INFINITY) * 1.15
 export const counties = countyAverages.map(e => e.county)
+export const colorscale = [
+  [0.0, "#f0f9ff"],
+  [0.25, "#bfdbfe"],
+  [0.5, "#3b82f6"],
+  [1.0, "#1e3a8a"],
+]
+export const maxBinCount = yearPriceBins.flatMap(({priceBins}) => priceBins).reduce((a, b) => a < b ? b : a, Number.NEGATIVE_INFINITY) * 1.1
