@@ -7,7 +7,7 @@ function buildData(year: number) {
     type: "pie",
     labels: ["New", "Second Hand"],
     values: propertyDescCounts.filter(row => row.year === year).map(row => [row.new, row.secondHand]).pop(),
-    hole: 0.5,
+    hole: 0.4,
     marker: {
       colors: ["#10b981", "#3b82f6"],
     },
@@ -36,7 +36,7 @@ function buildLayout(year: number) {
         size: 14
       },
     },
-    margin: {t: 40, b: 40, l: 20, r: 20},
+    margin: {t: 50, b: 40, l: 20, r: 20},
   };
 }
 

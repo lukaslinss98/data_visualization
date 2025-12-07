@@ -5,27 +5,27 @@ import {colorscale, counties, countyAverages, maxAveragePrice, minAveragePrice} 
 const response = await fetch('https://gist.githubusercontent.com/vool/969e3be0cfac519560755cce0b91e097/raw/a6059b80a9199e5021ea4d5de9654d64e99d4ac1/ireland.geojson')
 const geoJson = await response.json()
 
-function buildMapData(year: number) {
+function buildTrace(year: number) {
   return [{
     type: 'choropleth',
     geojson: geoJson,
     locations: counties,
     z: countyAverages
-    .flatMap(e => e.averagePrice)
+    .flatMap(({averagePrice}) => averagePrice)
     .filter(e => e.year === year)
-    .map(e => e.average),
+    .map(({average}) => average),
     featureidkey: 'properties.NAME_1',
     showscale: true,
     colorscale: colorscale,
     colorbar: {
       title: {
-        text: "Average price (€)",
-        side: "right",
+        text: "Mean price (€)",
+        side: "left",
         font: {color: "#ffffff"},
       },
       tickfont: {color: "#ffffff"},
-      x: 1.02,
-      xanchor: "center",
+      x: -0.1,          // negative value = left side
+      xanchor: "right",    // anchor the right edge of colorbar
       y: 0.5,
       yanchor: "middle",
       thickness: 10,
@@ -33,7 +33,7 @@ function buildMapData(year: number) {
     },
     zmin: minAveragePrice,
     zmax: maxAveragePrice,
-    hovertemplate: '<b>%{location}</b><br>Avg Price: €%{z:,.0f}<extra></extra>',
+    hovertemplate: '<b>%{location}</b><br>Mean Price: €%{z:,.0f}<extra></extra>',
     marker: {
       line: {
         width: 1.4,
@@ -53,8 +53,12 @@ function buildLayout(year: number) {
       },
     },
     geo: {
-      fitbounds: 'locations',
-      projection: {type: 'mercator'},
+      // fitbounds: 'locations',
+      projection: {
+        type: 'mercator',
+        scale: 55
+      },
+      center: { lat: 53.4, lon: -8.0 },
       visibility: false,
       showcoastlines: false,
       showcountries: false,
@@ -66,21 +70,21 @@ function buildLayout(year: number) {
     // width: 650,
     // height: 650,
     paper_bgcolor: 'rgba(0,0,0,0)',
-    margin: {t: 40},
+    margin: {t: 50},
   }
 }
 
 subscribeToState(({year}) => {
   Plotly.react(
       'map',
-      buildMapData(year),
+      buildTrace(year),
       buildLayout(year)
   )
 })
 
 Plotly.newPlot(
     'map',
-    buildMapData(getYear()),
+    buildTrace(getYear()),
     buildLayout(getYear()),
     {
       response: true,

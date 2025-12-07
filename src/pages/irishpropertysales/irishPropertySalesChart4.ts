@@ -64,13 +64,14 @@ function buildLayout(year: number) {
     },
     yaxis: {
       title: {
-        text: "Number of ales",
+        text: "Number of Sales",
         font: {
           color: "#ffffff",
         },
       },
       tickfont: {color: "#ffffff"},
       range: [0, maxBinCount],
+      gridcolor: "rgba(255, 255, 255, 0.4)",
     },
     legend: {
       font: {
@@ -80,7 +81,7 @@ function buildLayout(year: number) {
     },
     paper_bgcolor: "rgba(0,0,0,0)",
     plot_bgcolor: "rgba(0,0,0,0)",
-    margin: {t: 40},
+    margin: {t: 50},
   };
 }
 
