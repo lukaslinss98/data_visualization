@@ -20,8 +20,8 @@ export type PropertyDescCounts = {
 
 export type YearPriceBins = {
   year: number,
-  bins: number[],
-  priceBins: number[]
+  priceBinsNew: number[]
+  priceBinsSecondHand: number[]
 }
 
 export const countyAverages: CountyYearAvgPrice[] = meanPriceCounties
@@ -38,4 +38,10 @@ export const colorscale = [
   [0.5, "#3b82f6"],
   [1.0, "#1e3a8a"],
 ]
-export const maxBinCount = yearPriceBins.flatMap(({priceBins}) => priceBins).reduce((a, b) => a < b ? b : a, Number.NEGATIVE_INFINITY) * 1.1
+export const maxBinCount =
+    yearPriceBins
+    .flatMap(({
+                priceBinsNew,
+                priceBinsSecondHand
+              }) => [...priceBinsNew, ...priceBinsSecondHand])
+    .reduce((a, b) => a < b ? b : a, Number.NEGATIVE_INFINITY) * 1.1

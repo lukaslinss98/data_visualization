@@ -15,19 +15,30 @@ function buildMapData(year: number) {
     .filter(e => e.year === year)
     .map(e => e.average),
     featureidkey: 'properties.NAME_1',
+    showscale: true,
     colorscale: colorscale,
     colorbar: {
-      title: "Average price (€)",
-      side: "left",
-      tickfont: {
-        color: "#ffffff",
+      title: {
+        text: "Average price (€)",
+        side: "right",
+        font: {color: "#ffffff"},
       },
+      tickfont: {color: "#ffffff"},
+      x: 1.02,
+      xanchor: "center",
+      y: 0.5,
+      yanchor: "middle",
+      thickness: 10,
+      len: 0.7,
     },
     zmin: minAveragePrice,
     zmax: maxAveragePrice,
-    showscale: true,
+    hovertemplate: '<b>%{location}</b><br>Avg Price: €%{z:,.0f}<extra></extra>',
     marker: {
-      line: {width: 0.5, color: 'black'}
+      line: {
+        width: 1.4,
+        color: '#171717'
+      }
     }
   }]
 }
@@ -52,12 +63,12 @@ function buildLayout(year: number) {
       showsubunits: false,
       bgcolor: 'rgba(0,0,0,0)',
     },
-    width: 600,
-    height: 600,
+    // width: 650,
+    // height: 650,
     paper_bgcolor: 'rgba(0,0,0,0)',
+    margin: {t: 40},
   }
 }
-
 
 subscribeToState(({year}) => {
   Plotly.react(
@@ -71,5 +82,8 @@ Plotly.newPlot(
     'map',
     buildMapData(getYear()),
     buildLayout(getYear()),
-    {response: true}
+    {
+      response: true,
+      displayModeBar: false,
+    }
 )

@@ -1,5 +1,5 @@
 import Plotly from 'plotly.js-dist';
-import {colorscale, countyAverages, maxAveragePrice, minAveragePrice} from "./data.ts";
+import {countyAverages, maxAveragePrice, minAveragePrice} from "./data.ts";
 import {getYear, subscribeToState} from "./sharedState.ts";
 
 function buildData(year: number) {
@@ -11,7 +11,7 @@ function buildData(year: number) {
   .sort((a, b) => b.averagePrice - a.averagePrice)
   .slice(0, 10)
 
-  const sortedCounties = countyAveragesForYear.map(ca => ca.county)
+  const sortedCounties = countyAveragesForYear.map(({county}, i) => `${i + 1}. ${county}`)
   const sortedPrices = countyAveragesForYear.map(ca => ca.averagePrice)
 
   return [{
@@ -24,8 +24,8 @@ function buildData(year: number) {
       cmin: minAveragePrice,
       cmax: maxAveragePrice,
     },
-    text: sortedPrices.map(price => `€${price.toLocaleString()}`),
-    textposition: "auto",
+    text: sortedPrices.map(price => `€${Math.round(price / 1000).toLocaleString()}k`),
+    // textposition: "out",
     textfont: {color: "#222222"},
   }];
 }
@@ -38,11 +38,16 @@ function buildLayout(year: number) {
       range: [minAveragePrice, maxAveragePrice],
       title: {
         text: "Average Price (€)",
-        font: { color: "#ffffff" },
+        font: {color: "#ffffff"},
       },
       tickfont: {color: "#ffffff"},
     },
     yaxis: {
+      title: {
+        text: "Counties",
+        font: {color: "#ffffff"},
+        standoff: 30,
+      },
       categoryorder: "array",
       autorange: 'reversed',
       tickfont: {color: "#ffffff"},
@@ -55,16 +60,27 @@ function buildLayout(year: number) {
         color: '#ffffff'
       },
     },
+    margin: {l: 120, t: 40},
   }
 }
 
-
 subscribeToState(({year}) => {
-  Plotly.react(
+  Plotly.animate(
       'chart2',
-      buildData(year),
-      buildLayout(year),
-      {responsive: true}
+      {
+        data: buildData(year),
+        layout: buildLayout(year)
+      },
+      {
+        transition: {
+          duration: 500,
+          easing: 'cubic-in-out'
+        },
+        frame: {
+          duration: 500,
+          redraw: true
+        }
+      }
   )
 })
 
@@ -72,6 +88,9 @@ Plotly.newPlot(
     'chart2',
     buildData(getYear()),
     buildLayout(getYear()),
-    {responsive: true}
+    {
+      response: true,
+      displayModeBar: false,
+    }
 )
 

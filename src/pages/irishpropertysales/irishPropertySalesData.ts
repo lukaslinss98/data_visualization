@@ -123,23 +123,23 @@ export const irishPropertySales: IrishPropertySales = {
   }, new Map<string, PropertySaleRecord[]>()),
 
   avgPricesPerCountyPerYear: propertySalesRecords
-    .map(record => ({
-      county: record.county,
-      year: record.dateOfSale.getFullYear(),
-      price: record.price
-    }))
-    .reduce((map: Map<string, Map<number, number[]>>, { county, year, price }) => {
-      if (map.has(county)) {
-        const innerMap = map.get(county)
-        innerMap.set(year, [price, ...innerMap.get(year)])
-        map.set(county, innerMap)
-      } else {
-        const innerMap = new Map()
-        innerMap.set(year, [price])
-        map.set(county, innerMap)
-      }
-      return map
+  .map(record => ({
+    county: record.county,
+    year: record.dateOfSale.getFullYear(),
+    price: record.price
+  }))
+  .reduce((map: Map<string, Map<number, number[]>>, {county, year, price}) => {
+    if (map.has(county)) {
+      const innerMap = map.get(county)
+      innerMap.set(year, [price, ...innerMap.get(year)])
+      map.set(county, innerMap)
+    } else {
+      const innerMap = new Map()
+      innerMap.set(year, [price])
+      map.set(county, innerMap)
+    }
+    return map
 
-    }, new Map<string, Map<number, number[]>>())
+  }, new Map<string, Map<number, number[]>>())
 }
 
