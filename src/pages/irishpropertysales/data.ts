@@ -7,6 +7,7 @@ export type AvgYearPrice = {
   year: number
   average: number
 }
+
 export type CountyYearAvgPrice = {
   county: string
   averagePrice: AvgYearPrice[]
@@ -16,6 +17,7 @@ export type YearVolumn = {
   year: number
   volumn: number
 }
+
 export type CountyYearVolumn = {
   county: string
   volumnPerYear: YearVolumn[]
@@ -42,7 +44,7 @@ const averages = countyAverages.flatMap(averages => averages.averagePrice.map(p 
 export const minAveragePrice = averages.reduce((min, el) => el < min ? el : min, Number.POSITIVE_INFINITY) * 0.85
 export const maxAveragePrice = averages.reduce((max, el) => el > max ? el : max, Number.NEGATIVE_INFINITY) * 1.0
 
-const volumns = countyYearVolumn.flatMap(({volumnPerYear}) => volumnPerYear).map(({volumn}) => volumn)
+const volumns = countyYearVolumn.flatMap(({ volumnPerYear }) => volumnPerYear).map(({ volumn }) => volumn)
 export const minVolumn = volumns.reduce((min, el) => el < min ? el : min, Number.POSITIVE_INFINITY) * 0.85
 export const maxVolumn = volumns.reduce((max, el) => el > max ? el : max, Number.NEGATIVE_INFINITY) * 1.15
 
@@ -54,9 +56,9 @@ export const colorscale = [
   [1.0, "#1e3a8a"],
 ]
 export const maxBinCount =
-    yearPriceBins
+  yearPriceBins
     .flatMap(({
-                priceBinsNew,
-                priceBinsSecondHand
-              }) => [...priceBinsNew, ...priceBinsSecondHand])
+      priceBinsNew,
+      priceBinsSecondHand
+    }) => [...priceBinsNew, ...priceBinsSecondHand])
     .reduce((a, b) => a < b ? b : a, Number.NEGATIVE_INFINITY) * 1.1
