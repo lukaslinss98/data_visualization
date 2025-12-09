@@ -1,0 +1,2498 @@
+[
+  {
+    "year": 2010,
+    "county": "Carlow",
+    "new": 93,
+    "secondHand": 138
+  },
+  {
+    "year": 2010,
+    "county": "Cavan",
+    "new": 156,
+    "secondHand": 147
+  },
+  {
+    "year": 2010,
+    "county": "Clare",
+    "new": 111,
+    "secondHand": 396
+  },
+  {
+    "year": 2010,
+    "county": "Cork",
+    "new": 526,
+    "secondHand": 1746
+  },
+  {
+    "year": 2010,
+    "county": "Donegal",
+    "new": 191,
+    "secondHand": 444
+  },
+  {
+    "year": 2010,
+    "county": "Dublin",
+    "new": 1335,
+    "secondHand": 5606
+  },
+  {
+    "year": 2010,
+    "county": "Galway",
+    "new": 265,
+    "secondHand": 685
+  },
+  {
+    "year": 2010,
+    "county": "Kerry",
+    "new": 149,
+    "secondHand": 479
+  },
+  {
+    "year": 2010,
+    "county": "Kildare",
+    "new": 394,
+    "secondHand": 655
+  },
+  {
+    "year": 2010,
+    "county": "Kilkenny",
+    "new": 64,
+    "secondHand": 279
+  },
+  {
+    "year": 2010,
+    "county": "Laoighis",
+    "new": 93,
+    "secondHand": 238
+  },
+  {
+    "year": 2010,
+    "county": "Leitrim",
+    "new": 56,
+    "secondHand": 87
+  },
+  {
+    "year": 2010,
+    "county": "Limerick",
+    "new": 187,
+    "secondHand": 572
+  },
+  {
+    "year": 2010,
+    "county": "Longford",
+    "new": 52,
+    "secondHand": 93
+  },
+  {
+    "year": 2010,
+    "county": "Louth",
+    "new": 143,
+    "secondHand": 396
+  },
+  {
+    "year": 2010,
+    "county": "Mayo",
+    "new": 83,
+    "secondHand": 341
+  },
+  {
+    "year": 2010,
+    "county": "Meath",
+    "new": 275,
+    "secondHand": 580
+  },
+  {
+    "year": 2010,
+    "county": "Monaghan",
+    "new": 84,
+    "secondHand": 137
+  },
+  {
+    "year": 2010,
+    "county": "Offaly",
+    "new": 63,
+    "secondHand": 181
+  },
+  {
+    "year": 2010,
+    "county": "Roscommon",
+    "new": 93,
+    "secondHand": 193
+  },
+  {
+    "year": 2010,
+    "county": "Sligo",
+    "new": 111,
+    "secondHand": 211
+  },
+  {
+    "year": 2010,
+    "county": "Tipperary",
+    "new": 133,
+    "secondHand": 422
+  },
+  {
+    "year": 2010,
+    "county": "Waterford",
+    "new": 105,
+    "secondHand": 354
+  },
+  {
+    "year": 2010,
+    "county": "Westmeath",
+    "new": 131,
+    "secondHand": 279
+  },
+  {
+    "year": 2010,
+    "county": "Wexford",
+    "new": 206,
+    "secondHand": 525
+  },
+  {
+    "year": 2010,
+    "county": "Wicklow",
+    "new": 216,
+    "secondHand": 502
+  },
+  {
+    "year": 2011,
+    "county": "Carlow",
+    "new": 48,
+    "secondHand": 135
+  },
+  {
+    "year": 2011,
+    "county": "Cavan",
+    "new": 83,
+    "secondHand": 193
+  },
+  {
+    "year": 2011,
+    "county": "Clare",
+    "new": 53,
+    "secondHand": 379
+  },
+  {
+    "year": 2011,
+    "county": "Cork",
+    "new": 322,
+    "secondHand": 1785
+  },
+  {
+    "year": 2011,
+    "county": "Donegal",
+    "new": 94,
+    "secondHand": 440
+  },
+  {
+    "year": 2011,
+    "county": "Dublin",
+    "new": 683,
+    "secondHand": 5222
+  },
+  {
+    "year": 2011,
+    "county": "Galway",
+    "new": 180,
+    "secondHand": 777
+  },
+  {
+    "year": 2011,
+    "county": "Kerry",
+    "new": 81,
+    "secondHand": 491
+  },
+  {
+    "year": 2011,
+    "county": "Kildare",
+    "new": 169,
+    "secondHand": 629
+  },
+  {
+    "year": 2011,
+    "county": "Kilkenny",
+    "new": 59,
+    "secondHand": 295
+  },
+  {
+    "year": 2011,
+    "county": "Laoighis",
+    "new": 98,
+    "secondHand": 229
+  },
+  {
+    "year": 2011,
+    "county": "Leitrim",
+    "new": 54,
+    "secondHand": 128
+  },
+  {
+    "year": 2011,
+    "county": "Limerick",
+    "new": 106,
+    "secondHand": 623
+  },
+  {
+    "year": 2011,
+    "county": "Longford",
+    "new": 38,
+    "secondHand": 104
+  },
+  {
+    "year": 2011,
+    "county": "Louth",
+    "new": 83,
+    "secondHand": 379
+  },
+  {
+    "year": 2011,
+    "county": "Mayo",
+    "new": 67,
+    "secondHand": 395
+  },
+  {
+    "year": 2011,
+    "county": "Meath",
+    "new": 135,
+    "secondHand": 483
+  },
+  {
+    "year": 2011,
+    "county": "Monaghan",
+    "new": 46,
+    "secondHand": 103
+  },
+  {
+    "year": 2011,
+    "county": "Offaly",
+    "new": 38,
+    "secondHand": 172
+  },
+  {
+    "year": 2011,
+    "county": "Roscommon",
+    "new": 41,
+    "secondHand": 192
+  },
+  {
+    "year": 2011,
+    "county": "Sligo",
+    "new": 43,
+    "secondHand": 191
+  },
+  {
+    "year": 2011,
+    "county": "Tipperary",
+    "new": 90,
+    "secondHand": 406
+  },
+  {
+    "year": 2011,
+    "county": "Waterford",
+    "new": 71,
+    "secondHand": 436
+  },
+  {
+    "year": 2011,
+    "county": "Westmeath",
+    "new": 99,
+    "secondHand": 270
+  },
+  {
+    "year": 2011,
+    "county": "Wexford",
+    "new": 97,
+    "secondHand": 529
+  },
+  {
+    "year": 2011,
+    "county": "Wicklow",
+    "new": 78,
+    "secondHand": 498
+  },
+  {
+    "year": 2012,
+    "county": "Carlow",
+    "new": 47,
+    "secondHand": 219
+  },
+  {
+    "year": 2012,
+    "county": "Cavan",
+    "new": 75,
+    "secondHand": 256
+  },
+  {
+    "year": 2012,
+    "county": "Clare",
+    "new": 52,
+    "secondHand": 526
+  },
+  {
+    "year": 2012,
+    "county": "Cork",
+    "new": 314,
+    "secondHand": 2449
+  },
+  {
+    "year": 2012,
+    "county": "Donegal",
+    "new": 89,
+    "secondHand": 614
+  },
+  {
+    "year": 2012,
+    "county": "Dublin",
+    "new": 971,
+    "secondHand": 7955
+  },
+  {
+    "year": 2012,
+    "county": "Galway",
+    "new": 138,
+    "secondHand": 1034
+  },
+  {
+    "year": 2012,
+    "county": "Kerry",
+    "new": 98,
+    "secondHand": 664
+  },
+  {
+    "year": 2012,
+    "county": "Kildare",
+    "new": 159,
+    "secondHand": 904
+  },
+  {
+    "year": 2012,
+    "county": "Kilkenny",
+    "new": 87,
+    "secondHand": 377
+  },
+  {
+    "year": 2012,
+    "county": "Laoighis",
+    "new": 113,
+    "secondHand": 320
+  },
+  {
+    "year": 2012,
+    "county": "Leitrim",
+    "new": 60,
+    "secondHand": 146
+  },
+  {
+    "year": 2012,
+    "county": "Limerick",
+    "new": 48,
+    "secondHand": 793
+  },
+  {
+    "year": 2012,
+    "county": "Longford",
+    "new": 45,
+    "secondHand": 166
+  },
+  {
+    "year": 2012,
+    "county": "Louth",
+    "new": 124,
+    "secondHand": 545
+  },
+  {
+    "year": 2012,
+    "county": "Mayo",
+    "new": 64,
+    "secondHand": 528
+  },
+  {
+    "year": 2012,
+    "county": "Meath",
+    "new": 142,
+    "secondHand": 668
+  },
+  {
+    "year": 2012,
+    "county": "Monaghan",
+    "new": 28,
+    "secondHand": 148
+  },
+  {
+    "year": 2012,
+    "county": "Offaly",
+    "new": 35,
+    "secondHand": 263
+  },
+  {
+    "year": 2012,
+    "county": "Roscommon",
+    "new": 59,
+    "secondHand": 302
+  },
+  {
+    "year": 2012,
+    "county": "Sligo",
+    "new": 58,
+    "secondHand": 318
+  },
+  {
+    "year": 2012,
+    "county": "Tipperary",
+    "new": 45,
+    "secondHand": 567
+  },
+  {
+    "year": 2012,
+    "county": "Waterford",
+    "new": 53,
+    "secondHand": 537
+  },
+  {
+    "year": 2012,
+    "county": "Westmeath",
+    "new": 72,
+    "secondHand": 360
+  },
+  {
+    "year": 2012,
+    "county": "Wexford",
+    "new": 99,
+    "secondHand": 848
+  },
+  {
+    "year": 2012,
+    "county": "Wicklow",
+    "new": 104,
+    "secondHand": 686
+  },
+  {
+    "year": 2013,
+    "county": "Carlow",
+    "new": 66,
+    "secondHand": 309
+  },
+  {
+    "year": 2013,
+    "county": "Cavan",
+    "new": 112,
+    "secondHand": 399
+  },
+  {
+    "year": 2013,
+    "county": "Clare",
+    "new": 62,
+    "secondHand": 579
+  },
+  {
+    "year": 2013,
+    "county": "Cork",
+    "new": 374,
+    "secondHand": 2881
+  },
+  {
+    "year": 2013,
+    "county": "Donegal",
+    "new": 82,
+    "secondHand": 683
+  },
+  {
+    "year": 2013,
+    "county": "Dublin",
+    "new": 1338,
+    "secondHand": 9179
+  },
+  {
+    "year": 2013,
+    "county": "Galway",
+    "new": 166,
+    "secondHand": 1420
+  },
+  {
+    "year": 2013,
+    "county": "Kerry",
+    "new": 116,
+    "secondHand": 766
+  },
+  {
+    "year": 2013,
+    "county": "Kildare",
+    "new": 277,
+    "secondHand": 1055
+  },
+  {
+    "year": 2013,
+    "county": "Kilkenny",
+    "new": 65,
+    "secondHand": 412
+  },
+  {
+    "year": 2013,
+    "county": "Laoighis",
+    "new": 63,
+    "secondHand": 360
+  },
+  {
+    "year": 2013,
+    "county": "Leitrim",
+    "new": 84,
+    "secondHand": 260
+  },
+  {
+    "year": 2013,
+    "county": "Limerick",
+    "new": 73,
+    "secondHand": 849
+  },
+  {
+    "year": 2013,
+    "county": "Longford",
+    "new": 37,
+    "secondHand": 227
+  },
+  {
+    "year": 2013,
+    "county": "Louth",
+    "new": 98,
+    "secondHand": 668
+  },
+  {
+    "year": 2013,
+    "county": "Mayo",
+    "new": 59,
+    "secondHand": 559
+  },
+  {
+    "year": 2013,
+    "county": "Meath",
+    "new": 143,
+    "secondHand": 862
+  },
+  {
+    "year": 2013,
+    "county": "Monaghan",
+    "new": 69,
+    "secondHand": 174
+  },
+  {
+    "year": 2013,
+    "county": "Offaly",
+    "new": 47,
+    "secondHand": 280
+  },
+  {
+    "year": 2013,
+    "county": "Roscommon",
+    "new": 107,
+    "secondHand": 411
+  },
+  {
+    "year": 2013,
+    "county": "Sligo",
+    "new": 73,
+    "secondHand": 350
+  },
+  {
+    "year": 2013,
+    "county": "Tipperary",
+    "new": 50,
+    "secondHand": 684
+  },
+  {
+    "year": 2013,
+    "county": "Waterford",
+    "new": 66,
+    "secondHand": 680
+  },
+  {
+    "year": 2013,
+    "county": "Westmeath",
+    "new": 65,
+    "secondHand": 473
+  },
+  {
+    "year": 2013,
+    "county": "Wexford",
+    "new": 96,
+    "secondHand": 922
+  },
+  {
+    "year": 2013,
+    "county": "Wicklow",
+    "new": 108,
+    "secondHand": 880
+  },
+  {
+    "year": 2014,
+    "county": "Carlow",
+    "new": 80,
+    "secondHand": 358
+  },
+  {
+    "year": 2014,
+    "county": "Cavan",
+    "new": 152,
+    "secondHand": 684
+  },
+  {
+    "year": 2014,
+    "county": "Clare",
+    "new": 103,
+    "secondHand": 944
+  },
+  {
+    "year": 2014,
+    "county": "Cork",
+    "new": 527,
+    "secondHand": 4151
+  },
+  {
+    "year": 2014,
+    "county": "Donegal",
+    "new": 158,
+    "secondHand": 1050
+  },
+  {
+    "year": 2014,
+    "county": "Dublin",
+    "new": 1684,
+    "secondHand": 12498
+  },
+  {
+    "year": 2014,
+    "county": "Galway",
+    "new": 267,
+    "secondHand": 2166
+  },
+  {
+    "year": 2014,
+    "county": "Kerry",
+    "new": 140,
+    "secondHand": 1079
+  },
+  {
+    "year": 2014,
+    "county": "Kildare",
+    "new": 367,
+    "secondHand": 1517
+  },
+  {
+    "year": 2014,
+    "county": "Kilkenny",
+    "new": 119,
+    "secondHand": 572
+  },
+  {
+    "year": 2014,
+    "county": "Laoighis",
+    "new": 117,
+    "secondHand": 540
+  },
+  {
+    "year": 2014,
+    "county": "Leitrim",
+    "new": 80,
+    "secondHand": 312
+  },
+  {
+    "year": 2014,
+    "county": "Limerick",
+    "new": 133,
+    "secondHand": 1507
+  },
+  {
+    "year": 2014,
+    "county": "Longford",
+    "new": 81,
+    "secondHand": 369
+  },
+  {
+    "year": 2014,
+    "county": "Louth",
+    "new": 186,
+    "secondHand": 1004
+  },
+  {
+    "year": 2014,
+    "county": "Mayo",
+    "new": 127,
+    "secondHand": 941
+  },
+  {
+    "year": 2014,
+    "county": "Meath",
+    "new": 221,
+    "secondHand": 1426
+  },
+  {
+    "year": 2014,
+    "county": "Monaghan",
+    "new": 75,
+    "secondHand": 266
+  },
+  {
+    "year": 2014,
+    "county": "Offaly",
+    "new": 43,
+    "secondHand": 461
+  },
+  {
+    "year": 2014,
+    "county": "Roscommon",
+    "new": 81,
+    "secondHand": 488
+  },
+  {
+    "year": 2014,
+    "county": "Sligo",
+    "new": 110,
+    "secondHand": 594
+  },
+  {
+    "year": 2014,
+    "county": "Tipperary",
+    "new": 75,
+    "secondHand": 886
+  },
+  {
+    "year": 2014,
+    "county": "Waterford",
+    "new": 72,
+    "secondHand": 1064
+  },
+  {
+    "year": 2014,
+    "county": "Westmeath",
+    "new": 111,
+    "secondHand": 841
+  },
+  {
+    "year": 2014,
+    "county": "Wexford",
+    "new": 161,
+    "secondHand": 1342
+  },
+  {
+    "year": 2014,
+    "county": "Wicklow",
+    "new": 154,
+    "secondHand": 1186
+  },
+  {
+    "year": 2015,
+    "county": "Carlow",
+    "new": 86,
+    "secondHand": 443
+  },
+  {
+    "year": 2015,
+    "county": "Cavan",
+    "new": 127,
+    "secondHand": 684
+  },
+  {
+    "year": 2015,
+    "county": "Clare",
+    "new": 104,
+    "secondHand": 1091
+  },
+  {
+    "year": 2015,
+    "county": "Cork",
+    "new": 727,
+    "secondHand": 4705
+  },
+  {
+    "year": 2015,
+    "county": "Donegal",
+    "new": 130,
+    "secondHand": 1379
+  },
+  {
+    "year": 2015,
+    "county": "Dublin",
+    "new": 2168,
+    "secondHand": 13275
+  },
+  {
+    "year": 2015,
+    "county": "Galway",
+    "new": 251,
+    "secondHand": 2583
+  },
+  {
+    "year": 2015,
+    "county": "Kerry",
+    "new": 183,
+    "secondHand": 1246
+  },
+  {
+    "year": 2015,
+    "county": "Kildare",
+    "new": 470,
+    "secondHand": 1832
+  },
+  {
+    "year": 2015,
+    "county": "Kilkenny",
+    "new": 97,
+    "secondHand": 683
+  },
+  {
+    "year": 2015,
+    "county": "Laoighis",
+    "new": 89,
+    "secondHand": 581
+  },
+  {
+    "year": 2015,
+    "county": "Leitrim",
+    "new": 96,
+    "secondHand": 391
+  },
+  {
+    "year": 2015,
+    "county": "Limerick",
+    "new": 150,
+    "secondHand": 1880
+  },
+  {
+    "year": 2015,
+    "county": "Longford",
+    "new": 100,
+    "secondHand": 388
+  },
+  {
+    "year": 2015,
+    "county": "Louth",
+    "new": 167,
+    "secondHand": 1125
+  },
+  {
+    "year": 2015,
+    "county": "Mayo",
+    "new": 142,
+    "secondHand": 1175
+  },
+  {
+    "year": 2015,
+    "county": "Meath",
+    "new": 221,
+    "secondHand": 1439
+  },
+  {
+    "year": 2015,
+    "county": "Monaghan",
+    "new": 54,
+    "secondHand": 298
+  },
+  {
+    "year": 2015,
+    "county": "Offaly",
+    "new": 50,
+    "secondHand": 531
+  },
+  {
+    "year": 2015,
+    "county": "Roscommon",
+    "new": 78,
+    "secondHand": 645
+  },
+  {
+    "year": 2015,
+    "county": "Sligo",
+    "new": 78,
+    "secondHand": 593
+  },
+  {
+    "year": 2015,
+    "county": "Tipperary",
+    "new": 88,
+    "secondHand": 1193
+  },
+  {
+    "year": 2015,
+    "county": "Waterford",
+    "new": 89,
+    "secondHand": 1195
+  },
+  {
+    "year": 2015,
+    "county": "Westmeath",
+    "new": 50,
+    "secondHand": 922
+  },
+  {
+    "year": 2015,
+    "county": "Wexford",
+    "new": 237,
+    "secondHand": 1442
+  },
+  {
+    "year": 2015,
+    "county": "Wicklow",
+    "new": 213,
+    "secondHand": 1199
+  },
+  {
+    "year": 2016,
+    "county": "Carlow",
+    "new": 66,
+    "secondHand": 469
+  },
+  {
+    "year": 2016,
+    "county": "Cavan",
+    "new": 81,
+    "secondHand": 697
+  },
+  {
+    "year": 2016,
+    "county": "Clare",
+    "new": 116,
+    "secondHand": 1068
+  },
+  {
+    "year": 2016,
+    "county": "Cork",
+    "new": 876,
+    "secondHand": 4793
+  },
+  {
+    "year": 2016,
+    "county": "Donegal",
+    "new": 146,
+    "secondHand": 1325
+  },
+  {
+    "year": 2016,
+    "county": "Dublin",
+    "new": 2536,
+    "secondHand": 13278
+  },
+  {
+    "year": 2016,
+    "county": "Galway",
+    "new": 321,
+    "secondHand": 2260
+  },
+  {
+    "year": 2016,
+    "county": "Kerry",
+    "new": 146,
+    "secondHand": 1349
+  },
+  {
+    "year": 2016,
+    "county": "Kildare",
+    "new": 547,
+    "secondHand": 1783
+  },
+  {
+    "year": 2016,
+    "county": "Kilkenny",
+    "new": 49,
+    "secondHand": 674
+  },
+  {
+    "year": 2016,
+    "county": "Laoighis",
+    "new": 124,
+    "secondHand": 659
+  },
+  {
+    "year": 2016,
+    "county": "Leitrim",
+    "new": 72,
+    "secondHand": 436
+  },
+  {
+    "year": 2016,
+    "county": "Limerick",
+    "new": 182,
+    "secondHand": 1755
+  },
+  {
+    "year": 2016,
+    "county": "Longford",
+    "new": 62,
+    "secondHand": 401
+  },
+  {
+    "year": 2016,
+    "county": "Louth",
+    "new": 137,
+    "secondHand": 1120
+  },
+  {
+    "year": 2016,
+    "county": "Mayo",
+    "new": 91,
+    "secondHand": 1138
+  },
+  {
+    "year": 2016,
+    "county": "Meath",
+    "new": 394,
+    "secondHand": 1330
+  },
+  {
+    "year": 2016,
+    "county": "Monaghan",
+    "new": 34,
+    "secondHand": 379
+  },
+  {
+    "year": 2016,
+    "county": "Offaly",
+    "new": 25,
+    "secondHand": 597
+  },
+  {
+    "year": 2016,
+    "county": "Roscommon",
+    "new": 71,
+    "secondHand": 614
+  },
+  {
+    "year": 2016,
+    "county": "Sligo",
+    "new": 92,
+    "secondHand": 696
+  },
+  {
+    "year": 2016,
+    "county": "Tipperary",
+    "new": 103,
+    "secondHand": 1291
+  },
+  {
+    "year": 2016,
+    "county": "Waterford",
+    "new": 124,
+    "secondHand": 1353
+  },
+  {
+    "year": 2016,
+    "county": "Westmeath",
+    "new": 52,
+    "secondHand": 940
+  },
+  {
+    "year": 2016,
+    "county": "Wexford",
+    "new": 177,
+    "secondHand": 1459
+  },
+  {
+    "year": 2016,
+    "county": "Wicklow",
+    "new": 255,
+    "secondHand": 1191
+  },
+  {
+    "year": 2017,
+    "county": "Carlow",
+    "new": 46,
+    "secondHand": 490
+  },
+  {
+    "year": 2017,
+    "county": "Cavan",
+    "new": 77,
+    "secondHand": 767
+  },
+  {
+    "year": 2017,
+    "county": "Clare",
+    "new": 159,
+    "secondHand": 1143
+  },
+  {
+    "year": 2017,
+    "county": "Cork",
+    "new": 901,
+    "secondHand": 4994
+  },
+  {
+    "year": 2017,
+    "county": "Donegal",
+    "new": 138,
+    "secondHand": 1196
+  },
+  {
+    "year": 2017,
+    "county": "Dublin",
+    "new": 4075,
+    "secondHand": 13920
+  },
+  {
+    "year": 2017,
+    "county": "Galway",
+    "new": 316,
+    "secondHand": 2475
+  },
+  {
+    "year": 2017,
+    "county": "Kerry",
+    "new": 132,
+    "secondHand": 1535
+  },
+  {
+    "year": 2017,
+    "county": "Kildare",
+    "new": 779,
+    "secondHand": 2076
+  },
+  {
+    "year": 2017,
+    "county": "Kilkenny",
+    "new": 59,
+    "secondHand": 744
+  },
+  {
+    "year": 2017,
+    "county": "Laoighis",
+    "new": 81,
+    "secondHand": 711
+  },
+  {
+    "year": 2017,
+    "county": "Leitrim",
+    "new": 66,
+    "secondHand": 434
+  },
+  {
+    "year": 2017,
+    "county": "Limerick",
+    "new": 230,
+    "secondHand": 1873
+  },
+  {
+    "year": 2017,
+    "county": "Longford",
+    "new": 37,
+    "secondHand": 374
+  },
+  {
+    "year": 2017,
+    "county": "Louth",
+    "new": 235,
+    "secondHand": 1137
+  },
+  {
+    "year": 2017,
+    "county": "Mayo",
+    "new": 83,
+    "secondHand": 1209
+  },
+  {
+    "year": 2017,
+    "county": "Meath",
+    "new": 796,
+    "secondHand": 1562
+  },
+  {
+    "year": 2017,
+    "county": "Monaghan",
+    "new": 55,
+    "secondHand": 420
+  },
+  {
+    "year": 2017,
+    "county": "Offaly",
+    "new": 65,
+    "secondHand": 627
+  },
+  {
+    "year": 2017,
+    "county": "Roscommon",
+    "new": 59,
+    "secondHand": 680
+  },
+  {
+    "year": 2017,
+    "county": "Sligo",
+    "new": 85,
+    "secondHand": 696
+  },
+  {
+    "year": 2017,
+    "county": "Tipperary",
+    "new": 112,
+    "secondHand": 1473
+  },
+  {
+    "year": 2017,
+    "county": "Waterford",
+    "new": 152,
+    "secondHand": 1244
+  },
+  {
+    "year": 2017,
+    "county": "Westmeath",
+    "new": 51,
+    "secondHand": 947
+  },
+  {
+    "year": 2017,
+    "county": "Wexford",
+    "new": 204,
+    "secondHand": 1624
+  },
+  {
+    "year": 2017,
+    "county": "Wicklow",
+    "new": 366,
+    "secondHand": 1308
+  },
+  {
+    "year": 2018,
+    "county": "Carlow",
+    "new": 103,
+    "secondHand": 582
+  },
+  {
+    "year": 2018,
+    "county": "Cavan",
+    "new": 101,
+    "secondHand": 752
+  },
+  {
+    "year": 2018,
+    "county": "Clare",
+    "new": 138,
+    "secondHand": 1111
+  },
+  {
+    "year": 2018,
+    "county": "Cork",
+    "new": 1063,
+    "secondHand": 5042
+  },
+  {
+    "year": 2018,
+    "county": "Donegal",
+    "new": 126,
+    "secondHand": 1366
+  },
+  {
+    "year": 2018,
+    "county": "Dublin",
+    "new": 4828,
+    "secondHand": 13870
+  },
+  {
+    "year": 2018,
+    "county": "Galway",
+    "new": 254,
+    "secondHand": 2407
+  },
+  {
+    "year": 2018,
+    "county": "Kerry",
+    "new": 185,
+    "secondHand": 1481
+  },
+  {
+    "year": 2018,
+    "county": "Kildare",
+    "new": 1002,
+    "secondHand": 2115
+  },
+  {
+    "year": 2018,
+    "county": "Kilkenny",
+    "new": 91,
+    "secondHand": 782
+  },
+  {
+    "year": 2018,
+    "county": "Laoighis",
+    "new": 139,
+    "secondHand": 700
+  },
+  {
+    "year": 2018,
+    "county": "Leitrim",
+    "new": 39,
+    "secondHand": 456
+  },
+  {
+    "year": 2018,
+    "county": "Limerick",
+    "new": 255,
+    "secondHand": 1900
+  },
+  {
+    "year": 2018,
+    "county": "Longford",
+    "new": 26,
+    "secondHand": 449
+  },
+  {
+    "year": 2018,
+    "county": "Louth",
+    "new": 446,
+    "secondHand": 1144
+  },
+  {
+    "year": 2018,
+    "county": "Mayo",
+    "new": 96,
+    "secondHand": 1192
+  },
+  {
+    "year": 2018,
+    "county": "Meath",
+    "new": 957,
+    "secondHand": 1642
+  },
+  {
+    "year": 2018,
+    "county": "Monaghan",
+    "new": 34,
+    "secondHand": 400
+  },
+  {
+    "year": 2018,
+    "county": "Offaly",
+    "new": 32,
+    "secondHand": 630
+  },
+  {
+    "year": 2018,
+    "county": "Roscommon",
+    "new": 102,
+    "secondHand": 777
+  },
+  {
+    "year": 2018,
+    "county": "Sligo",
+    "new": 92,
+    "secondHand": 860
+  },
+  {
+    "year": 2018,
+    "county": "Tipperary",
+    "new": 91,
+    "secondHand": 1517
+  },
+  {
+    "year": 2018,
+    "county": "Waterford",
+    "new": 269,
+    "secondHand": 1330
+  },
+  {
+    "year": 2018,
+    "county": "Westmeath",
+    "new": 65,
+    "secondHand": 971
+  },
+  {
+    "year": 2018,
+    "county": "Wexford",
+    "new": 171,
+    "secondHand": 1645
+  },
+  {
+    "year": 2018,
+    "county": "Wicklow",
+    "new": 398,
+    "secondHand": 1226
+  },
+  {
+    "year": 2019,
+    "county": "Carlow",
+    "new": 120,
+    "secondHand": 557
+  },
+  {
+    "year": 2019,
+    "county": "Cavan",
+    "new": 62,
+    "secondHand": 770
+  },
+  {
+    "year": 2019,
+    "county": "Clare",
+    "new": 94,
+    "secondHand": 1147
+  },
+  {
+    "year": 2019,
+    "county": "Cork",
+    "new": 1246,
+    "secondHand": 5331
+  },
+  {
+    "year": 2019,
+    "county": "Donegal",
+    "new": 126,
+    "secondHand": 1428
+  },
+  {
+    "year": 2019,
+    "county": "Dublin",
+    "new": 4073,
+    "secondHand": 14387
+  },
+  {
+    "year": 2019,
+    "county": "Galway",
+    "new": 301,
+    "secondHand": 2476
+  },
+  {
+    "year": 2019,
+    "county": "Kerry",
+    "new": 168,
+    "secondHand": 1433
+  },
+  {
+    "year": 2019,
+    "county": "Kildare",
+    "new": 1326,
+    "secondHand": 2173
+  },
+  {
+    "year": 2019,
+    "county": "Kilkenny",
+    "new": 57,
+    "secondHand": 876
+  },
+  {
+    "year": 2019,
+    "county": "Laoighis",
+    "new": 87,
+    "secondHand": 824
+  },
+  {
+    "year": 2019,
+    "county": "Leitrim",
+    "new": 39,
+    "secondHand": 425
+  },
+  {
+    "year": 2019,
+    "county": "Limerick",
+    "new": 264,
+    "secondHand": 1914
+  },
+  {
+    "year": 2019,
+    "county": "Longford",
+    "new": 19,
+    "secondHand": 436
+  },
+  {
+    "year": 2019,
+    "county": "Louth",
+    "new": 535,
+    "secondHand": 1195
+  },
+  {
+    "year": 2019,
+    "county": "Mayo",
+    "new": 98,
+    "secondHand": 1221
+  },
+  {
+    "year": 2019,
+    "county": "Meath",
+    "new": 1096,
+    "secondHand": 1605
+  },
+  {
+    "year": 2019,
+    "county": "Monaghan",
+    "new": 25,
+    "secondHand": 366
+  },
+  {
+    "year": 2019,
+    "county": "Offaly",
+    "new": 50,
+    "secondHand": 656
+  },
+  {
+    "year": 2019,
+    "county": "Roscommon",
+    "new": 49,
+    "secondHand": 768
+  },
+  {
+    "year": 2019,
+    "county": "Sligo",
+    "new": 111,
+    "secondHand": 759
+  },
+  {
+    "year": 2019,
+    "county": "Tipperary",
+    "new": 143,
+    "secondHand": 1523
+  },
+  {
+    "year": 2019,
+    "county": "Waterford",
+    "new": 229,
+    "secondHand": 1352
+  },
+  {
+    "year": 2019,
+    "county": "Westmeath",
+    "new": 82,
+    "secondHand": 1103
+  },
+  {
+    "year": 2019,
+    "county": "Wexford",
+    "new": 315,
+    "secondHand": 1636
+  },
+  {
+    "year": 2019,
+    "county": "Wicklow",
+    "new": 645,
+    "secondHand": 1336
+  },
+  {
+    "year": 2020,
+    "county": "Carlow",
+    "new": 49,
+    "secondHand": 475
+  },
+  {
+    "year": 2020,
+    "county": "Cavan",
+    "new": 78,
+    "secondHand": 643
+  },
+  {
+    "year": 2020,
+    "county": "Clare",
+    "new": 101,
+    "secondHand": 1002
+  },
+  {
+    "year": 2020,
+    "county": "Cork",
+    "new": 1210,
+    "secondHand": 4295
+  },
+  {
+    "year": 2020,
+    "county": "Donegal",
+    "new": 120,
+    "secondHand": 1261
+  },
+  {
+    "year": 2020,
+    "county": "Dublin",
+    "new": 3126,
+    "secondHand": 11658
+  },
+  {
+    "year": 2020,
+    "county": "Galway",
+    "new": 404,
+    "secondHand": 1966
+  },
+  {
+    "year": 2020,
+    "county": "Kerry",
+    "new": 105,
+    "secondHand": 1270
+  },
+  {
+    "year": 2020,
+    "county": "Kildare",
+    "new": 1111,
+    "secondHand": 1739
+  },
+  {
+    "year": 2020,
+    "county": "Kilkenny",
+    "new": 63,
+    "secondHand": 681
+  },
+  {
+    "year": 2020,
+    "county": "Laoighis",
+    "new": 130,
+    "secondHand": 617
+  },
+  {
+    "year": 2020,
+    "county": "Leitrim",
+    "new": 33,
+    "secondHand": 412
+  },
+  {
+    "year": 2020,
+    "county": "Limerick",
+    "new": 281,
+    "secondHand": 1604
+  },
+  {
+    "year": 2020,
+    "county": "Longford",
+    "new": 15,
+    "secondHand": 385
+  },
+  {
+    "year": 2020,
+    "county": "Louth",
+    "new": 276,
+    "secondHand": 1091
+  },
+  {
+    "year": 2020,
+    "county": "Mayo",
+    "new": 123,
+    "secondHand": 1126
+  },
+  {
+    "year": 2020,
+    "county": "Meath",
+    "new": 846,
+    "secondHand": 1461
+  },
+  {
+    "year": 2020,
+    "county": "Monaghan",
+    "new": 30,
+    "secondHand": 343
+  },
+  {
+    "year": 2020,
+    "county": "Offaly",
+    "new": 52,
+    "secondHand": 589
+  },
+  {
+    "year": 2020,
+    "county": "Roscommon",
+    "new": 46,
+    "secondHand": 694
+  },
+  {
+    "year": 2020,
+    "county": "Sligo",
+    "new": 30,
+    "secondHand": 645
+  },
+  {
+    "year": 2020,
+    "county": "Tipperary",
+    "new": 107,
+    "secondHand": 1308
+  },
+  {
+    "year": 2020,
+    "county": "Waterford",
+    "new": 226,
+    "secondHand": 1181
+  },
+  {
+    "year": 2020,
+    "county": "Westmeath",
+    "new": 95,
+    "secondHand": 857
+  },
+  {
+    "year": 2020,
+    "county": "Wexford",
+    "new": 317,
+    "secondHand": 1532
+  },
+  {
+    "year": 2020,
+    "county": "Wicklow",
+    "new": 473,
+    "secondHand": 1266
+  },
+  {
+    "year": 2021,
+    "county": "Carlow",
+    "new": 107,
+    "secondHand": 606
+  },
+  {
+    "year": 2021,
+    "county": "Cavan",
+    "new": 61,
+    "secondHand": 844
+  },
+  {
+    "year": 2021,
+    "county": "Clare",
+    "new": 99,
+    "secondHand": 1303
+  },
+  {
+    "year": 2021,
+    "county": "Cork",
+    "new": 1165,
+    "secondHand": 5303
+  },
+  {
+    "year": 2021,
+    "county": "Donegal",
+    "new": 128,
+    "secondHand": 1573
+  },
+  {
+    "year": 2021,
+    "county": "Dublin",
+    "new": 2438,
+    "secondHand": 14660
+  },
+  {
+    "year": 2021,
+    "county": "Galway",
+    "new": 378,
+    "secondHand": 2441
+  },
+  {
+    "year": 2021,
+    "county": "Kerry",
+    "new": 116,
+    "secondHand": 1547
+  },
+  {
+    "year": 2021,
+    "county": "Kildare",
+    "new": 1402,
+    "secondHand": 2105
+  },
+  {
+    "year": 2021,
+    "county": "Kilkenny",
+    "new": 108,
+    "secondHand": 860
+  },
+  {
+    "year": 2021,
+    "county": "Laoighis",
+    "new": 214,
+    "secondHand": 865
+  },
+  {
+    "year": 2021,
+    "county": "Leitrim",
+    "new": 46,
+    "secondHand": 511
+  },
+  {
+    "year": 2021,
+    "county": "Limerick",
+    "new": 181,
+    "secondHand": 2007
+  },
+  {
+    "year": 2021,
+    "county": "Longford",
+    "new": 20,
+    "secondHand": 592
+  },
+  {
+    "year": 2021,
+    "county": "Louth",
+    "new": 432,
+    "secondHand": 1270
+  },
+  {
+    "year": 2021,
+    "county": "Mayo",
+    "new": 144,
+    "secondHand": 1436
+  },
+  {
+    "year": 2021,
+    "county": "Meath",
+    "new": 894,
+    "secondHand": 1717
+  },
+  {
+    "year": 2021,
+    "county": "Monaghan",
+    "new": 74,
+    "secondHand": 388
+  },
+  {
+    "year": 2021,
+    "county": "Offaly",
+    "new": 106,
+    "secondHand": 702
+  },
+  {
+    "year": 2021,
+    "county": "Roscommon",
+    "new": 54,
+    "secondHand": 880
+  },
+  {
+    "year": 2021,
+    "county": "Sligo",
+    "new": 118,
+    "secondHand": 836
+  },
+  {
+    "year": 2021,
+    "county": "Tipperary",
+    "new": 62,
+    "secondHand": 1588
+  },
+  {
+    "year": 2021,
+    "county": "Waterford",
+    "new": 219,
+    "secondHand": 1540
+  },
+  {
+    "year": 2021,
+    "county": "Westmeath",
+    "new": 131,
+    "secondHand": 996
+  },
+  {
+    "year": 2021,
+    "county": "Wexford",
+    "new": 279,
+    "secondHand": 1890
+  },
+  {
+    "year": 2021,
+    "county": "Wicklow",
+    "new": 595,
+    "secondHand": 1552
+  },
+  {
+    "year": 2022,
+    "county": "Carlow",
+    "new": 97,
+    "secondHand": 626
+  },
+  {
+    "year": 2022,
+    "county": "Cavan",
+    "new": 45,
+    "secondHand": 867
+  },
+  {
+    "year": 2022,
+    "county": "Clare",
+    "new": 123,
+    "secondHand": 1276
+  },
+  {
+    "year": 2022,
+    "county": "Cork",
+    "new": 1261,
+    "secondHand": 5388
+  },
+  {
+    "year": 2022,
+    "county": "Donegal",
+    "new": 167,
+    "secondHand": 1464
+  },
+  {
+    "year": 2022,
+    "county": "Dublin",
+    "new": 2952,
+    "secondHand": 15532
+  },
+  {
+    "year": 2022,
+    "county": "Galway",
+    "new": 337,
+    "secondHand": 2489
+  },
+  {
+    "year": 2022,
+    "county": "Kerry",
+    "new": 153,
+    "secondHand": 1590
+  },
+  {
+    "year": 2022,
+    "county": "Kildare",
+    "new": 1617,
+    "secondHand": 2342
+  },
+  {
+    "year": 2022,
+    "county": "Kilkenny",
+    "new": 94,
+    "secondHand": 868
+  },
+  {
+    "year": 2022,
+    "county": "Laoighis",
+    "new": 122,
+    "secondHand": 901
+  },
+  {
+    "year": 2022,
+    "county": "Leitrim",
+    "new": 28,
+    "secondHand": 544
+  },
+  {
+    "year": 2022,
+    "county": "Limerick",
+    "new": 272,
+    "secondHand": 2029
+  },
+  {
+    "year": 2022,
+    "county": "Longford",
+    "new": 17,
+    "secondHand": 532
+  },
+  {
+    "year": 2022,
+    "county": "Louth",
+    "new": 469,
+    "secondHand": 1363
+  },
+  {
+    "year": 2022,
+    "county": "Mayo",
+    "new": 133,
+    "secondHand": 1429
+  },
+  {
+    "year": 2022,
+    "county": "Meath",
+    "new": 940,
+    "secondHand": 1885
+  },
+  {
+    "year": 2022,
+    "county": "Monaghan",
+    "new": 55,
+    "secondHand": 492
+  },
+  {
+    "year": 2022,
+    "county": "Offaly",
+    "new": 198,
+    "secondHand": 734
+  },
+  {
+    "year": 2022,
+    "county": "Roscommon",
+    "new": 44,
+    "secondHand": 896
+  },
+  {
+    "year": 2022,
+    "county": "Sligo",
+    "new": 125,
+    "secondHand": 865
+  },
+  {
+    "year": 2022,
+    "county": "Tipperary",
+    "new": 83,
+    "secondHand": 1651
+  },
+  {
+    "year": 2022,
+    "county": "Waterford",
+    "new": 329,
+    "secondHand": 1569
+  },
+  {
+    "year": 2022,
+    "county": "Westmeath",
+    "new": 148,
+    "secondHand": 1052
+  },
+  {
+    "year": 2022,
+    "county": "Wexford",
+    "new": 469,
+    "secondHand": 1891
+  },
+  {
+    "year": 2022,
+    "county": "Wicklow",
+    "new": 725,
+    "secondHand": 1448
+  },
+  {
+    "year": 2023,
+    "county": "Carlow",
+    "new": 90,
+    "secondHand": 623
+  },
+  {
+    "year": 2023,
+    "county": "Cavan",
+    "new": 43,
+    "secondHand": 816
+  },
+  {
+    "year": 2023,
+    "county": "Clare",
+    "new": 81,
+    "secondHand": 1257
+  },
+  {
+    "year": 2023,
+    "county": "Cork",
+    "new": 1684,
+    "secondHand": 5475
+  },
+  {
+    "year": 2023,
+    "county": "Donegal",
+    "new": 160,
+    "secondHand": 1358
+  },
+  {
+    "year": 2023,
+    "county": "Dublin",
+    "new": 2999,
+    "secondHand": 15884
+  },
+  {
+    "year": 2023,
+    "county": "Galway",
+    "new": 450,
+    "secondHand": 2460
+  },
+  {
+    "year": 2023,
+    "county": "Kerry",
+    "new": 124,
+    "secondHand": 1423
+  },
+  {
+    "year": 2023,
+    "county": "Kildare",
+    "new": 1893,
+    "secondHand": 2314
+  },
+  {
+    "year": 2023,
+    "county": "Kilkenny",
+    "new": 240,
+    "secondHand": 785
+  },
+  {
+    "year": 2023,
+    "county": "Laoighis",
+    "new": 296,
+    "secondHand": 928
+  },
+  {
+    "year": 2023,
+    "county": "Leitrim",
+    "new": 15,
+    "secondHand": 518
+  },
+  {
+    "year": 2023,
+    "county": "Limerick",
+    "new": 266,
+    "secondHand": 1961
+  },
+  {
+    "year": 2023,
+    "county": "Longford",
+    "new": 22,
+    "secondHand": 473
+  },
+  {
+    "year": 2023,
+    "county": "Louth",
+    "new": 461,
+    "secondHand": 1340
+  },
+  {
+    "year": 2023,
+    "county": "Mayo",
+    "new": 118,
+    "secondHand": 1384
+  },
+  {
+    "year": 2023,
+    "county": "Meath",
+    "new": 905,
+    "secondHand": 1866
+  },
+  {
+    "year": 2023,
+    "county": "Monaghan",
+    "new": 62,
+    "secondHand": 478
+  },
+  {
+    "year": 2023,
+    "county": "Offaly",
+    "new": 133,
+    "secondHand": 745
+  },
+  {
+    "year": 2023,
+    "county": "Roscommon",
+    "new": 88,
+    "secondHand": 808
+  },
+  {
+    "year": 2023,
+    "county": "Sligo",
+    "new": 63,
+    "secondHand": 807
+  },
+  {
+    "year": 2023,
+    "county": "Tipperary",
+    "new": 109,
+    "secondHand": 1608
+  },
+  {
+    "year": 2023,
+    "county": "Waterford",
+    "new": 325,
+    "secondHand": 1459
+  },
+  {
+    "year": 2023,
+    "county": "Westmeath",
+    "new": 226,
+    "secondHand": 1071
+  },
+  {
+    "year": 2023,
+    "county": "Wexford",
+    "new": 395,
+    "secondHand": 1861
+  },
+  {
+    "year": 2023,
+    "county": "Wicklow",
+    "new": 863,
+    "secondHand": 1509
+  },
+  {
+    "year": 2024,
+    "county": "Carlow",
+    "new": 104,
+    "secondHand": 562
+  },
+  {
+    "year": 2024,
+    "county": "Cavan",
+    "new": 69,
+    "secondHand": 761
+  },
+  {
+    "year": 2024,
+    "county": "Clare",
+    "new": 174,
+    "secondHand": 1094
+  },
+  {
+    "year": 2024,
+    "county": "Cork",
+    "new": 1982,
+    "secondHand": 5073
+  },
+  {
+    "year": 2024,
+    "county": "Donegal",
+    "new": 133,
+    "secondHand": 1384
+  },
+  {
+    "year": 2024,
+    "county": "Dublin",
+    "new": 3833,
+    "secondHand": 15437
+  },
+  {
+    "year": 2024,
+    "county": "Galway",
+    "new": 324,
+    "secondHand": 2334
+  },
+  {
+    "year": 2024,
+    "county": "Kerry",
+    "new": 70,
+    "secondHand": 1398
+  },
+  {
+    "year": 2024,
+    "county": "Kildare",
+    "new": 1246,
+    "secondHand": 2137
+  },
+  {
+    "year": 2024,
+    "county": "Kilkenny",
+    "new": 265,
+    "secondHand": 790
+  },
+  {
+    "year": 2024,
+    "county": "Laoighis",
+    "new": 390,
+    "secondHand": 831
+  },
+  {
+    "year": 2024,
+    "county": "Leitrim",
+    "new": 15,
+    "secondHand": 477
+  },
+  {
+    "year": 2024,
+    "county": "Limerick",
+    "new": 315,
+    "secondHand": 1794
+  },
+  {
+    "year": 2024,
+    "county": "Longford",
+    "new": 8,
+    "secondHand": 470
+  },
+  {
+    "year": 2024,
+    "county": "Louth",
+    "new": 519,
+    "secondHand": 1245
+  },
+  {
+    "year": 2024,
+    "county": "Mayo",
+    "new": 100,
+    "secondHand": 1310
+  },
+  {
+    "year": 2024,
+    "county": "Meath",
+    "new": 807,
+    "secondHand": 1795
+  },
+  {
+    "year": 2024,
+    "county": "Monaghan",
+    "new": 38,
+    "secondHand": 419
+  },
+  {
+    "year": 2024,
+    "county": "Offaly",
+    "new": 187,
+    "secondHand": 686
+  },
+  {
+    "year": 2024,
+    "county": "Roscommon",
+    "new": 53,
+    "secondHand": 748
+  },
+  {
+    "year": 2024,
+    "county": "Sligo",
+    "new": 70,
+    "secondHand": 676
+  },
+  {
+    "year": 2024,
+    "county": "Tipperary",
+    "new": 116,
+    "secondHand": 1477
+  },
+  {
+    "year": 2024,
+    "county": "Waterford",
+    "new": 385,
+    "secondHand": 1382
+  },
+  {
+    "year": 2024,
+    "county": "Westmeath",
+    "new": 238,
+    "secondHand": 917
+  },
+  {
+    "year": 2024,
+    "county": "Wexford",
+    "new": 494,
+    "secondHand": 1730
+  },
+  {
+    "year": 2024,
+    "county": "Wicklow",
+    "new": 1001,
+    "secondHand": 1592
+  },
+  {
+    "year": 2025,
+    "county": "Carlow",
+    "new": 35,
+    "secondHand": 458
+  },
+  {
+    "year": 2025,
+    "county": "Cavan",
+    "new": 53,
+    "secondHand": 552
+  },
+  {
+    "year": 2025,
+    "county": "Clare",
+    "new": 102,
+    "secondHand": 890
+  },
+  {
+    "year": 2025,
+    "county": "Cork",
+    "new": 1555,
+    "secondHand": 3893
+  },
+  {
+    "year": 2025,
+    "county": "Donegal",
+    "new": 93,
+    "secondHand": 1027
+  },
+  {
+    "year": 2025,
+    "county": "Dublin",
+    "new": 2672,
+    "secondHand": 12018
+  },
+  {
+    "year": 2025,
+    "county": "Galway",
+    "new": 442,
+    "secondHand": 1694
+  },
+  {
+    "year": 2025,
+    "county": "Kerry",
+    "new": 52,
+    "secondHand": 958
+  },
+  {
+    "year": 2025,
+    "county": "Kildare",
+    "new": 924,
+    "secondHand": 1579
+  },
+  {
+    "year": 2025,
+    "county": "Kilkenny",
+    "new": 231,
+    "secondHand": 596
+  },
+  {
+    "year": 2025,
+    "county": "Laoighis",
+    "new": 349,
+    "secondHand": 585
+  },
+  {
+    "year": 2025,
+    "county": "Leitrim",
+    "new": 23,
+    "secondHand": 315
+  },
+  {
+    "year": 2025,
+    "county": "Limerick",
+    "new": 355,
+    "secondHand": 1367
+  },
+  {
+    "year": 2025,
+    "county": "Longford",
+    "new": 9,
+    "secondHand": 394
+  },
+  {
+    "year": 2025,
+    "county": "Louth",
+    "new": 547,
+    "secondHand": 954
+  },
+  {
+    "year": 2025,
+    "county": "Mayo",
+    "new": 71,
+    "secondHand": 1057
+  },
+  {
+    "year": 2025,
+    "county": "Meath",
+    "new": 661,
+    "secondHand": 1418
+  },
+  {
+    "year": 2025,
+    "county": "Monaghan",
+    "new": 41,
+    "secondHand": 323
+  },
+  {
+    "year": 2025,
+    "county": "Offaly",
+    "new": 76,
+    "secondHand": 520
+  },
+  {
+    "year": 2025,
+    "county": "Roscommon",
+    "new": 29,
+    "secondHand": 537
+  },
+  {
+    "year": 2025,
+    "county": "Sligo",
+    "new": 94,
+    "secondHand": 535
+  },
+  {
+    "year": 2025,
+    "county": "Tipperary",
+    "new": 172,
+    "secondHand": 985
+  },
+  {
+    "year": 2025,
+    "county": "Waterford",
+    "new": 278,
+    "secondHand": 968
+  },
+  {
+    "year": 2025,
+    "county": "Westmeath",
+    "new": 201,
+    "secondHand": 714
+  },
+  {
+    "year": 2025,
+    "county": "Wexford",
+    "new": 315,
+    "secondHand": 1338
+  },
+  {
+    "year": 2025,
+    "county": "Wicklow",
+    "new": 598,
+    "secondHand": 1136
+  }
+]

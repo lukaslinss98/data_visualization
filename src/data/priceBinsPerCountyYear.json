@@ -1,0 +1,9986 @@
+[
+  {
+    "year": 2010,
+    "county": "Dublin",
+    "priceBinsNew": [
+      38,
+      505,
+      545,
+      169,
+      19,
+      33,
+      15,
+      9
+    ],
+    "priceBinsSecondHand": [
+      167,
+      1106,
+      1890,
+      1113,
+      565,
+      497,
+      133,
+      102
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Laoighis",
+    "priceBinsNew": [
+      6,
+      57,
+      23,
+      6,
+      0,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      72,
+      110,
+      37,
+      14,
+      1,
+      4,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Meath",
+    "priceBinsNew": [
+      20,
+      135,
+      90,
+      22,
+      8,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      51,
+      217,
+      190,
+      74,
+      28,
+      13,
+      5,
+      2
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Kilkenny",
+    "priceBinsNew": [
+      1,
+      30,
+      22,
+      9,
+      1,
+      0,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      55,
+      140,
+      57,
+      16,
+      2,
+      6,
+      0,
+      2
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Limerick",
+    "priceBinsNew": [
+      11,
+      117,
+      46,
+      7,
+      4,
+      1,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      123,
+      240,
+      151,
+      32,
+      14,
+      9,
+      1,
+      2
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Carlow",
+    "priceBinsNew": [
+      15,
+      64,
+      11,
+      2,
+      0,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      28,
+      68,
+      34,
+      3,
+      3,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Cork",
+    "priceBinsNew": [
+      21,
+      174,
+      230,
+      65,
+      24,
+      9,
+      2,
+      0
+    ],
+    "priceBinsSecondHand": [
+      281,
+      585,
+      574,
+      183,
+      50,
+      47,
+      18,
+      6
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Clare",
+    "priceBinsNew": [
+      15,
+      55,
+      32,
+      7,
+      2,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      94,
+      199,
+      70,
+      23,
+      6,
+      2,
+      0,
+      2
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Sligo",
+    "priceBinsNew": [
+      18,
+      70,
+      20,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      59,
+      99,
+      36,
+      6,
+      6,
+      3,
+      1,
+      1
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Cavan",
+    "priceBinsNew": [
+      27,
+      103,
+      20,
+      4,
+      1,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      63,
+      63,
+      19,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Tipperary",
+    "priceBinsNew": [
+      4,
+      90,
+      32,
+      5,
+      1,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      125,
+      199,
+      78,
+      14,
+      5,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Wicklow",
+    "priceBinsNew": [
+      8,
+      70,
+      89,
+      29,
+      8,
+      10,
+      2,
+      0
+    ],
+    "priceBinsSecondHand": [
+      34,
+      111,
+      165,
+      95,
+      49,
+      28,
+      13,
+      7
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Roscommon",
+    "priceBinsNew": [
+      14,
+      59,
+      18,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      94,
+      75,
+      18,
+      3,
+      2,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Wexford",
+    "priceBinsNew": [
+      10,
+      137,
+      48,
+      6,
+      1,
+      4,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      114,
+      249,
+      117,
+      32,
+      7,
+      4,
+      0,
+      2
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Mayo",
+    "priceBinsNew": [
+      2,
+      65,
+      13,
+      1,
+      2,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      86,
+      188,
+      50,
+      12,
+      3,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Donegal",
+    "priceBinsNew": [
+      22,
+      123,
+      32,
+      7,
+      5,
+      1,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      163,
+      206,
+      55,
+      12,
+      4,
+      4,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Longford",
+    "priceBinsNew": [
+      15,
+      26,
+      8,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      37,
+      45,
+      9,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Galway",
+    "priceBinsNew": [
+      15,
+      148,
+      69,
+      22,
+      7,
+      3,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      95,
+      220,
+      249,
+      69,
+      26,
+      20,
+      3,
+      3
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Offaly",
+    "priceBinsNew": [
+      12,
+      39,
+      9,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      50,
+      87,
+      32,
+      7,
+      3,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Kildare",
+    "priceBinsNew": [
+      16,
+      195,
+      133,
+      35,
+      7,
+      7,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      48,
+      173,
+      273,
+      100,
+      33,
+      25,
+      2,
+      0
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Waterford",
+    "priceBinsNew": [
+      10,
+      51,
+      31,
+      10,
+      2,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      97,
+      149,
+      72,
+      22,
+      9,
+      4,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Louth",
+    "priceBinsNew": [
+      8,
+      61,
+      44,
+      27,
+      3,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      81,
+      187,
+      97,
+      17,
+      9,
+      3,
+      1,
+      1
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Kerry",
+    "priceBinsNew": [
+      5,
+      88,
+      43,
+      11,
+      0,
+      0,
+      1,
+      1
+    ],
+    "priceBinsSecondHand": [
+      107,
+      207,
+      123,
+      24,
+      11,
+      7,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Westmeath",
+    "priceBinsNew": [
+      32,
+      83,
+      11,
+      3,
+      2,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      70,
+      150,
+      37,
+      13,
+      6,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Monaghan",
+    "priceBinsNew": [
+      3,
+      66,
+      12,
+      2,
+      0,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      49,
+      66,
+      14,
+      7,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2010,
+    "county": "Leitrim",
+    "priceBinsNew": [
+      12,
+      39,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      40,
+      37,
+      9,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Dublin",
+    "priceBinsNew": [
+      25,
+      368,
+      187,
+      45,
+      21,
+      22,
+      5,
+      9
+    ],
+    "priceBinsSecondHand": [
+      369,
+      1500,
+      1485,
+      795,
+      411,
+      417,
+      132,
+      90
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Galway",
+    "priceBinsNew": [
+      26,
+      111,
+      25,
+      7,
+      1,
+      5,
+      2,
+      1
+    ],
+    "priceBinsSecondHand": [
+      196,
+      318,
+      164,
+      56,
+      16,
+      17,
+      7,
+      3
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Wexford",
+    "priceBinsNew": [
+      13,
+      63,
+      19,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      207,
+      222,
+      78,
+      17,
+      4,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Clare",
+    "priceBinsNew": [
+      10,
+      27,
+      12,
+      1,
+      2,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      130,
+      164,
+      57,
+      19,
+      5,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Waterford",
+    "priceBinsNew": [
+      26,
+      33,
+      8,
+      1,
+      2,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      166,
+      178,
+      56,
+      24,
+      8,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Cork",
+    "priceBinsNew": [
+      41,
+      153,
+      93,
+      26,
+      3,
+      3,
+      1,
+      2
+    ],
+    "priceBinsSecondHand": [
+      402,
+      692,
+      442,
+      143,
+      54,
+      40,
+      7,
+      5
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Offaly",
+    "priceBinsNew": [
+      15,
+      19,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      80,
+      67,
+      18,
+      4,
+      0,
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Donegal",
+    "priceBinsNew": [
+      16,
+      56,
+      18,
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      218,
+      175,
+      33,
+      11,
+      0,
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Kerry",
+    "priceBinsNew": [
+      7,
+      44,
+      25,
+      3,
+      2,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      168,
+      202,
+      85,
+      24,
+      7,
+      2,
+      2,
+      1
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Wicklow",
+    "priceBinsNew": [
+      5,
+      37,
+      24,
+      8,
+      1,
+      3,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      75,
+      156,
+      132,
+      73,
+      21,
+      31,
+      9,
+      1
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Kildare",
+    "priceBinsNew": [
+      13,
+      66,
+      77,
+      9,
+      2,
+      2,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      96,
+      240,
+      171,
+      71,
+      25,
+      14,
+      7,
+      4
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Carlow",
+    "priceBinsNew": [
+      17,
+      18,
+      11,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      52,
+      66,
+      11,
+      5,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Tipperary",
+    "priceBinsNew": [
+      18,
+      44,
+      20,
+      4,
+      3,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      173,
+      165,
+      52,
+      14,
+      0,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Louth",
+    "priceBinsNew": [
+      11,
+      56,
+      12,
+      3,
+      0,
+      0,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      134,
+      166,
+      51,
+      17,
+      6,
+      3,
+      1,
+      1
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Sligo",
+    "priceBinsNew": [
+      16,
+      21,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      87,
+      73,
+      23,
+      4,
+      2,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Laoighis",
+    "priceBinsNew": [
+      34,
+      58,
+      3,
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      110,
+      90,
+      21,
+      3,
+      2,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Limerick",
+    "priceBinsNew": [
+      24,
+      49,
+      27,
+      4,
+      2,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      176,
+      275,
+      124,
+      30,
+      7,
+      8,
+      2,
+      1
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Mayo",
+    "priceBinsNew": [
+      23,
+      25,
+      13,
+      4,
+      1,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      178,
+      153,
+      45,
+      9,
+      5,
+      4,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Meath",
+    "priceBinsNew": [
+      16,
+      73,
+      32,
+      14,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      93,
+      199,
+      114,
+      55,
+      12,
+      8,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Roscommon",
+    "priceBinsNew": [
+      13,
+      26,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      114,
+      65,
+      9,
+      2,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Cavan",
+    "priceBinsNew": [
+      27,
+      49,
+      5,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      92,
+      72,
+      17,
+      9,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Kilkenny",
+    "priceBinsNew": [
+      15,
+      32,
+      9,
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      96,
+      133,
+      39,
+      12,
+      6,
+      4,
+      3,
+      2
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Longford",
+    "priceBinsNew": [
+      22,
+      12,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      70,
+      26,
+      5,
+      3,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Leitrim",
+    "priceBinsNew": [
+      19,
+      32,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      67,
+      54,
+      4,
+      1,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Westmeath",
+    "priceBinsNew": [
+      40,
+      49,
+      8,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      107,
+      117,
+      34,
+      4,
+      4,
+      4,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2011,
+    "county": "Monaghan",
+    "priceBinsNew": [
+      12,
+      24,
+      9,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      55,
+      36,
+      8,
+      2,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Dublin",
+    "priceBinsNew": [
+      101,
+      467,
+      273,
+      57,
+      26,
+      28,
+      8,
+      7
+    ],
+    "priceBinsSecondHand": [
+      1038,
+      2826,
+      1765,
+      984,
+      506,
+      522,
+      169,
+      100
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Wexford",
+    "priceBinsNew": [
+      39,
+      47,
+      13,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      408,
+      330,
+      85,
+      17,
+      6,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Kilkenny",
+    "priceBinsNew": [
+      36,
+      31,
+      19,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      153,
+      161,
+      44,
+      12,
+      6,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Kerry",
+    "priceBinsNew": [
+      14,
+      59,
+      18,
+      3,
+      4,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      272,
+      272,
+      87,
+      27,
+      2,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Clare",
+    "priceBinsNew": [
+      13,
+      24,
+      11,
+      3,
+      0,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      242,
+      207,
+      59,
+      15,
+      2,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Kildare",
+    "priceBinsNew": [
+      20,
+      64,
+      51,
+      20,
+      2,
+      2,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      186,
+      405,
+      206,
+      75,
+      16,
+      12,
+      1,
+      2
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Sligo",
+    "priceBinsNew": [
+      29,
+      21,
+      6,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      182,
+      101,
+      25,
+      6,
+      3,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Tipperary",
+    "priceBinsNew": [
+      9,
+      27,
+      6,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      317,
+      187,
+      45,
+      11,
+      3,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Louth",
+    "priceBinsNew": [
+      38,
+      65,
+      19,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      271,
+      196,
+      50,
+      19,
+      4,
+      4,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Cork",
+    "priceBinsNew": [
+      55,
+      151,
+      78,
+      21,
+      3,
+      4,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      732,
+      1016,
+      463,
+      150,
+      50,
+      26,
+      7,
+      4
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Galway",
+    "priceBinsNew": [
+      40,
+      64,
+      27,
+      2,
+      1,
+      3,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      302,
+      461,
+      190,
+      53,
+      10,
+      13,
+      1,
+      4
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Longford",
+    "priceBinsNew": [
+      30,
+      15,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      127,
+      32,
+      4,
+      2,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Mayo",
+    "priceBinsNew": [
+      31,
+      28,
+      2,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      292,
+      183,
+      45,
+      7,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Leitrim",
+    "priceBinsNew": [
+      45,
+      15,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      87,
+      49,
+      6,
+      2,
+      0,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Offaly",
+    "priceBinsNew": [
+      16,
+      17,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      127,
+      105,
+      23,
+      4,
+      1,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Donegal",
+    "priceBinsNew": [
+      41,
+      40,
+      7,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      359,
+      215,
+      27,
+      9,
+      3,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Monaghan",
+    "priceBinsNew": [
+      10,
+      14,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      92,
+      43,
+      11,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Wicklow",
+    "priceBinsNew": [
+      8,
+      55,
+      29,
+      7,
+      1,
+      3,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      131,
+      252,
+      150,
+      77,
+      29,
+      32,
+      8,
+      5
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Limerick",
+    "priceBinsNew": [
+      7,
+      31,
+      5,
+      4,
+      0,
+      0,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      320,
+      299,
+      123,
+      28,
+      16,
+      5,
+      1,
+      1
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Waterford",
+    "priceBinsNew": [
+      16,
+      35,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      283,
+      182,
+      48,
+      14,
+      5,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Meath",
+    "priceBinsNew": [
+      29,
+      82,
+      26,
+      3,
+      1,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      179,
+      282,
+      114,
+      57,
+      21,
+      11,
+      2,
+      2
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Roscommon",
+    "priceBinsNew": [
+      35,
+      23,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      212,
+      83,
+      6,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Westmeath",
+    "priceBinsNew": [
+      30,
+      33,
+      7,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      193,
+      137,
+      22,
+      6,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Laoighis",
+    "priceBinsNew": [
+      70,
+      39,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      209,
+      85,
+      21,
+      4,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Cavan",
+    "priceBinsNew": [
+      43,
+      26,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      151,
+      81,
+      19,
+      3,
+      0,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2012,
+    "county": "Carlow",
+    "priceBinsNew": [
+      25,
+      19,
+      2,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      116,
+      85,
+      17,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Roscommon",
+    "priceBinsNew": [
+      90,
+      16,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      307,
+      88,
+      14,
+      0,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Cavan",
+    "priceBinsNew": [
+      82,
+      28,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      274,
+      107,
+      13,
+      3,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Dublin",
+    "priceBinsNew": [
+      415,
+      451,
+      241,
+      93,
+      69,
+      42,
+      19,
+      3
+    ],
+    "priceBinsSecondHand": [
+      1256,
+      2693,
+      2022,
+      1194,
+      713,
+      791,
+      266,
+      182
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Mayo",
+    "priceBinsNew": [
+      37,
+      21,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      322,
+      184,
+      31,
+      11,
+      5,
+      4,
+      2,
+      0
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Clare",
+    "priceBinsNew": [
+      29,
+      28,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      324,
+      179,
+      55,
+      16,
+      3,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Limerick",
+    "priceBinsNew": [
+      24,
+      37,
+      8,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      387,
+      303,
+      112,
+      29,
+      8,
+      5,
+      2,
+      3
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Wexford",
+    "priceBinsNew": [
+      55,
+      35,
+      5,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      484,
+      333,
+      79,
+      17,
+      4,
+      5,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Kerry",
+    "priceBinsNew": [
+      41,
+      57,
+      16,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      377,
+      287,
+      69,
+      15,
+      11,
+      2,
+      3,
+      2
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Wicklow",
+    "priceBinsNew": [
+      20,
+      52,
+      27,
+      6,
+      0,
+      3,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      160,
+      328,
+      188,
+      102,
+      37,
+      36,
+      10,
+      16
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Kilkenny",
+    "priceBinsNew": [
+      33,
+      20,
+      10,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      189,
+      160,
+      39,
+      13,
+      6,
+      5,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Galway",
+    "priceBinsNew": [
+      84,
+      62,
+      10,
+      5,
+      2,
+      2,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      499,
+      593,
+      195,
+      66,
+      38,
+      20,
+      6,
+      3
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Sligo",
+    "priceBinsNew": [
+      41,
+      18,
+      14,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      208,
+      108,
+      24,
+      7,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Donegal",
+    "priceBinsNew": [
+      48,
+      31,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      459,
+      187,
+      27,
+      5,
+      4,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Cork",
+    "priceBinsNew": [
+      82,
+      193,
+      68,
+      22,
+      4,
+      3,
+      1,
+      1
+    ],
+    "priceBinsSecondHand": [
+      1033,
+      1123,
+      457,
+      139,
+      55,
+      51,
+      13,
+      6
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Leitrim",
+    "priceBinsNew": [
+      72,
+      10,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      208,
+      44,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Kildare",
+    "priceBinsNew": [
+      77,
+      104,
+      62,
+      22,
+      6,
+      5,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      206,
+      455,
+      245,
+      84,
+      41,
+      16,
+      5,
+      1
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Meath",
+    "priceBinsNew": [
+      19,
+      80,
+      30,
+      6,
+      3,
+      4,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      284,
+      340,
+      139,
+      69,
+      17,
+      10,
+      2,
+      0
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Monaghan",
+    "priceBinsNew": [
+      49,
+      19,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      121,
+      39,
+      11,
+      2,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Tipperary",
+    "priceBinsNew": [
+      30,
+      16,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      381,
+      228,
+      52,
+      16,
+      3,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Westmeath",
+    "priceBinsNew": [
+      44,
+      16,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      282,
+      144,
+      30,
+      11,
+      4,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Laoighis",
+    "priceBinsNew": [
+      48,
+      10,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      256,
+      70,
+      25,
+      4,
+      2,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Waterford",
+    "priceBinsNew": [
+      25,
+      39,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      374,
+      218,
+      57,
+      20,
+      7,
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Louth",
+    "priceBinsNew": [
+      35,
+      56,
+      3,
+      3,
+      0,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      334,
+      247,
+      56,
+      22,
+      5,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Longford",
+    "priceBinsNew": [
+      30,
+      7,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      179,
+      43,
+      4,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Carlow",
+    "priceBinsNew": [
+      36,
+      24,
+      3,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      184,
+      95,
+      22,
+      5,
+      2,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2013,
+    "county": "Offaly",
+    "priceBinsNew": [
+      38,
+      6,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      162,
+      95,
+      17,
+      4,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Limerick",
+    "priceBinsNew": [
+      67,
+      51,
+      13,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      824,
+      483,
+      133,
+      41,
+      13,
+      9,
+      3,
+      1
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Longford",
+    "priceBinsNew": [
+      67,
+      13,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      310,
+      48,
+      9,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Kildare",
+    "priceBinsNew": [
+      63,
+      91,
+      126,
+      45,
+      19,
+      19,
+      2,
+      2
+    ],
+    "priceBinsSecondHand": [
+      276,
+      516,
+      427,
+      186,
+      60,
+      42,
+      5,
+      4
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Dublin",
+    "priceBinsNew": [
+      96,
+      482,
+      581,
+      229,
+      103,
+      151,
+      27,
+      9
+    ],
+    "priceBinsSecondHand": [
+      872,
+      3728,
+      3025,
+      1844,
+      1046,
+      1162,
+      396,
+      320
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Laoighis",
+    "priceBinsNew": [
+      85,
+      30,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      336,
+      158,
+      32,
+      11,
+      1,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Sligo",
+    "priceBinsNew": [
+      54,
+      44,
+      11,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      332,
+      179,
+      63,
+      12,
+      4,
+      1,
+      3,
+      0
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Kilkenny",
+    "priceBinsNew": [
+      67,
+      39,
+      11,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      234,
+      226,
+      82,
+      19,
+      3,
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Cork",
+    "priceBinsNew": [
+      148,
+      202,
+      133,
+      33,
+      5,
+      4,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      1331,
+      1651,
+      721,
+      259,
+      85,
+      68,
+      16,
+      15
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Clare",
+    "priceBinsNew": [
+      40,
+      53,
+      5,
+      3,
+      0,
+      1,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      511,
+      312,
+      89,
+      25,
+      3,
+      1,
+      2,
+      1
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Galway",
+    "priceBinsNew": [
+      125,
+      95,
+      36,
+      5,
+      2,
+      3,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      752,
+      865,
+      361,
+      107,
+      47,
+      30,
+      4,
+      0
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Donegal",
+    "priceBinsNew": [
+      95,
+      58,
+      3,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      716,
+      276,
+      44,
+      9,
+      3,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Wexford",
+    "priceBinsNew": [
+      70,
+      82,
+      8,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      636,
+      544,
+      121,
+      24,
+      11,
+      5,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Mayo",
+    "priceBinsNew": [
+      78,
+      41,
+      5,
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      600,
+      274,
+      50,
+      7,
+      5,
+      2,
+      2,
+      0
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Leitrim",
+    "priceBinsNew": [
+      64,
+      13,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      239,
+      62,
+      9,
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Monaghan",
+    "priceBinsNew": [
+      45,
+      27,
+      2,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      173,
+      70,
+      21,
+      1,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Cavan",
+    "priceBinsNew": [
+      120,
+      30,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      509,
+      146,
+      25,
+      2,
+      1,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Meath",
+    "priceBinsNew": [
+      50,
+      87,
+      59,
+      21,
+      1,
+      2,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      348,
+      584,
+      293,
+      122,
+      51,
+      22,
+      3,
+      3
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Louth",
+    "priceBinsNew": [
+      74,
+      93,
+      15,
+      3,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      463,
+      390,
+      104,
+      31,
+      8,
+      7,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Tipperary",
+    "priceBinsNew": [
+      49,
+      21,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      491,
+      294,
+      72,
+      22,
+      6,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Kerry",
+    "priceBinsNew": [
+      61,
+      66,
+      8,
+      4,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      529,
+      401,
+      97,
+      38,
+      9,
+      3,
+      1,
+      1
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Westmeath",
+    "priceBinsNew": [
+      56,
+      48,
+      5,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      486,
+      285,
+      53,
+      10,
+      4,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Wicklow",
+    "priceBinsNew": [
+      28,
+      63,
+      47,
+      10,
+      1,
+      4,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      145,
+      384,
+      306,
+      165,
+      86,
+      68,
+      19,
+      11
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Carlow",
+    "priceBinsNew": [
+      28,
+      47,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      180,
+      144,
+      28,
+      5,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Waterford",
+    "priceBinsNew": [
+      39,
+      27,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      581,
+      328,
+      105,
+      30,
+      10,
+      6,
+      3,
+      1
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Offaly",
+    "priceBinsNew": [
+      32,
+      9,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      235,
+      173,
+      36,
+      14,
+      2,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2014,
+    "county": "Roscommon",
+    "priceBinsNew": [
+      67,
+      13,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      374,
+      97,
+      16,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Dublin",
+    "priceBinsNew": [
+      47,
+      633,
+      687,
+      296,
+      154,
+      279,
+      34,
+      28
+    ],
+    "priceBinsSecondHand": [
+      625,
+      3224,
+      3953,
+      2156,
+      1216,
+      1288,
+      435,
+      313
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Limerick",
+    "priceBinsNew": [
+      58,
+      55,
+      28,
+      4,
+      2,
+      1,
+      1,
+      1
+    ],
+    "priceBinsSecondHand": [
+      844,
+      659,
+      281,
+      61,
+      19,
+      9,
+      1,
+      4
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Wicklow",
+    "priceBinsNew": [
+      3,
+      41,
+      93,
+      35,
+      29,
+      11,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      152,
+      301,
+      354,
+      172,
+      96,
+      86,
+      24,
+      11
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Cork",
+    "priceBinsNew": [
+      136,
+      348,
+      164,
+      46,
+      14,
+      9,
+      1,
+      5
+    ],
+    "priceBinsSecondHand": [
+      1347,
+      1691,
+      1044,
+      345,
+      143,
+      89,
+      24,
+      16
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Clare",
+    "priceBinsNew": [
+      43,
+      48,
+      7,
+      3,
+      0,
+      3,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      554,
+      385,
+      109,
+      30,
+      7,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Galway",
+    "priceBinsNew": [
+      114,
+      93,
+      27,
+      5,
+      6,
+      2,
+      3,
+      1
+    ],
+    "priceBinsSecondHand": [
+      884,
+      950,
+      503,
+      137,
+      58,
+      27,
+      5,
+      18
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Kildare",
+    "priceBinsNew": [
+      28,
+      86,
+      207,
+      121,
+      17,
+      8,
+      2,
+      1
+    ],
+    "priceBinsSecondHand": [
+      287,
+      566,
+      593,
+      236,
+      94,
+      43,
+      6,
+      4
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Kerry",
+    "priceBinsNew": [
+      82,
+      70,
+      17,
+      6,
+      2,
+      4,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      542,
+      506,
+      144,
+      37,
+      6,
+      8,
+      3,
+      0
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Mayo",
+    "priceBinsNew": [
+      83,
+      45,
+      13,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      696,
+      352,
+      91,
+      22,
+      5,
+      7,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Waterford",
+    "priceBinsNew": [
+      18,
+      65,
+      3,
+      2,
+      0,
+      0,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      596,
+      403,
+      135,
+      38,
+      12,
+      10,
+      0,
+      1
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Cavan",
+    "priceBinsNew": [
+      89,
+      33,
+      3,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      467,
+      179,
+      32,
+      2,
+      2,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Carlow",
+    "priceBinsNew": [
+      29,
+      37,
+      12,
+      2,
+      2,
+      2,
+      2,
+      0
+    ],
+    "priceBinsSecondHand": [
+      197,
+      208,
+      31,
+      5,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Tipperary",
+    "priceBinsNew": [
+      29,
+      46,
+      10,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      615,
+      429,
+      113,
+      23,
+      6,
+      4,
+      0,
+      3
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Donegal",
+    "priceBinsNew": [
+      60,
+      59,
+      7,
+      2,
+      1,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      839,
+      428,
+      86,
+      19,
+      4,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Louth",
+    "priceBinsNew": [
+      55,
+      98,
+      12,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      421,
+      488,
+      149,
+      50,
+      11,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Westmeath",
+    "priceBinsNew": [
+      24,
+      19,
+      4,
+      2,
+      0,
+      0,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      465,
+      364,
+      70,
+      21,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Longford",
+    "priceBinsNew": [
+      81,
+      19,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      312,
+      63,
+      13,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Wexford",
+    "priceBinsNew": [
+      121,
+      93,
+      18,
+      2,
+      1,
+      0,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      582,
+      635,
+      163,
+      49,
+      9,
+      4,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Monaghan",
+    "priceBinsNew": [
+      25,
+      26,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      156,
+      112,
+      26,
+      3,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Meath",
+    "priceBinsNew": [
+      14,
+      68,
+      88,
+      38,
+      12,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      244,
+      608,
+      352,
+      140,
+      66,
+      20,
+      6,
+      3
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Sligo",
+    "priceBinsNew": [
+      44,
+      29,
+      2,
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      311,
+      194,
+      55,
+      26,
+      3,
+      1,
+      2,
+      1
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Roscommon",
+    "priceBinsNew": [
+      63,
+      11,
+      2,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      465,
+      149,
+      26,
+      3,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Offaly",
+    "priceBinsNew": [
+      43,
+      3,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      277,
+      210,
+      34,
+      8,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Laoighis",
+    "priceBinsNew": [
+      45,
+      39,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      270,
+      239,
+      47,
+      17,
+      7,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Kilkenny",
+    "priceBinsNew": [
+      35,
+      49,
+      6,
+      4,
+      0,
+      1,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      222,
+      308,
+      97,
+      25,
+      15,
+      9,
+      3,
+      4
+    ]
+  },
+  {
+    "year": 2015,
+    "county": "Leitrim",
+    "priceBinsNew": [
+      73,
+      13,
+      9,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      272,
+      101,
+      15,
+      2,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Dublin",
+    "priceBinsNew": [
+      15,
+      163,
+      890,
+      616,
+      393,
+      365,
+      54,
+      33
+    ],
+    "priceBinsSecondHand": [
+      417,
+      2884,
+      3774,
+      2342,
+      1343,
+      1469,
+      543,
+      390
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Limerick",
+    "priceBinsNew": [
+      44,
+      59,
+      73,
+      4,
+      1,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      783,
+      589,
+      272,
+      74,
+      19,
+      12,
+      3,
+      3
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Offaly",
+    "priceBinsNew": [
+      14,
+      10,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      304,
+      227,
+      53,
+      11,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Monaghan",
+    "priceBinsNew": [
+      4,
+      23,
+      6,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      202,
+      136,
+      36,
+      4,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Clare",
+    "priceBinsNew": [
+      50,
+      52,
+      6,
+      7,
+      0,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      424,
+      450,
+      138,
+      37,
+      9,
+      7,
+      1,
+      1
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Galway",
+    "priceBinsNew": [
+      78,
+      150,
+      67,
+      17,
+      1,
+      3,
+      1,
+      2
+    ],
+    "priceBinsSecondHand": [
+      643,
+      851,
+      499,
+      141,
+      67,
+      43,
+      8,
+      4
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Kildare",
+    "priceBinsNew": [
+      36,
+      67,
+      243,
+      149,
+      39,
+      13,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      231,
+      498,
+      641,
+      247,
+      90,
+      56,
+      14,
+      4
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Cork",
+    "priceBinsNew": [
+      128,
+      308,
+      330,
+      69,
+      26,
+      12,
+      3,
+      0
+    ],
+    "priceBinsSecondHand": [
+      1123,
+      1729,
+      1159,
+      446,
+      175,
+      119,
+      21,
+      16
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Waterford",
+    "priceBinsNew": [
+      17,
+      91,
+      14,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      610,
+      523,
+      145,
+      45,
+      10,
+      16,
+      3,
+      1
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Louth",
+    "priceBinsNew": [
+      4,
+      81,
+      42,
+      9,
+      0,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      302,
+      573,
+      155,
+      61,
+      16,
+      12,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Wexford",
+    "priceBinsNew": [
+      56,
+      82,
+      33,
+      3,
+      1,
+      0,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      466,
+      738,
+      190,
+      48,
+      10,
+      5,
+      0,
+      2
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Meath",
+    "priceBinsNew": [
+      29,
+      75,
+      222,
+      46,
+      14,
+      6,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      174,
+      538,
+      385,
+      136,
+      60,
+      28,
+      5,
+      4
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Kilkenny",
+    "priceBinsNew": [
+      12,
+      21,
+      5,
+      8,
+      2,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      163,
+      314,
+      128,
+      40,
+      18,
+      9,
+      1,
+      1
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Kerry",
+    "priceBinsNew": [
+      40,
+      72,
+      17,
+      9,
+      3,
+      4,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      548,
+      545,
+      179,
+      55,
+      13,
+      5,
+      2,
+      1
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Donegal",
+    "priceBinsNew": [
+      51,
+      71,
+      20,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      773,
+      445,
+      80,
+      17,
+      5,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Carlow",
+    "priceBinsNew": [
+      23,
+      31,
+      10,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      153,
+      247,
+      56,
+      10,
+      3,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Wicklow",
+    "priceBinsNew": [
+      6,
+      30,
+      110,
+      45,
+      46,
+      16,
+      1,
+      1
+    ],
+    "priceBinsSecondHand": [
+      88,
+      299,
+      354,
+      210,
+      102,
+      85,
+      36,
+      16
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Tipperary",
+    "priceBinsNew": [
+      37,
+      52,
+      10,
+      3,
+      0,
+      0,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      648,
+      457,
+      144,
+      20,
+      7,
+      11,
+      2,
+      2
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Laoighis",
+    "priceBinsNew": [
+      8,
+      111,
+      4,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      262,
+      321,
+      60,
+      14,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Leitrim",
+    "priceBinsNew": [
+      47,
+      19,
+      4,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      321,
+      98,
+      14,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Sligo",
+    "priceBinsNew": [
+      45,
+      31,
+      10,
+      4,
+      0,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      425,
+      184,
+      55,
+      23,
+      5,
+      2,
+      0,
+      2
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Cavan",
+    "priceBinsNew": [
+      47,
+      31,
+      2,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      422,
+      220,
+      45,
+      7,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Mayo",
+    "priceBinsNew": [
+      48,
+      35,
+      6,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      621,
+      395,
+      89,
+      21,
+      5,
+      7,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Longford",
+    "priceBinsNew": [
+      52,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      290,
+      89,
+      19,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Westmeath",
+    "priceBinsNew": [
+      18,
+      24,
+      9,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      405,
+      404,
+      98,
+      19,
+      10,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "year": 2016,
+    "county": "Roscommon",
+    "priceBinsNew": [
+      48,
+      17,
+      3,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      421,
+      154,
+      36,
+      2,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Dublin",
+    "priceBinsNew": [
+      18,
+      252,
+      1482,
+      1209,
+      424,
+      507,
+      138,
+      33
+    ],
+    "priceBinsSecondHand": [
+      423,
+      1947,
+      3842,
+      2906,
+      1655,
+      1831,
+      673,
+      493
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Kilkenny",
+    "priceBinsNew": [
+      17,
+      31,
+      5,
+      3,
+      0,
+      3,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      164,
+      343,
+      170,
+      39,
+      16,
+      8,
+      2,
+      2
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Donegal",
+    "priceBinsNew": [
+      35,
+      72,
+      24,
+      6,
+      0,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      612,
+      468,
+      91,
+      17,
+      5,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Wicklow",
+    "priceBinsNew": [
+      2,
+      35,
+      125,
+      72,
+      96,
+      32,
+      4,
+      0
+    ],
+    "priceBinsSecondHand": [
+      104,
+      245,
+      387,
+      273,
+      134,
+      116,
+      33,
+      13
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Kerry",
+    "priceBinsNew": [
+      21,
+      60,
+      31,
+      11,
+      7,
+      2,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      587,
+      619,
+      223,
+      60,
+      25,
+      15,
+      5,
+      1
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Louth",
+    "priceBinsNew": [
+      2,
+      91,
+      118,
+      9,
+      4,
+      9,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      228,
+      557,
+      217,
+      77,
+      13,
+      7,
+      3,
+      34
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Galway",
+    "priceBinsNew": [
+      83,
+      92,
+      102,
+      23,
+      2,
+      11,
+      1,
+      2
+    ],
+    "priceBinsSecondHand": [
+      530,
+      892,
+      647,
+      228,
+      98,
+      52,
+      14,
+      8
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Waterford",
+    "priceBinsNew": [
+      7,
+      83,
+      56,
+      2,
+      3,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      545,
+      408,
+      193,
+      61,
+      23,
+      11,
+      3,
+      0
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Cork",
+    "priceBinsNew": [
+      76,
+      287,
+      310,
+      173,
+      33,
+      19,
+      1,
+      2
+    ],
+    "priceBinsSecondHand": [
+      934,
+      1707,
+      1452,
+      521,
+      194,
+      124,
+      37,
+      17
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Kildare",
+    "priceBinsNew": [
+      49,
+      62,
+      349,
+      254,
+      53,
+      10,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      206,
+      589,
+      706,
+      350,
+      112,
+      86,
+      20,
+      5
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Laoighis",
+    "priceBinsNew": [
+      4,
+      56,
+      17,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      204,
+      383,
+      84,
+      23,
+      12,
+      5,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Sligo",
+    "priceBinsNew": [
+      45,
+      21,
+      15,
+      3,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      325,
+      250,
+      74,
+      31,
+      10,
+      5,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Limerick",
+    "priceBinsNew": [
+      13,
+      97,
+      92,
+      18,
+      5,
+      3,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      717,
+      659,
+      339,
+      95,
+      37,
+      17,
+      6,
+      2
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Meath",
+    "priceBinsNew": [
+      18,
+      60,
+      549,
+      137,
+      18,
+      12,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      176,
+      529,
+      526,
+      176,
+      95,
+      44,
+      13,
+      3
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Cavan",
+    "priceBinsNew": [
+      39,
+      33,
+      3,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      387,
+      278,
+      80,
+      18,
+      2,
+      0,
+      2,
+      0
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Westmeath",
+    "priceBinsNew": [
+      2,
+      25,
+      20,
+      3,
+      0,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      302,
+      453,
+      132,
+      35,
+      15,
+      5,
+      1,
+      4
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Roscommon",
+    "priceBinsNew": [
+      27,
+      28,
+      2,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      405,
+      217,
+      42,
+      8,
+      5,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Clare",
+    "priceBinsNew": [
+      61,
+      71,
+      20,
+      5,
+      1,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      407,
+      483,
+      176,
+      63,
+      8,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Longford",
+    "priceBinsNew": [
+      20,
+      13,
+      3,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      241,
+      119,
+      13,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Mayo",
+    "priceBinsNew": [
+      37,
+      31,
+      14,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      578,
+      456,
+      126,
+      28,
+      9,
+      6,
+      3,
+      2
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Leitrim",
+    "priceBinsNew": [
+      40,
+      18,
+      7,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      276,
+      125,
+      30,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Wexford",
+    "priceBinsNew": [
+      33,
+      113,
+      54,
+      3,
+      0,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      423,
+      849,
+      267,
+      58,
+      24,
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Tipperary",
+    "priceBinsNew": [
+      33,
+      60,
+      15,
+      3,
+      0,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      682,
+      556,
+      173,
+      37,
+      16,
+      5,
+      1,
+      3
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Carlow",
+    "priceBinsNew": [
+      6,
+      25,
+      12,
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      154,
+      252,
+      66,
+      15,
+      2,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Monaghan",
+    "priceBinsNew": [
+      18,
+      26,
+      6,
+      1,
+      0,
+      1,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      180,
+      194,
+      30,
+      15,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2017,
+    "county": "Offaly",
+    "priceBinsNew": [
+      4,
+      50,
+      8,
+      2,
+      0,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      246,
+      276,
+      79,
+      15,
+      7,
+      4,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Dublin",
+    "priceBinsNew": [
+      38,
+      181,
+      1360,
+      1537,
+      818,
+      650,
+      165,
+      61
+    ],
+    "priceBinsSecondHand": [
+      321,
+      1556,
+      3951,
+      3108,
+      1689,
+      1908,
+      628,
+      538
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Wexford",
+    "priceBinsNew": [
+      7,
+      52,
+      86,
+      25,
+      0,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      365,
+      819,
+      356,
+      68,
+      31,
+      5,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Wicklow",
+    "priceBinsNew": [
+      7,
+      27,
+      161,
+      83,
+      74,
+      36,
+      8,
+      2
+    ],
+    "priceBinsSecondHand": [
+      82,
+      207,
+      362,
+      288,
+      123,
+      107,
+      45,
+      11
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Tipperary",
+    "priceBinsNew": [
+      8,
+      55,
+      15,
+      9,
+      0,
+      1,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      591,
+      637,
+      224,
+      46,
+      10,
+      7,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Donegal",
+    "priceBinsNew": [
+      42,
+      53,
+      22,
+      5,
+      1,
+      0,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      707,
+      539,
+      91,
+      24,
+      2,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Leitrim",
+    "priceBinsNew": [
+      20,
+      11,
+      6,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      245,
+      161,
+      49,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Kerry",
+    "priceBinsNew": [
+      55,
+      62,
+      33,
+      26,
+      8,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      467,
+      652,
+      249,
+      71,
+      23,
+      12,
+      1,
+      5
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Westmeath",
+    "priceBinsNew": [
+      6,
+      36,
+      16,
+      6,
+      0,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      199,
+      492,
+      211,
+      47,
+      9,
+      10,
+      1,
+      1
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Cork",
+    "priceBinsNew": [
+      23,
+      237,
+      427,
+      243,
+      84,
+      41,
+      3,
+      4
+    ],
+    "priceBinsSecondHand": [
+      791,
+      1652,
+      1552,
+      577,
+      235,
+      160,
+      45,
+      16
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Laoighis",
+    "priceBinsNew": [
+      27,
+      91,
+      17,
+      2,
+      0,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      181,
+      370,
+      105,
+      28,
+      10,
+      5,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Sligo",
+    "priceBinsNew": [
+      15,
+      52,
+      17,
+      3,
+      4,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      435,
+      284,
+      83,
+      29,
+      19,
+      6,
+      3,
+      1
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Galway",
+    "priceBinsNew": [
+      38,
+      63,
+      106,
+      29,
+      2,
+      15,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      425,
+      812,
+      699,
+      270,
+      95,
+      73,
+      14,
+      16
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Offaly",
+    "priceBinsNew": [
+      8,
+      19,
+      4,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      204,
+      307,
+      89,
+      19,
+      8,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Waterford",
+    "priceBinsNew": [
+      3,
+      184,
+      73,
+      3,
+      4,
+      2,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      410,
+      567,
+      221,
+      82,
+      20,
+      23,
+      4,
+      3
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Kilkenny",
+    "priceBinsNew": [
+      2,
+      67,
+      7,
+      7,
+      6,
+      2,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      122,
+      364,
+      203,
+      52,
+      24,
+      13,
+      1,
+      2
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Kildare",
+    "priceBinsNew": [
+      4,
+      26,
+      503,
+      390,
+      71,
+      7,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      153,
+      571,
+      741,
+      373,
+      143,
+      103,
+      16,
+      13
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Limerick",
+    "priceBinsNew": [
+      10,
+      55,
+      127,
+      48,
+      7,
+      6,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      536,
+      744,
+      446,
+      108,
+      29,
+      24,
+      5,
+      4
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Mayo",
+    "priceBinsNew": [
+      33,
+      33,
+      20,
+      6,
+      3,
+      0,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      517,
+      483,
+      144,
+      29,
+      12,
+      5,
+      2,
+      0
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Meath",
+    "priceBinsNew": [
+      2,
+      39,
+      701,
+      175,
+      23,
+      7,
+      7,
+      2
+    ],
+    "priceBinsSecondHand": [
+      153,
+      465,
+      614,
+      247,
+      89,
+      55,
+      11,
+      6
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Louth",
+    "priceBinsNew": [
+      8,
+      130,
+      280,
+      15,
+      5,
+      8,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      189,
+      508,
+      313,
+      85,
+      28,
+      17,
+      3,
+      1
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Cavan",
+    "priceBinsNew": [
+      36,
+      59,
+      5,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      334,
+      284,
+      111,
+      19,
+      1,
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Carlow",
+    "priceBinsNew": [
+      12,
+      38,
+      49,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      154,
+      292,
+      103,
+      19,
+      8,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Roscommon",
+    "priceBinsNew": [
+      64,
+      29,
+      6,
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      423,
+      263,
+      63,
+      19,
+      1,
+      8,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Monaghan",
+    "priceBinsNew": [
+      6,
+      20,
+      7,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      170,
+      153,
+      55,
+      19,
+      2,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Clare",
+    "priceBinsNew": [
+      32,
+      72,
+      22,
+      7,
+      4,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      318,
+      476,
+      218,
+      66,
+      18,
+      8,
+      5,
+      2
+    ]
+  },
+  {
+    "year": 2018,
+    "county": "Longford",
+    "priceBinsNew": [
+      14,
+      6,
+      2,
+      0,
+      2,
+      0,
+      2,
+      0
+    ],
+    "priceBinsSecondHand": [
+      261,
+      168,
+      17,
+      3,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Donegal",
+    "priceBinsNew": [
+      33,
+      65,
+      15,
+      10,
+      0,
+      1,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      674,
+      591,
+      125,
+      29,
+      4,
+      4,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Kilkenny",
+    "priceBinsNew": [
+      2,
+      27,
+      8,
+      14,
+      1,
+      5,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      129,
+      404,
+      232,
+      75,
+      26,
+      7,
+      2,
+      0
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Dublin",
+    "priceBinsNew": [
+      78,
+      111,
+      787,
+      1673,
+      737,
+      474,
+      105,
+      78
+    ],
+    "priceBinsSecondHand": [
+      225,
+      1363,
+      4286,
+      3467,
+      1813,
+      1934,
+      659,
+      469
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Waterford",
+    "priceBinsNew": [
+      6,
+      86,
+      119,
+      10,
+      3,
+      1,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      334,
+      602,
+      267,
+      85,
+      40,
+      20,
+      4,
+      0
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Cork",
+    "priceBinsNew": [
+      55,
+      167,
+      564,
+      302,
+      90,
+      57,
+      8,
+      1
+    ],
+    "priceBinsSecondHand": [
+      696,
+      1671,
+      1806,
+      666,
+      225,
+      189,
+      44,
+      24
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Westmeath",
+    "priceBinsNew": [
+      2,
+      9,
+      60,
+      10,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      154,
+      654,
+      227,
+      41,
+      12,
+      10,
+      3,
+      1
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Offaly",
+    "priceBinsNew": [
+      2,
+      34,
+      7,
+      6,
+      0,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      203,
+      308,
+      109,
+      27,
+      3,
+      4,
+      1,
+      1
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Kildare",
+    "priceBinsNew": [
+      14,
+      42,
+      682,
+      457,
+      112,
+      6,
+      1,
+      6
+    ],
+    "priceBinsSecondHand": [
+      99,
+      562,
+      816,
+      427,
+      148,
+      86,
+      18,
+      11
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Kerry",
+    "priceBinsNew": [
+      12,
+      76,
+      41,
+      28,
+      9,
+      1,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      345,
+      641,
+      311,
+      84,
+      24,
+      17,
+      5,
+      6
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Meath",
+    "priceBinsNew": [
+      1,
+      21,
+      667,
+      350,
+      34,
+      17,
+      2,
+      1
+    ],
+    "priceBinsSecondHand": [
+      100,
+      446,
+      666,
+      218,
+      97,
+      61,
+      11,
+      6
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Limerick",
+    "priceBinsNew": [
+      5,
+      26,
+      163,
+      54,
+      7,
+      7,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      432,
+      818,
+      482,
+      106,
+      42,
+      25,
+      5,
+      2
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Galway",
+    "priceBinsNew": [
+      13,
+      43,
+      123,
+      96,
+      11,
+      8,
+      2,
+      1
+    ],
+    "priceBinsSecondHand": [
+      356,
+      847,
+      798,
+      296,
+      97,
+      57,
+      14,
+      7
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Wicklow",
+    "priceBinsNew": [
+      3,
+      30,
+      258,
+      175,
+      131,
+      38,
+      8,
+      0
+    ],
+    "priceBinsSecondHand": [
+      75,
+      224,
+      416,
+      316,
+      125,
+      119,
+      34,
+      24
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Clare",
+    "priceBinsNew": [
+      5,
+      13,
+      55,
+      12,
+      6,
+      2,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      294,
+      498,
+      239,
+      80,
+      24,
+      9,
+      1,
+      2
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Wexford",
+    "priceBinsNew": [
+      23,
+      151,
+      111,
+      25,
+      1,
+      2,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      317,
+      777,
+      399,
+      91,
+      27,
+      19,
+      4,
+      1
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Longford",
+    "priceBinsNew": [
+      7,
+      7,
+      3,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      203,
+      181,
+      43,
+      6,
+      1,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Leitrim",
+    "priceBinsNew": [
+      20,
+      14,
+      3,
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      222,
+      171,
+      27,
+      3,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Mayo",
+    "priceBinsNew": [
+      14,
+      44,
+      32,
+      4,
+      1,
+      2,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      499,
+      518,
+      154,
+      35,
+      8,
+      4,
+      2,
+      1
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Roscommon",
+    "priceBinsNew": [
+      11,
+      20,
+      14,
+      3,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      381,
+      287,
+      79,
+      14,
+      3,
+      2,
+      1,
+      1
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Sligo",
+    "priceBinsNew": [
+      40,
+      44,
+      25,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      297,
+      294,
+      111,
+      36,
+      12,
+      8,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Louth",
+    "priceBinsNew": [
+      17,
+      80,
+      401,
+      24,
+      1,
+      7,
+      1,
+      2
+    ],
+    "priceBinsSecondHand": [
+      155,
+      576,
+      320,
+      96,
+      26,
+      18,
+      0,
+      3
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Tipperary",
+    "priceBinsNew": [
+      52,
+      59,
+      20,
+      7,
+      2,
+      0,
+      1,
+      2
+    ],
+    "priceBinsSecondHand": [
+      503,
+      686,
+      244,
+      60,
+      19,
+      5,
+      1,
+      2
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Cavan",
+    "priceBinsNew": [
+      9,
+      37,
+      11,
+      4,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      288,
+      340,
+      117,
+      19,
+      3,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Monaghan",
+    "priceBinsNew": [
+      3,
+      13,
+      7,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      117,
+      175,
+      53,
+      19,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Carlow",
+    "priceBinsNew": [
+      7,
+      62,
+      49,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      126,
+      297,
+      101,
+      20,
+      6,
+      4,
+      1,
+      2
+    ]
+  },
+  {
+    "year": 2019,
+    "county": "Laoighis",
+    "priceBinsNew": [
+      1,
+      55,
+      29,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      150,
+      470,
+      149,
+      35,
+      14,
+      6,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Tipperary",
+    "priceBinsNew": [
+      13,
+      71,
+      13,
+      6,
+      1,
+      0,
+      1,
+      2
+    ],
+    "priceBinsSecondHand": [
+      436,
+      585,
+      198,
+      60,
+      18,
+      8,
+      3,
+      0
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Kerry",
+    "priceBinsNew": [
+      6,
+      35,
+      30,
+      18,
+      6,
+      3,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      296,
+      557,
+      273,
+      98,
+      24,
+      16,
+      2,
+      3
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Meath",
+    "priceBinsNew": [
+      2,
+      16,
+      551,
+      216,
+      38,
+      11,
+      2,
+      4
+    ],
+    "priceBinsSecondHand": [
+      99,
+      393,
+      580,
+      237,
+      81,
+      60,
+      5,
+      5
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Carlow",
+    "priceBinsNew": [
+      2,
+      9,
+      26,
+      6,
+      0,
+      1,
+      0,
+      4
+    ],
+    "priceBinsSecondHand": [
+      93,
+      236,
+      106,
+      27,
+      6,
+      2,
+      3,
+      2
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Kildare",
+    "priceBinsNew": [
+      5,
+      6,
+      486,
+      453,
+      136,
+      18,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      111,
+      431,
+      571,
+      356,
+      142,
+      102,
+      16,
+      7
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Waterford",
+    "priceBinsNew": [
+      2,
+      63,
+      135,
+      11,
+      9,
+      6,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      270,
+      499,
+      258,
+      97,
+      30,
+      24,
+      3,
+      0
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Dublin",
+    "priceBinsNew": [
+      53,
+      66,
+      528,
+      1142,
+      604,
+      475,
+      129,
+      69
+    ],
+    "priceBinsSecondHand": [
+      166,
+      1032,
+      3233,
+      2858,
+      1590,
+      1734,
+      547,
+      367
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Limerick",
+    "priceBinsNew": [
+      7,
+      23,
+      172,
+      55,
+      8,
+      14,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      382,
+      618,
+      409,
+      113,
+      47,
+      28,
+      4,
+      2
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Louth",
+    "priceBinsNew": [
+      6,
+      48,
+      190,
+      19,
+      6,
+      2,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      151,
+      518,
+      278,
+      85,
+      34,
+      21,
+      2,
+      1
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Roscommon",
+    "priceBinsNew": [
+      19,
+      6,
+      19,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      358,
+      252,
+      66,
+      16,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Cork",
+    "priceBinsNew": [
+      17,
+      68,
+      640,
+      340,
+      113,
+      20,
+      2,
+      5
+    ],
+    "priceBinsSecondHand": [
+      530,
+      1346,
+      1423,
+      586,
+      218,
+      143,
+      28,
+      17
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Clare",
+    "priceBinsNew": [
+      10,
+      11,
+      58,
+      18,
+      2,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      212,
+      471,
+      241,
+      57,
+      12,
+      7,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Offaly",
+    "priceBinsNew": [
+      4,
+      13,
+      33,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      146,
+      300,
+      109,
+      25,
+      5,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Laoighis",
+    "priceBinsNew": [
+      2,
+      54,
+      62,
+      6,
+      0,
+      1,
+      1,
+      3
+    ],
+    "priceBinsSecondHand": [
+      102,
+      358,
+      108,
+      33,
+      7,
+      7,
+      0,
+      1
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Galway",
+    "priceBinsNew": [
+      4,
+      49,
+      178,
+      121,
+      20,
+      21,
+      0,
+      4
+    ],
+    "priceBinsSecondHand": [
+      307,
+      619,
+      630,
+      248,
+      94,
+      55,
+      8,
+      5
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Leitrim",
+    "priceBinsNew": [
+      18,
+      11,
+      2,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      200,
+      169,
+      34,
+      3,
+      3,
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Donegal",
+    "priceBinsNew": [
+      18,
+      68,
+      26,
+      5,
+      1,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      523,
+      553,
+      134,
+      30,
+      8,
+      6,
+      4,
+      3
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Kilkenny",
+    "priceBinsNew": [
+      2,
+      15,
+      24,
+      17,
+      3,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      115,
+      273,
+      202,
+      54,
+      17,
+      13,
+      3,
+      4
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Wexford",
+    "priceBinsNew": [
+      4,
+      103,
+      169,
+      35,
+      2,
+      1,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      272,
+      711,
+      375,
+      116,
+      36,
+      13,
+      5,
+      3
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Longford",
+    "priceBinsNew": [
+      1,
+      4,
+      3,
+      0,
+      1,
+      1,
+      2,
+      3
+    ],
+    "priceBinsSecondHand": [
+      195,
+      157,
+      28,
+      4,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Cavan",
+    "priceBinsNew": [
+      6,
+      50,
+      19,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      224,
+      292,
+      97,
+      24,
+      2,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Sligo",
+    "priceBinsNew": [
+      12,
+      15,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      265,
+      243,
+      91,
+      25,
+      10,
+      9,
+      0,
+      2
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Wicklow",
+    "priceBinsNew": [
+      2,
+      14,
+      150,
+      164,
+      80,
+      49,
+      12,
+      1
+    ],
+    "priceBinsSecondHand": [
+      56,
+      213,
+      352,
+      285,
+      145,
+      160,
+      34,
+      21
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Mayo",
+    "priceBinsNew": [
+      22,
+      47,
+      46,
+      6,
+      2,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      475,
+      456,
+      138,
+      34,
+      12,
+      7,
+      2,
+      1
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Westmeath",
+    "priceBinsNew": [
+      4,
+      12,
+      62,
+      13,
+      3,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      160,
+      408,
+      205,
+      49,
+      21,
+      8,
+      3,
+      2
+    ]
+  },
+  {
+    "year": 2020,
+    "county": "Monaghan",
+    "priceBinsNew": [
+      3,
+      10,
+      11,
+      1,
+      1,
+      0,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      137,
+      142,
+      47,
+      10,
+      3,
+      2,
+      2,
+      0
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Dublin",
+    "priceBinsNew": [
+      4,
+      34,
+      277,
+      982,
+      401,
+      447,
+      122,
+      101
+    ],
+    "priceBinsSecondHand": [
+      269,
+      983,
+      3365,
+      3690,
+      2180,
+      2404,
+      923,
+      672
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Sligo",
+    "priceBinsNew": [
+      27,
+      46,
+      38,
+      4,
+      2,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      257,
+      329,
+      148,
+      57,
+      27,
+      16,
+      0,
+      2
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Cork",
+    "priceBinsNew": [
+      59,
+      47,
+      545,
+      358,
+      107,
+      42,
+      1,
+      1
+    ],
+    "priceBinsSecondHand": [
+      549,
+      1371,
+      1756,
+      904,
+      363,
+      258,
+      67,
+      30
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Galway",
+    "priceBinsNew": [
+      9,
+      38,
+      138,
+      125,
+      26,
+      29,
+      4,
+      3
+    ],
+    "priceBinsSecondHand": [
+      351,
+      645,
+      752,
+      423,
+      143,
+      93,
+      20,
+      13
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Leitrim",
+    "priceBinsNew": [
+      20,
+      20,
+      5,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      176,
+      239,
+      73,
+      21,
+      2,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Waterford",
+    "priceBinsNew": [
+      3,
+      75,
+      106,
+      17,
+      14,
+      2,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      281,
+      671,
+      339,
+      127,
+      60,
+      42,
+      16,
+      2
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Roscommon",
+    "priceBinsNew": [
+      15,
+      13,
+      20,
+      4,
+      0,
+      2,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      334,
+      369,
+      130,
+      30,
+      11,
+      5,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Kildare",
+    "priceBinsNew": [
+      19,
+      21,
+      513,
+      587,
+      226,
+      17,
+      2,
+      5
+    ],
+    "priceBinsSecondHand": [
+      67,
+      440,
+      666,
+      495,
+      233,
+      145,
+      33,
+      23
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Limerick",
+    "priceBinsNew": [
+      11,
+      13,
+      108,
+      28,
+      12,
+      4,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      345,
+      746,
+      571,
+      221,
+      71,
+      37,
+      10,
+      2
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Meath",
+    "priceBinsNew": [
+      3,
+      17,
+      549,
+      278,
+      26,
+      9,
+      1,
+      6
+    ],
+    "priceBinsSecondHand": [
+      79,
+      368,
+      630,
+      344,
+      162,
+      104,
+      20,
+      7
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Clare",
+    "priceBinsNew": [
+      4,
+      9,
+      69,
+      9,
+      5,
+      1,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      242,
+      513,
+      330,
+      129,
+      47,
+      35,
+      5,
+      2
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Louth",
+    "priceBinsNew": [
+      2,
+      38,
+      321,
+      48,
+      7,
+      4,
+      1,
+      3
+    ],
+    "priceBinsSecondHand": [
+      130,
+      518,
+      371,
+      153,
+      52,
+      38,
+      5,
+      1
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Westmeath",
+    "priceBinsNew": [
+      0,
+      21,
+      88,
+      20,
+      0,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      127,
+      418,
+      319,
+      91,
+      27,
+      10,
+      3,
+      1
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Wicklow",
+    "priceBinsNew": [
+      1,
+      4,
+      120,
+      108,
+      223,
+      101,
+      27,
+      6
+    ],
+    "priceBinsSecondHand": [
+      50,
+      212,
+      332,
+      418,
+      199,
+      231,
+      62,
+      41
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Longford",
+    "priceBinsNew": [
+      0,
+      3,
+      6,
+      0,
+      0,
+      1,
+      6,
+      4
+    ],
+    "priceBinsSecondHand": [
+      238,
+      265,
+      61,
+      21,
+      2,
+      2,
+      1,
+      1
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Tipperary",
+    "priceBinsNew": [
+      2,
+      36,
+      16,
+      5,
+      2,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      415,
+      635,
+      361,
+      115,
+      38,
+      20,
+      2,
+      2
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Cavan",
+    "priceBinsNew": [
+      3,
+      35,
+      21,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "priceBinsSecondHand": [
+      215,
+      397,
+      162,
+      47,
+      16,
+      4,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Wexford",
+    "priceBinsNew": [
+      3,
+      81,
+      154,
+      32,
+      2,
+      0,
+      0,
+      4
+    ],
+    "priceBinsSecondHand": [
+      258,
+      725,
+      548,
+      206,
+      97,
+      43,
+      6,
+      3
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Donegal",
+    "priceBinsNew": [
+      30,
+      55,
+      21,
+      14,
+      2,
+      1,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      586,
+      689,
+      208,
+      63,
+      19,
+      6,
+      1,
+      1
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Kerry",
+    "priceBinsNew": [
+      6,
+      26,
+      35,
+      26,
+      8,
+      8,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      311,
+      568,
+      434,
+      147,
+      46,
+      30,
+      8,
+      3
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Mayo",
+    "priceBinsNew": [
+      35,
+      38,
+      64,
+      5,
+      2,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      431,
+      640,
+      240,
+      78,
+      26,
+      18,
+      1,
+      1
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Offaly",
+    "priceBinsNew": [
+      2,
+      15,
+      83,
+      5,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      119,
+      346,
+      159,
+      55,
+      14,
+      9,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Carlow",
+    "priceBinsNew": [
+      3,
+      28,
+      69,
+      2,
+      0,
+      0,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      84,
+      278,
+      163,
+      49,
+      19,
+      11,
+      0,
+      2
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Kilkenny",
+    "priceBinsNew": [
+      16,
+      22,
+      36,
+      23,
+      6,
+      4,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      112,
+      295,
+      256,
+      112,
+      34,
+      41,
+      3,
+      4
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Laoighis",
+    "priceBinsNew": [
+      1,
+      75,
+      123,
+      4,
+      0,
+      0,
+      1,
+      4
+    ],
+    "priceBinsSecondHand": [
+      95,
+      433,
+      236,
+      64,
+      23,
+      11,
+      0,
+      2
+    ]
+  },
+  {
+    "year": 2021,
+    "county": "Monaghan",
+    "priceBinsNew": [
+      6,
+      35,
+      23,
+      7,
+      0,
+      0,
+      0,
+      3
+    ],
+    "priceBinsSecondHand": [
+      129,
+      142,
+      75,
+      35,
+      6,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Dublin",
+    "priceBinsNew": [
+      2,
+      48,
+      177,
+      1141,
+      652,
+      598,
+      163,
+      113
+    ],
+    "priceBinsSecondHand": [
+      163,
+      719,
+      3058,
+      3993,
+      2531,
+      2895,
+      1082,
+      858
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Leitrim",
+    "priceBinsNew": [
+      3,
+      13,
+      5,
+      0,
+      1,
+      2,
+      3,
+      1
+    ],
+    "priceBinsSecondHand": [
+      145,
+      260,
+      106,
+      29,
+      3,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Westmeath",
+    "priceBinsNew": [
+      2,
+      6,
+      66,
+      65,
+      4,
+      3,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      81,
+      366,
+      399,
+      118,
+      62,
+      21,
+      5,
+      0
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Clare",
+    "priceBinsNew": [
+      7,
+      6,
+      68,
+      25,
+      12,
+      2,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      160,
+      431,
+      414,
+      158,
+      56,
+      44,
+      7,
+      5
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Cork",
+    "priceBinsNew": [
+      10,
+      32,
+      504,
+      555,
+      105,
+      40,
+      2,
+      1
+    ],
+    "priceBinsSecondHand": [
+      388,
+      1065,
+      1895,
+      1009,
+      495,
+      371,
+      103,
+      49
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Cavan",
+    "priceBinsNew": [
+      3,
+      10,
+      26,
+      1,
+      0,
+      0,
+      1,
+      2
+    ],
+    "priceBinsSecondHand": [
+      165,
+      391,
+      218,
+      62,
+      24,
+      5,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Wexford",
+    "priceBinsNew": [
+      0,
+      119,
+      280,
+      56,
+      6,
+      3,
+      2,
+      0
+    ],
+    "priceBinsSecondHand": [
+      160,
+      655,
+      606,
+      276,
+      115,
+      64,
+      9,
+      6
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Waterford",
+    "priceBinsNew": [
+      2,
+      33,
+      194,
+      65,
+      13,
+      17,
+      2,
+      1
+    ],
+    "priceBinsSecondHand": [
+      154,
+      635,
+      407,
+      183,
+      93,
+      72,
+      12,
+      11
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Kilkenny",
+    "priceBinsNew": [
+      1,
+      14,
+      23,
+      30,
+      6,
+      16,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      61,
+      262,
+      325,
+      108,
+      42,
+      50,
+      17,
+      3
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Kerry",
+    "priceBinsNew": [
+      6,
+      31,
+      73,
+      24,
+      13,
+      3,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      266,
+      508,
+      452,
+      209,
+      68,
+      59,
+      16,
+      10
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Louth",
+    "priceBinsNew": [
+      1,
+      21,
+      357,
+      77,
+      9,
+      2,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      86,
+      473,
+      494,
+      165,
+      80,
+      48,
+      14,
+      1
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Kildare",
+    "priceBinsNew": [
+      3,
+      4,
+      359,
+      842,
+      352,
+      31,
+      1,
+      5
+    ],
+    "priceBinsSecondHand": [
+      75,
+      358,
+      692,
+      596,
+      326,
+      221,
+      55,
+      18
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Limerick",
+    "priceBinsNew": [
+      2,
+      10,
+      118,
+      97,
+      16,
+      15,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      285,
+      666,
+      631,
+      250,
+      109,
+      62,
+      17,
+      7
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Tipperary",
+    "priceBinsNew": [
+      2,
+      21,
+      44,
+      11,
+      3,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      309,
+      701,
+      412,
+      133,
+      52,
+      26,
+      13,
+      4
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Mayo",
+    "priceBinsNew": [
+      3,
+      29,
+      74,
+      23,
+      2,
+      0,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      328,
+      630,
+      300,
+      95,
+      43,
+      28,
+      4,
+      1
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Wicklow",
+    "priceBinsNew": [
+      0,
+      9,
+      189,
+      159,
+      198,
+      135,
+      12,
+      12
+    ],
+    "priceBinsSecondHand": [
+      43,
+      138,
+      316,
+      315,
+      226,
+      252,
+      85,
+      62
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Galway",
+    "priceBinsNew": [
+      6,
+      25,
+      114,
+      131,
+      28,
+      26,
+      4,
+      1
+    ],
+    "priceBinsSecondHand": [
+      244,
+      493,
+      830,
+      513,
+      194,
+      161,
+      43,
+      8
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Carlow",
+    "priceBinsNew": [
+      2,
+      32,
+      57,
+      3,
+      1,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      46,
+      251,
+      230,
+      55,
+      27,
+      12,
+      3,
+      2
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Offaly",
+    "priceBinsNew": [
+      1,
+      15,
+      174,
+      7,
+      1,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      78,
+      322,
+      232,
+      68,
+      27,
+      6,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Donegal",
+    "priceBinsNew": [
+      12,
+      47,
+      80,
+      12,
+      8,
+      5,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      441,
+      589,
+      284,
+      92,
+      30,
+      20,
+      4,
+      4
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Meath",
+    "priceBinsNew": [
+      1,
+      5,
+      341,
+      507,
+      56,
+      14,
+      3,
+      3
+    ],
+    "priceBinsSecondHand": [
+      69,
+      311,
+      657,
+      461,
+      193,
+      158,
+      24,
+      11
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Sligo",
+    "priceBinsNew": [
+      29,
+      36,
+      34,
+      25,
+      0,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      199,
+      332,
+      197,
+      67,
+      37,
+      26,
+      7,
+      0
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Longford",
+    "priceBinsNew": [
+      2,
+      7,
+      3,
+      1,
+      2,
+      1,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      157,
+      261,
+      83,
+      19,
+      9,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Laoighis",
+    "priceBinsNew": [
+      1,
+      5,
+      88,
+      21,
+      1,
+      0,
+      1,
+      1
+    ],
+    "priceBinsSecondHand": [
+      78,
+      347,
+      351,
+      67,
+      33,
+      22,
+      3,
+      0
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Roscommon",
+    "priceBinsNew": [
+      4,
+      12,
+      23,
+      3,
+      0,
+      1,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      276,
+      365,
+      176,
+      53,
+      14,
+      9,
+      0,
+      1
+    ]
+  },
+  {
+    "year": 2022,
+    "county": "Monaghan",
+    "priceBinsNew": [
+      2,
+      5,
+      36,
+      6,
+      1,
+      0,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      114,
+      185,
+      127,
+      45,
+      13,
+      6,
+      1,
+      1
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Cork",
+    "priceBinsNew": [
+      22,
+      9,
+      529,
+      807,
+      243,
+      47,
+      9,
+      6
+    ],
+    "priceBinsSecondHand": [
+      350,
+      1070,
+      1820,
+      1199,
+      512,
+      371,
+      96,
+      48
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Dublin",
+    "priceBinsNew": [
+      2,
+      44,
+      224,
+      785,
+      897,
+      729,
+      137,
+      98
+    ],
+    "priceBinsSecondHand": [
+      163,
+      613,
+      3048,
+      4063,
+      2857,
+      2938,
+      1141,
+      835
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Donegal",
+    "priceBinsNew": [
+      6,
+      28,
+      87,
+      17,
+      16,
+      2,
+      1,
+      1
+    ],
+    "priceBinsSecondHand": [
+      340,
+      613,
+      268,
+      83,
+      33,
+      14,
+      5,
+      2
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Kildare",
+    "priceBinsNew": [
+      0,
+      7,
+      285,
+      902,
+      557,
+      108,
+      13,
+      7
+    ],
+    "priceBinsSecondHand": [
+      59,
+      301,
+      626,
+      651,
+      322,
+      274,
+      57,
+      22
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Waterford",
+    "priceBinsNew": [
+      1,
+      14,
+      168,
+      109,
+      6,
+      24,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      142,
+      546,
+      410,
+      186,
+      80,
+      74,
+      15,
+      6
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Wexford",
+    "priceBinsNew": [
+      15,
+      14,
+      265,
+      80,
+      10,
+      2,
+      1,
+      3
+    ],
+    "priceBinsSecondHand": [
+      120,
+      613,
+      620,
+      292,
+      125,
+      77,
+      11,
+      3
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Meath",
+    "priceBinsNew": [
+      1,
+      4,
+      135,
+      644,
+      85,
+      17,
+      8,
+      1
+    ],
+    "priceBinsSecondHand": [
+      50,
+      240,
+      624,
+      505,
+      220,
+      177,
+      30,
+      17
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Sligo",
+    "priceBinsNew": [
+      8,
+      6,
+      32,
+      14,
+      3,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      139,
+      349,
+      185,
+      73,
+      32,
+      20,
+      4,
+      4
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Leitrim",
+    "priceBinsNew": [
+      2,
+      8,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      113,
+      262,
+      104,
+      28,
+      8,
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Laoighis",
+    "priceBinsNew": [
+      1,
+      5,
+      136,
+      144,
+      3,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      65,
+      330,
+      363,
+      108,
+      36,
+      24,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Mayo",
+    "priceBinsNew": [
+      8,
+      8,
+      50,
+      39,
+      12,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      279,
+      561,
+      349,
+      127,
+      41,
+      14,
+      10,
+      3
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Kerry",
+    "priceBinsNew": [
+      2,
+      19,
+      65,
+      17,
+      6,
+      7,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      199,
+      395,
+      451,
+      231,
+      68,
+      62,
+      7,
+      8
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Longford",
+    "priceBinsNew": [
+      3,
+      3,
+      9,
+      2,
+      0,
+      1,
+      0,
+      4
+    ],
+    "priceBinsSecondHand": [
+      94,
+      226,
+      109,
+      34,
+      6,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Tipperary",
+    "priceBinsNew": [
+      4,
+      8,
+      74,
+      17,
+      4,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      272,
+      616,
+      453,
+      173,
+      50,
+      35,
+      1,
+      7
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Limerick",
+    "priceBinsNew": [
+      2,
+      3,
+      37,
+      168,
+      43,
+      5,
+      1,
+      1
+    ],
+    "priceBinsSecondHand": [
+      242,
+      591,
+      614,
+      317,
+      110,
+      63,
+      15,
+      9
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Clare",
+    "priceBinsNew": [
+      1,
+      2,
+      35,
+      30,
+      4,
+      5,
+      2,
+      0
+    ],
+    "priceBinsSecondHand": [
+      182,
+      363,
+      408,
+      186,
+      69,
+      38,
+      9,
+      1
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Galway",
+    "priceBinsNew": [
+      3,
+      29,
+      103,
+      162,
+      105,
+      30,
+      10,
+      3
+    ],
+    "priceBinsSecondHand": [
+      181,
+      468,
+      809,
+      551,
+      246,
+      143,
+      38,
+      19
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Westmeath",
+    "priceBinsNew": [
+      3,
+      3,
+      61,
+      139,
+      14,
+      2,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      67,
+      341,
+      457,
+      135,
+      37,
+      26,
+      5,
+      3
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Roscommon",
+    "priceBinsNew": [
+      6,
+      37,
+      36,
+      6,
+      2,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      201,
+      355,
+      189,
+      43,
+      12,
+      6,
+      2,
+      0
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Wicklow",
+    "priceBinsNew": [
+      2,
+      1,
+      146,
+      232,
+      286,
+      164,
+      13,
+      7
+    ],
+    "priceBinsSecondHand": [
+      55,
+      117,
+      292,
+      369,
+      278,
+      274,
+      76,
+      42
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Monaghan",
+    "priceBinsNew": [
+      12,
+      3,
+      32,
+      6,
+      3,
+      0,
+      1,
+      3
+    ],
+    "priceBinsSecondHand": [
+      109,
+      177,
+      121,
+      54,
+      13,
+      4,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Louth",
+    "priceBinsNew": [
+      6,
+      5,
+      135,
+      279,
+      22,
+      6,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      81,
+      380,
+      520,
+      209,
+      78,
+      58,
+      12,
+      2
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Cavan",
+    "priceBinsNew": [
+      2,
+      4,
+      21,
+      11,
+      1,
+      0,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      127,
+      351,
+      225,
+      87,
+      16,
+      10,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Kilkenny",
+    "priceBinsNew": [
+      3,
+      2,
+      86,
+      106,
+      19,
+      19,
+      2,
+      2
+    ],
+    "priceBinsSecondHand": [
+      59,
+      216,
+      288,
+      116,
+      49,
+      39,
+      14,
+      3
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Carlow",
+    "priceBinsNew": [
+      4,
+      3,
+      59,
+      20,
+      1,
+      1,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      48,
+      217,
+      251,
+      62,
+      25,
+      15,
+      1,
+      4
+    ]
+  },
+  {
+    "year": 2023,
+    "county": "Offaly",
+    "priceBinsNew": [
+      0,
+      4,
+      74,
+      53,
+      1,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      76,
+      273,
+      275,
+      82,
+      23,
+      12,
+      3,
+      1
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Dublin",
+    "priceBinsNew": [
+      16,
+      27,
+      110,
+      734,
+      1583,
+      937,
+      199,
+      124
+    ],
+    "priceBinsSecondHand": [
+      153,
+      465,
+      2318,
+      3638,
+      2977,
+      3315,
+      1336,
+      995
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Roscommon",
+    "priceBinsNew": [
+      3,
+      3,
+      29,
+      13,
+      2,
+      1,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      158,
+      296,
+      180,
+      84,
+      18,
+      10,
+      0,
+      1
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Galway",
+    "priceBinsNew": [
+      1,
+      6,
+      33,
+      150,
+      97,
+      27,
+      4,
+      1
+    ],
+    "priceBinsSecondHand": [
+      179,
+      384,
+      652,
+      560,
+      301,
+      183,
+      51,
+      20
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Mayo",
+    "priceBinsNew": [
+      8,
+      13,
+      27,
+      26,
+      20,
+      2,
+      1,
+      2
+    ],
+    "priceBinsSecondHand": [
+      253,
+      449,
+      389,
+      134,
+      53,
+      21,
+      4,
+      6
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Clare",
+    "priceBinsNew": [
+      0,
+      5,
+      61,
+      81,
+      13,
+      6,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      117,
+      278,
+      341,
+      209,
+      88,
+      52,
+      5,
+      4
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Wexford",
+    "priceBinsNew": [
+      2,
+      4,
+      287,
+      152,
+      27,
+      4,
+      2,
+      8
+    ],
+    "priceBinsSecondHand": [
+      123,
+      480,
+      574,
+      315,
+      136,
+      85,
+      11,
+      5
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Kildare",
+    "priceBinsNew": [
+      4,
+      8,
+      208,
+      528,
+      354,
+      128,
+      7,
+      1
+    ],
+    "priceBinsSecondHand": [
+      40,
+      205,
+      491,
+      584,
+      385,
+      335,
+      57,
+      33
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Cavan",
+    "priceBinsNew": [
+      1,
+      8,
+      45,
+      7,
+      1,
+      1,
+      2,
+      2
+    ],
+    "priceBinsSecondHand": [
+      126,
+      283,
+      225,
+      84,
+      29,
+      12,
+      2,
+      0
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Tipperary",
+    "priceBinsNew": [
+      3,
+      4,
+      93,
+      9,
+      4,
+      0,
+      1,
+      1
+    ],
+    "priceBinsSecondHand": [
+      252,
+      496,
+      425,
+      184,
+      68,
+      41,
+      6,
+      5
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Cork",
+    "priceBinsNew": [
+      10,
+      15,
+      520,
+      986,
+      310,
+      97,
+      17,
+      13
+    ],
+    "priceBinsSecondHand": [
+      328,
+      771,
+      1546,
+      1204,
+      582,
+      456,
+      119,
+      55
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Waterford",
+    "priceBinsNew": [
+      0,
+      5,
+      207,
+      130,
+      32,
+      9,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      101,
+      478,
+      379,
+      248,
+      80,
+      79,
+      13,
+      3
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Kilkenny",
+    "priceBinsNew": [
+      0,
+      5,
+      41,
+      156,
+      39,
+      19,
+      3,
+      0
+    ],
+    "priceBinsSecondHand": [
+      49,
+      168,
+      293,
+      153,
+      54,
+      49,
+      12,
+      9
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Laoighis",
+    "priceBinsNew": [
+      0,
+      7,
+      164,
+      208,
+      7,
+      0,
+      0,
+      3
+    ],
+    "priceBinsSecondHand": [
+      62,
+      267,
+      314,
+      120,
+      42,
+      25,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Limerick",
+    "priceBinsNew": [
+      0,
+      3,
+      73,
+      189,
+      26,
+      14,
+      2,
+      2
+    ],
+    "priceBinsSecondHand": [
+      195,
+      462,
+      519,
+      363,
+      126,
+      85,
+      25,
+      15
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Louth",
+    "priceBinsNew": [
+      1,
+      1,
+      113,
+      349,
+      35,
+      12,
+      0,
+      5
+    ],
+    "priceBinsSecondHand": [
+      60,
+      320,
+      466,
+      209,
+      107,
+      71,
+      8,
+      3
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Donegal",
+    "priceBinsNew": [
+      6,
+      18,
+      66,
+      30,
+      11,
+      2,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      363,
+      532,
+      299,
+      102,
+      47,
+      32,
+      3,
+      6
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Meath",
+    "priceBinsNew": [
+      1,
+      2,
+      63,
+      587,
+      122,
+      14,
+      0,
+      10
+    ],
+    "priceBinsSecondHand": [
+      48,
+      231,
+      486,
+      529,
+      238,
+      198,
+      50,
+      14
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Wicklow",
+    "priceBinsNew": [
+      1,
+      4,
+      58,
+      252,
+      411,
+      229,
+      10,
+      32
+    ],
+    "priceBinsSecondHand": [
+      31,
+      96,
+      297,
+      434,
+      276,
+      307,
+      86,
+      59
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Westmeath",
+    "priceBinsNew": [
+      0,
+      6,
+      65,
+      145,
+      18,
+      0,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      60,
+      238,
+      338,
+      190,
+      52,
+      36,
+      3,
+      0
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Kerry",
+    "priceBinsNew": [
+      6,
+      5,
+      13,
+      14,
+      9,
+      17,
+      0,
+      3
+    ],
+    "priceBinsSecondHand": [
+      195,
+      349,
+      426,
+      242,
+      99,
+      64,
+      14,
+      8
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Longford",
+    "priceBinsNew": [
+      3,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      97,
+      204,
+      119,
+      36,
+      11,
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Offaly",
+    "priceBinsNew": [
+      1,
+      9,
+      102,
+      66,
+      4,
+      1,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      67,
+      230,
+      247,
+      91,
+      31,
+      17,
+      1,
+      2
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Leitrim",
+    "priceBinsNew": [
+      4,
+      2,
+      1,
+      4,
+      3,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      106,
+      203,
+      115,
+      35,
+      10,
+      6,
+      2,
+      0
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Carlow",
+    "priceBinsNew": [
+      0,
+      4,
+      74,
+      20,
+      0,
+      0,
+      1,
+      4
+    ],
+    "priceBinsSecondHand": [
+      52,
+      177,
+      206,
+      94,
+      21,
+      9,
+      2,
+      1
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Sligo",
+    "priceBinsNew": [
+      1,
+      2,
+      27,
+      33,
+      3,
+      1,
+      3,
+      0
+    ],
+    "priceBinsSecondHand": [
+      98,
+      231,
+      190,
+      81,
+      41,
+      24,
+      8,
+      2
+    ]
+  },
+  {
+    "year": 2024,
+    "county": "Monaghan",
+    "priceBinsNew": [
+      0,
+      0,
+      29,
+      2,
+      1,
+      0,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      77,
+      144,
+      129,
+      46,
+      16,
+      6,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Dublin",
+    "priceBinsNew": [
+      2,
+      32,
+      151,
+      405,
+      1096,
+      661,
+      176,
+      95
+    ],
+    "priceBinsSecondHand": [
+      95,
+      275,
+      1333,
+      2508,
+      2438,
+      3196,
+      1149,
+      836
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Wexford",
+    "priceBinsNew": [
+      0,
+      0,
+      124,
+      141,
+      33,
+      5,
+      2,
+      7
+    ],
+    "priceBinsSecondHand": [
+      59,
+      284,
+      485,
+      255,
+      146,
+      89,
+      13,
+      7
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Kildare",
+    "priceBinsNew": [
+      0,
+      1,
+      68,
+      383,
+      390,
+      70,
+      6,
+      3
+    ],
+    "priceBinsSecondHand": [
+      33,
+      119,
+      278,
+      383,
+      351,
+      327,
+      56,
+      28
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Cork",
+    "priceBinsNew": [
+      3,
+      9,
+      243,
+      742,
+      441,
+      91,
+      12,
+      11
+    ],
+    "priceBinsSecondHand": [
+      214,
+      495,
+      1030,
+      964,
+      557,
+      471,
+      92,
+      63
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Meath",
+    "priceBinsNew": [
+      1,
+      0,
+      10,
+      328,
+      282,
+      33,
+      2,
+      4
+    ],
+    "priceBinsSecondHand": [
+      41,
+      106,
+      358,
+      426,
+      240,
+      185,
+      39,
+      20
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Tipperary",
+    "priceBinsNew": [
+      2,
+      4,
+      94,
+      67,
+      4,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      103,
+      298,
+      298,
+      163,
+      74,
+      38,
+      7,
+      2
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Cavan",
+    "priceBinsNew": [
+      1,
+      1,
+      28,
+      14,
+      2,
+      3,
+      2,
+      1
+    ],
+    "priceBinsSecondHand": [
+      84,
+      150,
+      186,
+      89,
+      25,
+      13,
+      3,
+      2
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Limerick",
+    "priceBinsNew": [
+      2,
+      1,
+      68,
+      243,
+      33,
+      3,
+      1,
+      3
+    ],
+    "priceBinsSecondHand": [
+      94,
+      281,
+      410,
+      307,
+      158,
+      100,
+      9,
+      8
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Waterford",
+    "priceBinsNew": [
+      2,
+      0,
+      53,
+      176,
+      37,
+      8,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      50,
+      292,
+      290,
+      185,
+      64,
+      69,
+      14,
+      3
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Donegal",
+    "priceBinsNew": [
+      3,
+      6,
+      41,
+      25,
+      13,
+      2,
+      2,
+      1
+    ],
+    "priceBinsSecondHand": [
+      233,
+      415,
+      229,
+      85,
+      35,
+      23,
+      3,
+      3
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Offaly",
+    "priceBinsNew": [
+      1,
+      0,
+      43,
+      31,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      55,
+      129,
+      193,
+      87,
+      36,
+      18,
+      2,
+      0
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Mayo",
+    "priceBinsNew": [
+      1,
+      4,
+      17,
+      32,
+      10,
+      7,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      205,
+      329,
+      311,
+      123,
+      51,
+      32,
+      5,
+      1
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Galway",
+    "priceBinsNew": [
+      1,
+      11,
+      68,
+      228,
+      110,
+      19,
+      1,
+      1
+    ],
+    "priceBinsSecondHand": [
+      130,
+      229,
+      401,
+      423,
+      255,
+      191,
+      46,
+      17
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Roscommon",
+    "priceBinsNew": [
+      1,
+      1,
+      8,
+      13,
+      3,
+      0,
+      0,
+      2
+    ],
+    "priceBinsSecondHand": [
+      112,
+      195,
+      144,
+      54,
+      17,
+      13,
+      1,
+      1
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Laoighis",
+    "priceBinsNew": [
+      1,
+      2,
+      105,
+      213,
+      26,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      43,
+      154,
+      216,
+      109,
+      35,
+      24,
+      4,
+      0
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Louth",
+    "priceBinsNew": [
+      1,
+      2,
+      48,
+      429,
+      48,
+      7,
+      1,
+      4
+    ],
+    "priceBinsSecondHand": [
+      49,
+      179,
+      338,
+      230,
+      78,
+      69,
+      9,
+      2
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Westmeath",
+    "priceBinsNew": [
+      0,
+      1,
+      53,
+      132,
+      6,
+      5,
+      2,
+      1
+    ],
+    "priceBinsSecondHand": [
+      45,
+      141,
+      209,
+      208,
+      69,
+      34,
+      3,
+      1
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Wicklow",
+    "priceBinsNew": [
+      0,
+      10,
+      71,
+      207,
+      197,
+      87,
+      9,
+      9
+    ],
+    "priceBinsSecondHand": [
+      24,
+      84,
+      166,
+      236,
+      209,
+      237,
+      105,
+      68
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Sligo",
+    "priceBinsNew": [
+      0,
+      3,
+      29,
+      55,
+      6,
+      0,
+      1,
+      0
+    ],
+    "priceBinsSecondHand": [
+      71,
+      172,
+      152,
+      79,
+      27,
+      23,
+      10,
+      1
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Kilkenny",
+    "priceBinsNew": [
+      0,
+      0,
+      29,
+      136,
+      42,
+      20,
+      3,
+      0
+    ],
+    "priceBinsSecondHand": [
+      47,
+      102,
+      195,
+      130,
+      55,
+      48,
+      14,
+      4
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Carlow",
+    "priceBinsNew": [
+      0,
+      1,
+      18,
+      15,
+      0,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      32,
+      134,
+      147,
+      99,
+      27,
+      17,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Monaghan",
+    "priceBinsNew": [
+      3,
+      1,
+      21,
+      10,
+      2,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      46,
+      97,
+      115,
+      41,
+      14,
+      9,
+      1,
+      0
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Kerry",
+    "priceBinsNew": [
+      1,
+      2,
+      10,
+      22,
+      7,
+      5,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      108,
+      212,
+      270,
+      206,
+      85,
+      59,
+      14,
+      4
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Clare",
+    "priceBinsNew": [
+      0,
+      2,
+      30,
+      41,
+      14,
+      9,
+      1,
+      1
+    ],
+    "priceBinsSecondHand": [
+      84,
+      181,
+      260,
+      204,
+      88,
+      57,
+      13,
+      2
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Longford",
+    "priceBinsNew": [
+      0,
+      7,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "priceBinsSecondHand": [
+      85,
+      155,
+      106,
+      35,
+      5,
+      7,
+      0,
+      0
+    ]
+  },
+  {
+    "year": 2025,
+    "county": "Leitrim",
+    "priceBinsNew": [
+      0,
+      1,
+      4,
+      10,
+      8,
+      0,
+      0,
+      0
+    ],
+    "priceBinsSecondHand": [
+      61,
+      113,
+      89,
+      35,
+      13,
+      2,
+      1,
+      1
+    ]
+  }
+]

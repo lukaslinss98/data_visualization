@@ -1,8 +1,8 @@
 import Plotly from "plotly.js-dist";
-import {getYear, subscribeToState} from "./sharedState.ts";
-import {maxBinCount, yearPriceBins} from "./data.ts";
+import {getSelectedCounty, getYear, subscribeToState} from "./sharedState.ts";
+import {yearPriceBins} from "./data.ts";
 
-function buildData(year: number) {
+function buildData(currYear: number, currCounty: string | null) {
   const binLabels = [
     "0-100k",
     "100-200k",
@@ -14,12 +14,20 @@ function buildData(year: number) {
     "1M+"
   ];
 
+  const countyFilter = currCounty == null ?
+      row => row :
+      row => row.county === currCounty
+
   return [
     {
       type: "bar",
       name: 'Second Hand',
       x: binLabels,
-      y: yearPriceBins.find(yearBin => yearBin.year == year).priceBinsSecondHand,
+      y: yearPriceBins
+      .filter(({year}) => year == currYear)
+      .filter(countyFilter)
+      .map(({priceBinsSecondHand}) => priceBinsSecondHand)
+      .reduce((acc, bins) => acc.map((val, i) => val + bins[i]), [0, 0, 0, 0, 0, 0, 0, 0]),
       marker: {
         color: "#3b82f6",
         opacity: 1,
@@ -31,7 +39,11 @@ function buildData(year: number) {
       type: "bar",
       name: 'New',
       x: binLabels,
-      y: yearPriceBins.find(yearBin => yearBin.year == year).priceBinsNew,
+      y: yearPriceBins
+      .filter(({year}) => year == currYear)
+      .filter(countyFilter)
+      .map(({priceBinsNew}) => priceBinsNew)
+      .reduce((acc, bins) => acc.map((val, i) => val + bins[i]), [0, 0, 0, 0, 0, 0, 0, 0]),
       marker: {
         color: "#10b981",
         opacity: 1,
@@ -43,12 +55,13 @@ function buildData(year: number) {
 
 }
 
-function buildLayout(year: number) {
+function buildLayout(year: number, county: string | null) {
+  const scope = county != null ? county : 'National'
   return {
     barmode: "overlay",
     bargap: 0,
     title: {
-      text: `<b>Price Distribution ${year}</b>`,
+      text: `<b>${scope} Price Distribution ${year}</b>`,
       font: {
         family: "Inter, sans-serif",
         size: 18,
@@ -67,10 +80,11 @@ function buildLayout(year: number) {
         text: "Number of Sales",
         font: {
           color: "#ffffff",
+          size: 14
         },
       },
       tickfont: {color: "#ffffff"},
-      range: [0, maxBinCount],
+      range: [0, 15000],
       gridcolor: "rgba(255, 255, 255, 0.4)",
     },
     legend: {
@@ -85,12 +99,12 @@ function buildLayout(year: number) {
   };
 }
 
-subscribeToState(({year}) => {
+subscribeToState(({year, selectedCounty}) => {
   Plotly.animate(
       'chart4',
       {
-        data: buildData(year),
-        layout: buildLayout(year)
+        data: buildData(year, selectedCounty),
+        layout: buildLayout(year, selectedCounty)
       },
       {
         transition: {
@@ -107,8 +121,8 @@ subscribeToState(({year}) => {
 
 Plotly.newPlot(
     "chart4",
-    buildData(getYear()),
-    buildLayout(getYear()),
+    buildData(getYear(), getSelectedCounty()),
+    buildLayout(getYear(), getSelectedCounty()),
     {
       response: true,
       displayModeBar: false,
