@@ -1,9 +1,7 @@
 import Plotly from 'plotly.js-dist';
+import geoJson from '../../data/ie.json'
 import {getYear, setCounty, subscribeToState} from "./sharedState.ts";
 import {colorscale, counties, countyAverages, maxAveragePrice, minAveragePrice} from "./data.ts";
-
-const response = await fetch('https://gist.githubusercontent.com/vool/969e3be0cfac519560755cce0b91e097/raw/a6059b80a9199e5021ea4d5de9654d64e99d4ac1/ireland.geojson')
-const geoJson = await response.json()
 
 function buildTrace(year: number) {
   return [{
@@ -14,7 +12,7 @@ function buildTrace(year: number) {
     .flatMap(({averagePrice}) => averagePrice)
     .filter(e => e.year === year)
     .map(({average}) => average),
-    featureidkey: 'properties.NAME_1',
+    featureidkey: 'properties.name',
     showscale: true,
     colorscale: colorscale,
     colorbar: {

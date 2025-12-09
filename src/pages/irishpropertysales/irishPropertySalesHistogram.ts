@@ -84,7 +84,7 @@ function buildLayout(year: number, county: string | null) {
         },
       },
       tickfont: {color: "#ffffff"},
-      range: [0, 15000],
+      autorange: true,
       gridcolor: "rgba(255, 255, 255, 0.4)",
     },
     legend: {
@@ -100,11 +100,14 @@ function buildLayout(year: number, county: string | null) {
 }
 
 subscribeToState(({year, selectedCounty}) => {
+  const data = buildData(year, selectedCounty);
+  const layout = buildLayout(year, selectedCounty);
+
   Plotly.animate(
       'chart4',
       {
-        data: buildData(year, selectedCounty),
-        layout: buildLayout(year, selectedCounty)
+        data: data,
+        layout: layout
       },
       {
         transition: {
@@ -116,7 +119,10 @@ subscribeToState(({year, selectedCounty}) => {
           redraw: true
         }
       }
-  )
+  ).then(() => {
+    Plotly.relayout('chart4', {'yaxis.autorange': true});
+  });
+
 })
 
 Plotly.newPlot(

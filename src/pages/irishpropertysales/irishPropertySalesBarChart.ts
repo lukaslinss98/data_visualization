@@ -1,31 +1,31 @@
 import Plotly from 'plotly.js-dist';
 import {
   countyAverages,
-  countyYearVolumn,
+  countyYearVolume,
   maxAveragePrice,
-  maxVolumn,
+  maxVolume,
   minAveragePrice,
 } from "./data.ts";
 import {getSelectedCounty, getYear, subscribeToState} from "./sharedState.ts";
 
-function buildData(year: number) {
+function buildData(year: number, selectedCounty: string | null) {
   const countyAveragesForYear = countyAverages
   .map(countyAverage => ({
     county: countyAverage.county,
     averagePrice: countyAverage.averagePrice.find(averagePrice => averagePrice.year === year).average,
-    volume: countyYearVolumn.find(({county}) => county == countyAverage.county).volumnPerYear.find(volumn => volumn.year === year).volumn
+    volume: countyYearVolume.find(({county}) => county == countyAverage.county).volumnPerYear.find(volumn => volumn.year === year).volumn
   }))
 
   const prices = countyAveragesForYear.map(({averagePrice}) => averagePrice)
   const counties = countyAveragesForYear.map(({county}) => county)
   const volumes = countyAveragesForYear.map(({volume}) => volume)
 
-  const colors = countyAveragesForYear.map(({county}) => {
-    const selectedCounty = getSelectedCounty();
-    if (selectedCounty == null || selectedCounty == county) {
-      return '#3b82f6'
-    }
-    return '#3b82f6' + '40'
+  const barColor = countyAveragesForYear.map(({county}) => {
+    return selectedCounty == null || selectedCounty == county ? '#3b82f6' : '#3b82f6' + '40';
+  })
+
+  const lineColor = countyAveragesForYear.map(({county}) => {
+    return selectedCounty == null || selectedCounty == county ? '#10b981' : '#10b981' + '40';
   })
 
   return [
@@ -37,7 +37,7 @@ function buildData(year: number) {
       type: 'bar',
       orientation: 'h',
       marker: {
-        color: colors,
+        color: barColor,
         cmin: minAveragePrice,
         cmax: maxAveragePrice,
       },
@@ -62,11 +62,11 @@ function buildData(year: number) {
       },
       line: {
         color: '#10b981',
-        width: 2.5
+        width: 2.2
       },
       marker: {
+        color: lineColor,
         size: 12,
-        color: '#10b981'
       },
       name: 'Volume'
     }
@@ -89,14 +89,14 @@ function buildLayout(year: number) {
       tickfont: {color: "#ffffff"},
     },
     xaxis2: {
-      range: [-1000, maxVolumn * 1.2],
+      range: [-1000, maxVolume * 1.2],
       domain: [0.7, 1],
       showgrid: true,
       gridcolor: "rgba(255, 255, 255, 0.4)",
       showline: true,
       side: 'bottom',
       title: {
-        text: "Sales Volumn",
+        text: "Sales Volume",
         font: {color: "#ffffff"},
       },
       tickfont: {color: "#ffffff"},
@@ -120,7 +120,7 @@ function buildLayout(year: number) {
     },
     showlegend: false,
     title: {
-      text: `<b>County Ranking ${year}</b>`,
+      text: `<b>Average Prices and Sales Volumes ${year}</b>`,
       font: {
         family: "system-ui, Avenir, Helvetica, Arial, sans-serif",
         size: 18,
@@ -131,11 +131,11 @@ function buildLayout(year: number) {
   }
 }
 
-subscribeToState(({year}) => {
+subscribeToState(({year, selectedCounty}) => {
   Plotly.animate(
       'chart2',
       {
-        data: buildData(year),
+        data: buildData(year, selectedCounty),
         layout: buildLayout(year)
       },
       {
@@ -153,7 +153,7 @@ subscribeToState(({year}) => {
 
 Plotly.newPlot(
     'chart2',
-    buildData(getYear()),
+    buildData(getYear(), getSelectedCounty()),
     buildLayout(getYear()),
     {
       response: true,

@@ -38,7 +38,7 @@ export type YearCountyPriceBins = {
 }
 
 export const countyAverages: CountyYearAvgPrice[] = meanPriceCounties
-export const countyYearVolumn: CountyYearVolumn[] = salesVolumnPerCounties
+export const countyYearVolume: CountyYearVolumn[] = salesVolumnPerCounties
 export const propertyDescCounts: PropertyDescCounts[] = propertyDescriptionCountsPerYear
 export const yearPriceBins: YearCountyPriceBins[] = priceBinsPerYear
 
@@ -46,9 +46,9 @@ const averages = countyAverages.flatMap(averages => averages.averagePrice.map(p 
 export const minAveragePrice = averages.reduce((min, el) => el < min ? el : min, Number.POSITIVE_INFINITY) * 0.85
 export const maxAveragePrice = averages.reduce((max, el) => el > max ? el : max, Number.NEGATIVE_INFINITY) * 1.0
 
-const volumns = countyYearVolumn.flatMap(({volumnPerYear}) => volumnPerYear).map(({volumn}) => volumn)
+const volumns = countyYearVolume.flatMap(({volumnPerYear}) => volumnPerYear).map(({volumn}) => volumn)
 export const minVolumn = volumns.reduce((min, el) => el < min ? el : min, Number.POSITIVE_INFINITY) * 0.85
-export const maxVolumn = volumns.reduce((max, el) => el > max ? el : max, Number.NEGATIVE_INFINITY) * 1.15
+export const maxVolume = volumns.reduce((max, el) => el > max ? el : max, Number.NEGATIVE_INFINITY) * 1.15
 
 export const counties = countyAverages.map(e => e.county)
 export const colorscale = [
