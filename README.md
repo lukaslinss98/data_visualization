@@ -3,18 +3,10 @@
 This repository contains all coursework for the **CS7DS4 Data Visualization** module. Each assignment is implemented as a separate page and can be accessed via different routes from the same Vite-based project.
 
 ## Getting Started
-
-1. Install dependencies:
-```npm install```
-2. Start the development server:
-```npm run dev```
-3. Open the URL printed in the terminal (typically `http://localhost:5173/`).
-
-## Assignment Routes
-Once the dev server is running, use the following routes in your browser:
-
-- `http://localhost:5173/`  
-Main landing page (index) with links or navigation to the individual assignments.
+To avoid dependency issues, the easiest way to view the application is by using the dockerfile.
+1. run ```docker build -t data-viz .``` in the root directory to build the image.
+2. run ```docker run --rm -p 4173:80 data-viz```
+3. Open application on localhost:4173
 
 ## Tooling
 

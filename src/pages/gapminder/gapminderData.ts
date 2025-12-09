@@ -18,7 +18,7 @@ export const gapMinderRecordSchema = z.object({
 }))
 
 export type GapMinderRecord = z.infer<typeof gapMinderRecordSchema>
-const csvData = await d3.csv('/src/data/gapminder.csv')
+const csvData = await d3.csv('/data/gapminder/gapminder.csv')
 export const records: GapMinderRecord[] = csvData.map(row => gapMinderRecordSchema.parse(row))
 export const latestGapminderRecord = records.filter(r => r.year == 2007);
 export const ireland = latestGapminderRecord.filter(r => r.country === 'Ireland')

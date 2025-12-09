@@ -67,7 +67,7 @@ export type TemperatureData = {
     temperaturePositions: TemperaturePosition[]
 }
 
-const csvData = await d3.csv('/src/data/minard-data.csv');
+const csvData = await d3.csv('/data/minard/minard-data.csv');
 
 export const minardRecords: MinardRecord[] = csvData.map(row => minardRecordSchema.parse(row))
 
