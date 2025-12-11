@@ -42,7 +42,7 @@ function play() {
     yearSlider.value = String(currentYear);
     yearDisplay.textContent = `Year: ${currentYear}`;
 
-  }, 2000);
+  }, 1200);
 }
 
 function stop() {
