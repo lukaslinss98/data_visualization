@@ -6,27 +6,30 @@ import {
   maxVolume,
   minAveragePrice,
 } from "./data.ts";
-import {getSelectedCounty, getYear, subscribeToState} from "./sharedState.ts";
+import { getSelectedCounty, getYear, subscribeToState } from "./sharedState.ts";
 
 function buildData(year: number, selectedCounty: string | null) {
   const countyAveragesForYear = countyAverages
-  .map(countyAverage => ({
-    county: countyAverage.county,
-    averagePrice: countyAverage.averagePrice.find(averagePrice => averagePrice.year === year).average,
-    volume: countyYearVolume.find(({county}) => county == countyAverage.county).volumnPerYear.find(volumn => volumn.year === year).volumn
-  }))
+    .map(countyAverage => ({
+      county: countyAverage.county,
+      averagePrice: countyAverage.averagePrice.find(averagePrice => averagePrice.year === year).average,
+      volume: countyYearVolume.find(({ county }) => county == countyAverage.county).volumnPerYear.find(volumn => volumn.year === year).volumn
+    }))
 
-  const prices = countyAveragesForYear.map(({averagePrice}) => averagePrice)
-  const counties = countyAveragesForYear.map(({county}) => county)
-  const volumes = countyAveragesForYear.map(({volume}) => volume)
+  const prices = countyAveragesForYear.map(({ averagePrice }) => averagePrice)
+  const counties = countyAveragesForYear.map(({ county }) => county)
+  const volumes = countyAveragesForYear.map(({ volume }) => volume)
 
-  const barColor = countyAveragesForYear.map(({county}) => {
+  const barColor = countyAveragesForYear.map(({ county }) => {
     return selectedCounty == null || selectedCounty == county ? '#3b82f6' : '#3b82f6' + '40';
   })
 
-  const lineColor = countyAveragesForYear.map(({county}) => {
+  const lineColor = countyAveragesForYear.map(({ county }) => {
     return selectedCounty == null || selectedCounty == county ? '#10b981' : '#10b981' + '40';
   })
+
+  const textPrice = countyAveragesForYear.map(({ averagePrice, county }) => county === selectedCounty ? `${Math.round(averagePrice / 1000).toLocaleString()}k` : '')
+  const textVolume = countyAveragesForYear.map(({ volume, county }) => county === selectedCounty ? `${(volume / 1000).toFixed(1)}k` : '')
 
   return [
     {
@@ -41,7 +44,7 @@ function buildData(year: number, selectedCounty: string | null) {
         cmin: minAveragePrice,
         cmax: maxAveragePrice,
       },
-      text: prices.map(price => `${Math.round(price / 1000).toLocaleString()}k`),
+      text: textPrice,
       textfont: {
         size: 14,
         color: "#222222"
@@ -54,7 +57,7 @@ function buildData(year: number, selectedCounty: string | null) {
       xaxis: 'x2',
       yaxis: 'y1',
       mode: 'lines+markers+text',
-      text: volumes.map(vol => `${(vol / 1000).toFixed(1)}k`),
+      text: textVolume,
       textposition: 'bottom right',
       textfont: {
         color: '#ffffff',
@@ -84,9 +87,9 @@ function buildLayout(year: number) {
       gridcolor: "rgba(255, 255, 255, 0.4)",
       title: {
         text: "Mean Price (€)",
-        font: {color: "#ffffff"},
+        font: { color: "#ffffff" },
       },
-      tickfont: {color: "#ffffff"},
+      tickfont: { color: "#ffffff" },
     },
     xaxis2: {
       range: [-1000, maxVolume * 1.2],
@@ -97,9 +100,9 @@ function buildLayout(year: number) {
       side: 'bottom',
       title: {
         text: "Sales Volume",
-        font: {color: "#ffffff"},
+        font: { color: "#ffffff" },
       },
-      tickfont: {color: "#ffffff"},
+      tickfont: { color: "#ffffff" },
       showticklabels: true,
     },
     yaxis1: {
@@ -127,37 +130,37 @@ function buildLayout(year: number) {
         color: '#ffffff'
       },
     },
-    margin: {l: 150, t: 50},
+    margin: { l: 150, t: 50 },
   }
 }
 
-subscribeToState(({year, selectedCounty}) => {
+subscribeToState(({ year, selectedCounty }) => {
   Plotly.animate(
-      'chart2',
-      {
-        data: buildData(year, selectedCounty),
-        layout: buildLayout(year)
+    'chart2',
+    {
+      data: buildData(year, selectedCounty),
+      layout: buildLayout(year)
+    },
+    {
+      transition: {
+        duration: 500,
+        easing: 'cubic-in-out'
       },
-      {
-        transition: {
-          duration: 500,
-          easing: 'cubic-in-out'
-        },
-        frame: {
-          duration: 500,
-          redraw: true
-        }
+      frame: {
+        duration: 500,
+        redraw: true
       }
+    }
   )
 })
 
 Plotly.newPlot(
-    'chart2',
-    buildData(getYear(), getSelectedCounty()),
-    buildLayout(getYear()),
-    {
-      response: true,
-      displayModeBar: false,
-    }
+  'chart2',
+  buildData(getYear(), getSelectedCounty()),
+  buildLayout(getYear()),
+  {
+    response: true,
+    displayModeBar: false,
+  }
 )
 
